@@ -1,4 +1,7 @@
-A96584,Joana Catarina Veloso Branco,joanabranco 
+# LI1 2020/2021
 
-A97642,José Rafael Cruz Ferreira,rafa2002 
+Trabalho realizado por:
 
+  Joana Branco
+  
+  José Rafael Ferreira
