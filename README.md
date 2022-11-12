@@ -5,5 +5,5 @@ ees [Contribution guidelines for this project](1º ano/1º semestre/Elementos de
 
 | 1<sup>st</sup> year - 1<sup>st</sup> semester | | |
 | --- | :---: | :---: |
-| EES | [Exercises](https://github.com/Projetos-Universidade/1º ano/1º semestre/Elementos de Engenharia de Sistemas/SASUM Eats) | - |
+| EES | [Exercises](https://github.com/joanabranco/Projetos-Universidade/1º ano/1º semestre/Elementos de Engenharia de Sistemas/SASUM Eats) | - |
 | Laboratórios de Informática I | - | [Project](https://github.com/...) |
