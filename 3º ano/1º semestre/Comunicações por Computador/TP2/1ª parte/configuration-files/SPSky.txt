@@ -1,0 +1,8 @@
+# Configuration file for primary server for reverse.
+reverse. DB /var/dns/reverse.db
+reverse. SS 10.0.5.11
+reverse. SS 10.0.5.12
+reverse. DD 10.0.5.10
+reverse. LG /var/dns/reverse.log
+all LG /var/dns/all.log
+root ST /var/dns/rootservers.db

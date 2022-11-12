@@ -1,0 +1,8 @@
+# Configuration file for primary server for winx.
+winx. DB /var/dns/winx.db
+winx. SS 10.0.0.12
+winx. SS 10.0.0.11
+winx. DD 10.0.0.10
+winx. LG /var/dns/winx.log
+all LG /var/dns/all.log
+root ST /var/dns/rootservers.db

@@ -1,0 +1,8 @@
+# Configuration file for resolver server for trix.
+trix. DB /var/dns/trix.db
+trix. SP 10.0.2.11
+trix. SS 10.0.2.13
+trix. DD 10.0.2.11
+trix. LG /var/dns/trix.log
+all LG /var/dns/all.log
+root ST /var/dns/rootservers.db

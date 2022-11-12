@@ -1,0 +1,8 @@
+# Configuration file for resolver server for elemt.
+elemt. DB /var/dns/elemt.db
+elemt. SP 10.0.4.10
+elemt. SS 10.0.4.11
+elemt. DD 10.0.4.10
+elemt. LG /var/dns/elemt.log
+all LG /var/dns/all.log
+root ST /var/dns/rootservers.db
