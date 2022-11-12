@@ -1,7 +1,5 @@
-Projetos realizados na Licenciatura de Engenharia Informática na Universidade do Minho
-
-
-ees [Contribution guidelines for this project](1º ano/1º semestre/Elementos de Engenharia de Sistemas)
+# University Projects
+## Informatics Engineer Degree at Minho University
 
 | 1<sup>st</sup> year - 1<sup>st</sup> semester | |
 | --- | :---: |
