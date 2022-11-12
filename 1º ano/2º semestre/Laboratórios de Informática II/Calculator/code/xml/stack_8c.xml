@@ -1,0 +1,517 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="stack_8c" kind="file" language="C++">
+    <compoundname>stack.c</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">string.h</includes>
+    <includes refid="stack_8h" local="yes">stack.h</includes>
+    <incdepgraph>
+      <node id="3">
+        <label>stdlib.h</label>
+      </node>
+      <node id="1">
+        <label>stack.c</label>
+        <link refid="stack_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>stack.h</label>
+        <link refid="stack_8h"/>
+      </node>
+      <node id="4">
+        <label>string.h</label>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="stack_8c_1ab37b0d083f873fbdc37d708bb9f40efc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+        <definition>STACK* create_stack</definition>
+        <argsstring>()</argsstring>
+        <name>create_stack</name>
+        <briefdescription>
+<para>Produz a stack. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a stack </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="stack.c" line="16" column="7" bodyfile="stack.c" bodystart="16" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="stack_8c_1a6da247d11bbdc02f685775c0ad7683e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void push</definition>
+        <argsstring>(STACK *s, DADOS elem)</argsstring>
+        <name>push</name>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>elem</declname>
+        </param>
+        <briefdescription>
+<para>Adiciona um elemento dado ao topo da stack. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>*s</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>correspondente à stack inicial </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>o</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>elemento a adicionar </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="stack.c" line="48" column="6" bodyfile="stack.c" bodystart="48" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="stack_8c_1a4a17e13318cc29c9b85fec0dcc4d6b66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void print_array</definition>
+        <argsstring>(STACK *s)</argsstring>
+        <name>print_array</name>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Imprime o array. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>*s</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>stack que vai sofrer modificações </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="stack.c" line="62" column="6" bodyfile="stack.c" bodystart="62" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="stack_8c_1a42b87bab2d601cb02900935c9b80fc23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void print_stack</definition>
+        <argsstring>(STACK *s)</argsstring>
+        <name>print_stack</name>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Imprime a stack no endereço s. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>*s</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>endereço onde imprime a STACK </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="stack.c" line="86" column="6" bodyfile="stack.c" bodystart="86" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="stack_8c_1aec9ac4a3a9271f16fd6aa58771182ca2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+        <definition>DADOS pop</definition>
+        <argsstring>(STACK *s)</argsstring>
+        <name>pop</name>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Retira elemento da stack no endereço s. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>*s</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>endereço onde imprime a STACK </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a stack sem elemento </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="stack.c" line="112" column="7" bodyfile="stack.c" bodystart="112" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="stack_8c_1a37b995ce0da16a4b6b90ca8f1f52eef7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+        <definition>DADOS top</definition>
+        <argsstring>(STACK *s)</argsstring>
+        <name>top</name>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Indica qual o próximo elemento a ser retirado da stack no endereço s. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>*s</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>endereço onde imprime a STACK </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>posição do próximo elemento a retirar </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="stack.c" line="124" column="7" bodyfile="stack.c" bodystart="124" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="stack_8c_1ae31d2a4c10db0d5b01ecd8a8aab01cfc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int is_empty</definition>
+        <argsstring>(STACK *s)</argsstring>
+        <name>is_empty</name>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Verifica se a stack está vazia. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>*s</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>endereço onde imprime a STACK </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="stack.c" line="133" column="5" bodyfile="stack.c" bodystart="133" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="stack_8c_1a2661322ffb24bd2ba04c1f12c4efdb65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+        <definition>DADOS MAKE_DADOS_LONG</definition>
+        <argsstring>(long v)</argsstring>
+        <name>MAKE_DADOS_LONG</name>
+        <param>
+          <type>long</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>Produz os dados do tipo long. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>v</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>dado recebido do tipo long </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="stack.c" line="142" column="7" bodyfile="stack.c" bodystart="142" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="stack_8c_1a5f4af788272f9222778bf7ff297c9d33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+        <definition>DADOS MAKE_DADOS_DOUBLE</definition>
+        <argsstring>(double v)</argsstring>
+        <name>MAKE_DADOS_DOUBLE</name>
+        <param>
+          <type>double</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>Produz os dados do tipo double. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>v</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>dado recebido do tipo double </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="stack.c" line="154" column="7" bodyfile="stack.c" bodystart="154" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="stack_8c_1afa7377ded223ad76e57a28c78adef616" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+        <definition>DADOS MAKE_DADOS_CHAR</definition>
+        <argsstring>(char v)</argsstring>
+        <name>MAKE_DADOS_CHAR</name>
+        <param>
+          <type>char</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>Produz os dados do tipo char. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>v</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>dado recebido do tipo char </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="stack.c" line="166" column="7" bodyfile="stack.c" bodystart="166" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="stack_8c_1a21eb9ccd09c39057c1a31e49b35bed53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+        <definition>DADOS MAKE_DADOS_STRING</definition>
+        <argsstring>(char *s)</argsstring>
+        <name>MAKE_DADOS_STRING</name>
+        <param>
+          <type>char *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Produz os dados do tipo string. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>v</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>dado recebido do tipo string </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="stack.c" line="178" column="7" bodyfile="stack.c" bodystart="178" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="stack_8c_1a9e58e79adfbd7cb9815e0da90234b660" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+        <definition>DADOS MAKE_DADOS_ARRAY</definition>
+        <argsstring>(STACK *s)</argsstring>
+        <name>MAKE_DADOS_ARRAY</name>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Produz os dados do tipo array. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>*s</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>stack onde está o array </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>os dados do tipo array </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="stack.c" line="190" column="7" bodyfile="stack.c" bodystart="190" bodyend="195"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="stack_8h" kindref="compound">stack.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><ref refid="structstack" kindref="compound">STACK</ref><sp/>*<ref refid="stack_8c_1ab37b0d083f873fbdc37d708bb9f40efc" kindref="member">create_stack</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structstack" kindref="compound">STACK</ref><sp/>*s<sp/>=<sp/>(<ref refid="structstack" kindref="compound">STACK</ref><sp/>*)<sp/>malloc(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal"><sp/>(<ref refid="structstack" kindref="compound">STACK</ref>));</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>s-&gt;<ref refid="structstack_1a2d100511cad42e140cbbe2863cab8c8c" kindref="member">top</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>s-&gt;<ref refid="structstack_1a926a597bae913d1bf4772be35c14b71e" kindref="member">size</ref>=<sp/>100;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>s-&gt;<ref refid="structstack_1ac8fc5be92f20684ddfd1060b4f7ab4f7" kindref="member">stack</ref><sp/>=<sp/>(<ref refid="structinicial" kindref="compound">DADOS</ref><sp/>*)<sp/>calloc(s-&gt;<ref refid="structstack_1a926a597bae913d1bf4772be35c14b71e" kindref="member">size</ref>,<sp/>sizeof<sp/>(<ref refid="structinicial" kindref="compound">DADOS</ref>));</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structvariaveis" kindref="compound">VAR</ref><sp/>*var<sp/>=<sp/>malloc(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structvariaveis" kindref="compound">variaveis</ref>)*26);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>s-&gt;<ref refid="structstack_1a8009cc34985fef473a64a8db01e539cc" kindref="member">var</ref><sp/>=<sp/>var;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=0;<sp/>i&lt;26;i++){</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>s-&gt;<ref refid="structstack_1a8009cc34985fef473a64a8db01e539cc" kindref="member">var</ref>[i].<ref refid="structvariaveis_1a9dfcf15fc364658f793f18b1b7545e1e" kindref="member">t</ref>=<sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>s-&gt;<ref refid="structstack_1a8009cc34985fef473a64a8db01e539cc" kindref="member">var</ref>[</highlight><highlight class="charliteral">&apos;N&apos;</highlight><highlight class="normal">-</highlight><highlight class="charliteral">&apos;A&apos;</highlight><highlight class="normal">].<ref refid="structvariaveis_1a9dfcf15fc364658f793f18b1b7545e1e" kindref="member">t</ref>=<sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a4618cf21306b3c647741afa7ebefcab8" kindref="member">CHAR</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>s-&gt;<ref refid="structstack_1a8009cc34985fef473a64a8db01e539cc" kindref="member">var</ref>[</highlight><highlight class="charliteral">&apos;S&apos;</highlight><highlight class="normal">-</highlight><highlight class="charliteral">&apos;A&apos;</highlight><highlight class="normal">].<ref refid="structvariaveis_1a9dfcf15fc364658f793f18b1b7545e1e" kindref="member">t</ref>=<sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a4618cf21306b3c647741afa7ebefcab8" kindref="member">CHAR</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>s-&gt;<ref refid="structstack_1a8009cc34985fef473a64a8db01e539cc" kindref="member">var</ref>[</highlight><highlight class="charliteral">&apos;A&apos;</highlight><highlight class="normal">-</highlight><highlight class="charliteral">&apos;A&apos;</highlight><highlight class="normal">].<ref refid="structvariaveis_1ae2f9e418bebfeb0302788991b49eafb1" kindref="member">v</ref>.<ref refid="uniondados_1ae7d45557d9679e4d35af856bb46540f7" kindref="member">x</ref>=<sp/>10;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>s-&gt;<ref refid="structstack_1a8009cc34985fef473a64a8db01e539cc" kindref="member">var</ref>[</highlight><highlight class="charliteral">&apos;B&apos;</highlight><highlight class="normal">-</highlight><highlight class="charliteral">&apos;A&apos;</highlight><highlight class="normal">].<ref refid="structvariaveis_1ae2f9e418bebfeb0302788991b49eafb1" kindref="member">v</ref>.<ref refid="uniondados_1ae7d45557d9679e4d35af856bb46540f7" kindref="member">x</ref>=<sp/>11;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>s-&gt;<ref refid="structstack_1a8009cc34985fef473a64a8db01e539cc" kindref="member">var</ref>[</highlight><highlight class="charliteral">&apos;C&apos;</highlight><highlight class="normal">-</highlight><highlight class="charliteral">&apos;A&apos;</highlight><highlight class="normal">].<ref refid="structvariaveis_1ae2f9e418bebfeb0302788991b49eafb1" kindref="member">v</ref>.<ref refid="uniondados_1ae7d45557d9679e4d35af856bb46540f7" kindref="member">x</ref>=<sp/>12;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>s-&gt;<ref refid="structstack_1a8009cc34985fef473a64a8db01e539cc" kindref="member">var</ref>[</highlight><highlight class="charliteral">&apos;D&apos;</highlight><highlight class="normal">-</highlight><highlight class="charliteral">&apos;A&apos;</highlight><highlight class="normal">].<ref refid="structvariaveis_1ae2f9e418bebfeb0302788991b49eafb1" kindref="member">v</ref>.<ref refid="uniondados_1ae7d45557d9679e4d35af856bb46540f7" kindref="member">x</ref>=<sp/>13;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>s-&gt;<ref refid="structstack_1a8009cc34985fef473a64a8db01e539cc" kindref="member">var</ref>[</highlight><highlight class="charliteral">&apos;E&apos;</highlight><highlight class="normal">-</highlight><highlight class="charliteral">&apos;A&apos;</highlight><highlight class="normal">].<ref refid="structvariaveis_1ae2f9e418bebfeb0302788991b49eafb1" kindref="member">v</ref>.<ref refid="uniondados_1ae7d45557d9679e4d35af856bb46540f7" kindref="member">x</ref>=<sp/>14;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>s-&gt;<ref refid="structstack_1a8009cc34985fef473a64a8db01e539cc" kindref="member">var</ref>[</highlight><highlight class="charliteral">&apos;F&apos;</highlight><highlight class="normal">-</highlight><highlight class="charliteral">&apos;A&apos;</highlight><highlight class="normal">].<ref refid="structvariaveis_1ae2f9e418bebfeb0302788991b49eafb1" kindref="member">v</ref>.<ref refid="uniondados_1ae7d45557d9679e4d35af856bb46540f7" kindref="member">x</ref>=<sp/>15;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>s-&gt;<ref refid="structstack_1a8009cc34985fef473a64a8db01e539cc" kindref="member">var</ref>[</highlight><highlight class="charliteral">&apos;N&apos;</highlight><highlight class="normal">-</highlight><highlight class="charliteral">&apos;A&apos;</highlight><highlight class="normal">].<ref refid="structvariaveis_1ae2f9e418bebfeb0302788991b49eafb1" kindref="member">v</ref>.<ref refid="uniondados_1aae5c632fc7416eb5f6c41d1c2b9bc0b4" kindref="member">y</ref>=<sp/></highlight><highlight class="charliteral">&apos;\n&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>s-&gt;<ref refid="structstack_1a8009cc34985fef473a64a8db01e539cc" kindref="member">var</ref>[</highlight><highlight class="charliteral">&apos;S&apos;</highlight><highlight class="normal">-</highlight><highlight class="charliteral">&apos;A&apos;</highlight><highlight class="normal">].<ref refid="structvariaveis_1ae2f9e418bebfeb0302788991b49eafb1" kindref="member">v</ref>.<ref refid="uniondados_1aae5c632fc7416eb5f6c41d1c2b9bc0b4" kindref="member">y</ref>=<sp/></highlight><highlight class="charliteral">&apos;<sp/>&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>s-&gt;<ref refid="structstack_1a8009cc34985fef473a64a8db01e539cc" kindref="member">var</ref>[</highlight><highlight class="charliteral">&apos;X&apos;</highlight><highlight class="normal">-</highlight><highlight class="charliteral">&apos;A&apos;</highlight><highlight class="normal">].<ref refid="structvariaveis_1ae2f9e418bebfeb0302788991b49eafb1" kindref="member">v</ref>.<ref refid="uniondados_1ae7d45557d9679e4d35af856bb46540f7" kindref="member">x</ref>=<sp/>0;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>s-&gt;<ref refid="structstack_1a8009cc34985fef473a64a8db01e539cc" kindref="member">var</ref>[</highlight><highlight class="charliteral">&apos;Y&apos;</highlight><highlight class="normal">-</highlight><highlight class="charliteral">&apos;A&apos;</highlight><highlight class="normal">].<ref refid="structvariaveis_1ae2f9e418bebfeb0302788991b49eafb1" kindref="member">v</ref>.<ref refid="uniondados_1ae7d45557d9679e4d35af856bb46540f7" kindref="member">x</ref>=<sp/>1;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>s-&gt;<ref refid="structstack_1a8009cc34985fef473a64a8db01e539cc" kindref="member">var</ref>[</highlight><highlight class="charliteral">&apos;Z&apos;</highlight><highlight class="normal">-</highlight><highlight class="charliteral">&apos;A&apos;</highlight><highlight class="normal">].<ref refid="structvariaveis_1ae2f9e418bebfeb0302788991b49eafb1" kindref="member">v</ref>.<ref refid="uniondados_1ae7d45557d9679e4d35af856bb46540f7" kindref="member">x</ref>=<sp/>2;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>s;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="stack_8c_1a6da247d11bbdc02f685775c0ad7683e5" kindref="member">push</ref>(<ref refid="structstack" kindref="compound">STACK</ref><sp/>*s,<sp/><ref refid="structinicial" kindref="compound">DADOS</ref><sp/>elem)<sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(s-&gt;<ref refid="structstack_1a926a597bae913d1bf4772be35c14b71e" kindref="member">size</ref><sp/>==<sp/>s-&gt;<ref refid="structstack_1a2d100511cad42e140cbbe2863cab8c8c" kindref="member">top</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>s-&gt;<ref refid="structstack_1a926a597bae913d1bf4772be35c14b71e" kindref="member">size</ref><sp/>+=<sp/>100;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>s-&gt;<ref refid="structstack_1ac8fc5be92f20684ddfd1060b4f7ab4f7" kindref="member">stack</ref><sp/>=<sp/>(<ref refid="structinicial" kindref="compound">DADOS</ref><sp/>*)<sp/>realloc(s-&gt;<ref refid="structstack_1ac8fc5be92f20684ddfd1060b4f7ab4f7" kindref="member">stack</ref>,<sp/>s-&gt;<ref refid="structstack_1a926a597bae913d1bf4772be35c14b71e" kindref="member">size</ref><sp/>*<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="structinicial" kindref="compound">DADOS</ref>));</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>s-&gt;<ref refid="structstack_1ac8fc5be92f20684ddfd1060b4f7ab4f7" kindref="member">stack</ref>[s-&gt;<ref refid="structstack_1a2d100511cad42e140cbbe2863cab8c8c" kindref="member">top</ref>]<sp/>=<sp/>elem;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>s-&gt;<ref refid="structstack_1a2d100511cad42e140cbbe2863cab8c8c" kindref="member">top</ref>++;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="stack_8c_1a4a17e13318cc29c9b85fec0dcc4d6b66" kindref="member">print_array</ref>(<ref refid="structstack" kindref="compound">STACK</ref><sp/>*s)<sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>K<sp/>=<sp/>0;<sp/>K<sp/>&lt;<sp/>s-&gt;<ref refid="structstack_1a2d100511cad42e140cbbe2863cab8c8c" kindref="member">top</ref>;<sp/>K++)<sp/>{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structinicial" kindref="compound">DADOS</ref><sp/>elem<sp/>=<sp/>s-&gt;<ref refid="structstack_1ac8fc5be92f20684ddfd1060b4f7ab4f7" kindref="member">stack</ref>[K];</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="stack_8h_1a12ffc82dea4852d9ad6c3ff0be139b8d" kindref="member">TIPO</ref><sp/>type<sp/>=<sp/>elem.<ref refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kindref="member">tipo</ref>;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(type)<sp/>{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref>:</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;%ld&quot;</highlight><highlight class="normal">,*(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*)<sp/>elem.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>);<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref>:</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;%g&quot;</highlight><highlight class="normal">,*(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*)elem.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>);<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a4618cf21306b3c647741afa7ebefcab8" kindref="member">CHAR</ref>:</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;%c&quot;</highlight><highlight class="normal">,*(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*)elem.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>);<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54aee847e634a4297b274316de8a8ca9921" kindref="member">STRING</ref>:</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;%s&quot;</highlight><highlight class="normal">,(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*)elem.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>);<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a1e029fbf0c881b85d80fc8e89b753688" kindref="member">ARRAY</ref>:</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="stack_8c_1a4a17e13318cc29c9b85fec0dcc4d6b66" kindref="member">print_array</ref>((<ref refid="structstack" kindref="compound">STACK</ref><sp/>*)elem.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>);</highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>free(s);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="stack_8c_1a42b87bab2d601cb02900935c9b80fc23" kindref="member">print_stack</ref>(<ref refid="structstack" kindref="compound">STACK</ref><sp/>*s)<sp/>{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>K<sp/>=<sp/>0;<sp/>K<sp/>&lt;<sp/>s-&gt;<ref refid="structstack_1a2d100511cad42e140cbbe2863cab8c8c" kindref="member">top</ref>;<sp/>K++)<sp/>{</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structinicial" kindref="compound">DADOS</ref><sp/>elem<sp/>=<sp/>s-&gt;<ref refid="structstack_1ac8fc5be92f20684ddfd1060b4f7ab4f7" kindref="member">stack</ref>[K];</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="stack_8h_1a12ffc82dea4852d9ad6c3ff0be139b8d" kindref="member">TIPO</ref><sp/>type<sp/>=<sp/>elem.<ref refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kindref="member">tipo</ref>;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(type)<sp/>{</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref>:</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;%ld&quot;</highlight><highlight class="normal">,*(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*)<sp/>elem.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>);<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref>:</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;%g&quot;</highlight><highlight class="normal">,*(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*)elem.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>);<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a4618cf21306b3c647741afa7ebefcab8" kindref="member">CHAR</ref>:</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;%c&quot;</highlight><highlight class="normal">,*(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*)elem.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>);<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54aee847e634a4297b274316de8a8ca9921" kindref="member">STRING</ref>:</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;%s&quot;</highlight><highlight class="normal">,(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*)elem.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>);<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a1e029fbf0c881b85d80fc8e89b753688" kindref="member">ARRAY</ref>:</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="stack_8c_1a4a17e13318cc29c9b85fec0dcc4d6b66" kindref="member">print_array</ref>((<ref refid="structstack" kindref="compound">STACK</ref><sp/>*)elem.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>);<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><ref refid="structinicial" kindref="compound">DADOS</ref><sp/><ref refid="stack_8c_1aec9ac4a3a9271f16fd6aa58771182ca2" kindref="member">pop</ref>(<ref refid="structstack" kindref="compound">STACK</ref><sp/>*s)<sp/>{</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>s-&gt;<ref refid="structstack_1a2d100511cad42e140cbbe2863cab8c8c" kindref="member">top</ref>--;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>s-&gt;<ref refid="structstack_1ac8fc5be92f20684ddfd1060b4f7ab4f7" kindref="member">stack</ref>[s-&gt;<ref refid="structstack_1a2d100511cad42e140cbbe2863cab8c8c" kindref="member">top</ref>];</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><ref refid="structinicial" kindref="compound">DADOS</ref><sp/><ref refid="stack_8c_1a37b995ce0da16a4b6b90ca8f1f52eef7" kindref="member">top</ref>(<ref refid="structstack" kindref="compound">STACK</ref><sp/>*s)<sp/>{</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>s-&gt;<ref refid="structstack_1ac8fc5be92f20684ddfd1060b4f7ab4f7" kindref="member">stack</ref>[s-&gt;<ref refid="structstack_1a2d100511cad42e140cbbe2863cab8c8c" kindref="member">top</ref><sp/>-<sp/>1];</highlight></codeline>
+<codeline lineno="126"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="stack_8c_1ae31d2a4c10db0d5b01ecd8a8aab01cfc" kindref="member">is_empty</ref>(<ref refid="structstack" kindref="compound">STACK</ref><sp/>*s)<sp/>{</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>s-&gt;<ref refid="structstack_1a2d100511cad42e140cbbe2863cab8c8c" kindref="member">top</ref><sp/>==<sp/>0;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><ref refid="structinicial" kindref="compound">DADOS</ref><sp/><ref refid="stack_8c_1a2661322ffb24bd2ba04c1f12c4efdb65" kindref="member">MAKE_DADOS_LONG</ref>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>v)<sp/>{</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*pv<sp/>=<sp/>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*)<sp/>malloc(<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>*pv<sp/>=<sp/>v;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structinicial" kindref="compound">DADOS</ref><sp/>d<sp/>=<sp/>{<ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref>,<sp/>pv};</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d;</highlight></codeline>
+<codeline lineno="147"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><ref refid="structinicial" kindref="compound">DADOS</ref><sp/><ref refid="stack_8c_1a5f4af788272f9222778bf7ff297c9d33" kindref="member">MAKE_DADOS_DOUBLE</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>v)<sp/>{</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*pv<sp/>=<sp/>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*)<sp/>malloc(<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>*pv<sp/>=<sp/>v;</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structinicial" kindref="compound">DADOS</ref><sp/>d<sp/>=<sp/>{<ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref>,<sp/>pv};</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d;</highlight></codeline>
+<codeline lineno="159"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><ref refid="structinicial" kindref="compound">DADOS</ref><sp/><ref refid="stack_8c_1afa7377ded223ad76e57a28c78adef616" kindref="member">MAKE_DADOS_CHAR</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>v)<sp/>{</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*pv<sp/>=<sp/>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*)<sp/>malloc(<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/>*pv<sp/>=<sp/>v;</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structinicial" kindref="compound">DADOS</ref><sp/>d<sp/>=<sp/>{<ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a4618cf21306b3c647741afa7ebefcab8" kindref="member">CHAR</ref>,<sp/>pv};</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d;</highlight></codeline>
+<codeline lineno="171"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><ref refid="structinicial" kindref="compound">DADOS</ref><sp/><ref refid="stack_8c_1a21eb9ccd09c39057c1a31e49b35bed53" kindref="member">MAKE_DADOS_STRING</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*s)<sp/>{</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*ps<sp/>=<sp/>strdup(s);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structinicial" kindref="compound">DADOS</ref><sp/>d<sp/>=<sp/>{<ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54aee847e634a4297b274316de8a8ca9921" kindref="member">STRING</ref>,<sp/>ps};</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d;</highlight></codeline>
+<codeline lineno="182"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><ref refid="structinicial" kindref="compound">DADOS</ref><sp/><ref refid="stack_8c_1a9e58e79adfbd7cb9815e0da90234b660" kindref="member">MAKE_DADOS_ARRAY</ref>(<ref refid="structstack" kindref="compound">STACK</ref><sp/>*s)<sp/>{</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structstack" kindref="compound">STACK</ref><sp/>*pa<sp/>=<sp/>malloc(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structstack" kindref="compound">stack</ref>));</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/>pa<sp/>=<sp/>s;</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structinicial" kindref="compound">DADOS</ref><sp/>d<sp/>=<sp/>{<ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a1e029fbf0c881b85d80fc8e89b753688" kindref="member">ARRAY</ref>,<sp/>pa};</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d;</highlight></codeline>
+<codeline lineno="195"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="stack.c"/>
+  </compounddef>
+</doxygen>

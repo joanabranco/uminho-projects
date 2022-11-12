@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="main_8h" kind="file" language="C++">
+    <compoundname>main.h</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="main_8h_1a05997d6a6561fed5f899850b4d53eccc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* getstring</definition>
+        <argsstring>(char *line)</argsstring>
+        <name>getstring</name>
+        <param>
+          <type>char *</type>
+          <declname>line</declname>
+        </param>
+        <briefdescription>
+<para>Procura a string na linha inserida <linebreak/>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Procura a string na linha inserida</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>line</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a linha inserida </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a string inserida </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="main.h" line="8" column="6" bodyfile="main.c" bodystart="22" bodyend="29" declfile="main.h" declline="8" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="main_8h_1adbc0a6075a3e8b8c0f3553eff75f6822" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* get_token</definition>
+        <argsstring>(char *line, char **rest)</argsstring>
+        <name>get_token</name>
+        <param>
+          <type>char *</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type>char **</type>
+          <declname>rest</declname>
+        </param>
+        <briefdescription>
+<para>Procura o token na linha inserida. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Procura o token na linha inserida</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>line</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a linha inserida </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>**rest</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>parte restante da linha inserida </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>o token </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="main.h" line="10" column="6" bodyfile="main.c" bodystart="38" bodyend="60" declfile="main.h" declline="10" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="main_8h_1ad36d1cfc7c4f8e45e60624f38a5a079d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void parse</definition>
+        <argsstring>(char *line, STACK *stack)</argsstring>
+        <name>parse</name>
+        <param>
+          <type>char *</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>stack</declname>
+        </param>
+        <briefdescription>
+<para>Esta é a função principal do programa. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>É a função principal do programa</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>line</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a linha lida e à qual vai ser aplicada o parse </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>*stack</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>que vai sofrer modificações </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="main.h" line="12" column="6" bodyfile="main.c" bodystart="93" bodyend="325" declfile="main.h" declline="12" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>MAIN_H_INCLUDED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MAIN_H_INCLUDED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="main_8h_1a05997d6a6561fed5f899850b4d53eccc" kindref="member">getstring</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*line);<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="main_8h_1adbc0a6075a3e8b8c0f3553eff75f6822" kindref="member">get_token</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*line,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>**rest);<sp/></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="main_8h_1ad36d1cfc7c4f8e45e60624f38a5a079d" kindref="member">parse</ref><sp/>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*line,<sp/><ref refid="structstack" kindref="compound">STACK</ref><sp/>*<ref refid="structstack" kindref="compound">stack</ref>);<sp/></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//MAIN_H_INCLUDED</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="main.h"/>
+  </compounddef>
+</doxygen>

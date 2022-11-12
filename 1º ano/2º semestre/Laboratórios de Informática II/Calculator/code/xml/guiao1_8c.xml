@@ -1,0 +1,729 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="guiao1_8c" kind="file" language="C++">
+    <compoundname>guiao1.c</compoundname>
+    <includes local="no">math.h</includes>
+    <includes refid="guiao1_8h" local="yes">guiao1.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>guiao1.c</label>
+        <link refid="guiao1_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>guiao1.h</label>
+        <link refid="guiao1_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stack.h</label>
+        <link refid="stack_8h"/>
+      </node>
+      <node id="2">
+        <label>math.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="guiao1_8c_1acd9cae455fbd63026e91eecb33cbdbab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+        <definition>DADOS SOMAR_DADOS</definition>
+        <argsstring>(DADOS x, DADOS y)</argsstring>
+        <name>SOMAR_DADOS</name>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Efetua a soma entre os dados inseridos, dependendo do seu tipo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>1º valor recebido para realizar a operação de adição </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>2º valor recebido para realizar a operação de adição </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>o resultado da operação no seu respetivo tipo </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="guiao1.c" line="15" column="7" bodyfile="guiao1.c" bodystart="15" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="guiao1_8c_1ac5baff19092b827df1d3a96d8cad30b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+        <definition>DADOS MULTIPLICAR_DADOS</definition>
+        <argsstring>(DADOS x, DADOS y)</argsstring>
+        <name>MULTIPLICAR_DADOS</name>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Efetua a multiplicação entre os dados inseridos, dependendo do seu tipo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>1º valor recebido para realizar a operação de multiplicação </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>2º valor recebido para realizar a operação de multiplicação </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>o resultado da operação no seu respetivo tipo </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="guiao1.c" line="44" column="7" bodyfile="guiao1.c" bodystart="44" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="guiao1_8c_1a4206ce334cf7b0e29347d63f7b81c738" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+        <definition>DADOS SUBTRAIR_DADOS</definition>
+        <argsstring>(DADOS x, DADOS y)</argsstring>
+        <name>SUBTRAIR_DADOS</name>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Efetua a subtração entre os dados inseridos, dependendo do seu tipo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>1º valor recebido para realizar a operação de subtração </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>2º valor recebido para realizar a operação de subtração </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>o resultado da operação no seu respetivo tipo </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="guiao1.c" line="76" column="7" bodyfile="guiao1.c" bodystart="76" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="guiao1_8c_1ad660aadf94ade2986f1ebe4e02042aa6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+        <definition>DADOS DIVIDIR_DADOS</definition>
+        <argsstring>(DADOS x, DADOS y)</argsstring>
+        <name>DIVIDIR_DADOS</name>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Efetua a divisão entre os dados inseridos, dependendo do seu tipo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>1º valor recebido para realizar a operação de divisão </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>2º valor recebido para realizar a operação de divisão </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>o resultado da operação no seu respetivo tipo </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="guiao1.c" line="108" column="7" bodyfile="guiao1.c" bodystart="108" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="guiao1_8c_1a1b2e8ab6c1a78ed63e321ef2a19ca50b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+        <definition>DADOS INCREMENTAR_DADOS</definition>
+        <argsstring>(DADOS x)</argsstring>
+        <name>INCREMENTAR_DADOS</name>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Efetua a incrementação do dado inserido, dependendo do seu tipo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>1º valor recebido para realizar a operação de incrementação </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>2º valor recebido para realizar a operação de incrementação </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>o resultado da operação no seu respetivo tipo </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="guiao1.c" line="140" column="7" bodyfile="guiao1.c" bodystart="140" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="guiao1_8c_1ac9913046a8ef15f228edb55480b064dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+        <definition>DADOS DECREMENTAR_DADOS</definition>
+        <argsstring>(DADOS x)</argsstring>
+        <name>DECREMENTAR_DADOS</name>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Efetua a decrementação do dado inserido, dependendo do seu tipo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>1º valor recebido para realizar a operação de decrementação </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>2º valor recebido para realizar a operação de decrementação </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>o resultado da operação no seu respetivo tipo </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="guiao1.c" line="163" column="7" bodyfile="guiao1.c" bodystart="163" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="guiao1_8c_1a17ee520b9b367c2b523ce4a2023865e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+        <definition>DADOS MODULO_DADOS</definition>
+        <argsstring>(DADOS x, DADOS y)</argsstring>
+        <name>MODULO_DADOS</name>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Efetua o módulo do dado inserido, dependendo do seu tipo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>1º valor recebido para realizar a operação do módulo </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>2º valor recebido para realizar a operação do módulo </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>o resultado da operação no seu respetivo tipo </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="guiao1.c" line="186" column="7" bodyfile="guiao1.c" bodystart="186" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="guiao1_8c_1a30aff7fd9814b6dd25f89b1794789043" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+        <definition>DADOS ELEVADO_DADOS</definition>
+        <argsstring>(DADOS x, DADOS y)</argsstring>
+        <name>ELEVADO_DADOS</name>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Efetua a exponenciação do dado inserido, dependendo do seu tipo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>1º valor recebido para realizar a operação de exponenciação </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>2º valor recebido para realizar a operação de exponenciação </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>o resultado da operação no seu respetivo tipo </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="guiao1.c" line="218" column="7" bodyfile="guiao1.c" bodystart="218" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="guiao1_8c_1a33cf2210a309d26b7c2cdb5f60eac34e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+        <definition>DADOS CONJUNCAO_DADOS</definition>
+        <argsstring>(DADOS x, DADOS y)</argsstring>
+        <name>CONJUNCAO_DADOS</name>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Efetua a conjunção dos dados inseridos. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>1º valor recebido para realizar a operação de conjunção </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>2º valor recebido para realizar a operação de conjunção </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>o resultado da operação no tipo long </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="guiao1.c" line="250" column="7" bodyfile="guiao1.c" bodystart="250" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="guiao1_8c_1a0512d2bdbc4d0718d66867955a64e4d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+        <definition>DADOS DISJUNCAO_DADOS</definition>
+        <argsstring>(DADOS x, DADOS y)</argsstring>
+        <name>DISJUNCAO_DADOS</name>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Efetua a disjunção dos dados inseridos. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>1º valor recebido para realizar a operação de disjunção </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>2º valor recebido para realizar a operação de disjunção </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>o resultado da operação no tipo long </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="guiao1.c" line="263" column="7" bodyfile="guiao1.c" bodystart="263" bodyend="267"/>
+      </memberdef>
+      <memberdef kind="function" id="guiao1_8c_1a359198ccdbf483b9de30a52a76b59778" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+        <definition>DADOS XOR_DADOS</definition>
+        <argsstring>(DADOS x, DADOS y)</argsstring>
+        <name>XOR_DADOS</name>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Efetua a disjunção exclusiva dos dados inseridos. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>1º valor recebido para realizar a operação de ou-exclusivo </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>2º valor recebido para realizar a operação de ou-exclusivo </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>o resultado da operação no tipo long </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="guiao1.c" line="276" column="7" bodyfile="guiao1.c" bodystart="276" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="function" id="guiao1_8c_1ab00e634026d4ebde01fa552b02cdbe00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+        <definition>DADOS NOT_DADOS</definition>
+        <argsstring>(DADOS x)</argsstring>
+        <name>NOT_DADOS</name>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Efetua a negação dos dados inseridos. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>valor recebido para realizar a operação de negação </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>o resultado da operação no tipo long </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="guiao1.c" line="288" column="7" bodyfile="guiao1.c" bodystart="288" bodyend="291"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="guiao1_8h" kindref="compound">guiao1.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><ref refid="structinicial" kindref="compound">DADOS</ref><sp/><ref refid="guiao1_8c_1acd9cae455fbd63026e91eecb33cbdbab" kindref="member">SOMAR_DADOS</ref>(<ref refid="structinicial" kindref="compound">DADOS</ref><sp/>x,<sp/><ref refid="structinicial" kindref="compound">DADOS</ref><sp/>y)<sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structinicial" kindref="compound">DADOS</ref><sp/>r;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(x.<ref refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kindref="member">tipo</ref><sp/>==<sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref><sp/>&amp;&amp;<sp/>y.<ref refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kindref="member">tipo</ref><sp/>==<sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>a<sp/>=<sp/>*(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*)<sp/>x.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>b<sp/>=<sp/>*(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*)<sp/>y.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/><ref refid="stack_8c_1a5f4af788272f9222778bf7ff297c9d33" kindref="member">MAKE_DADOS_DOUBLE</ref>(a+b);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(x.<ref refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kindref="member">tipo</ref><sp/>==<sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref><sp/>&amp;&amp;<sp/>y.<ref refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kindref="member">tipo</ref><sp/>==<sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>a<sp/>=<sp/>*(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*)<sp/>x.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>b<sp/>=<sp/>*(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*)<sp/>y.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/><ref refid="stack_8c_1a5f4af788272f9222778bf7ff297c9d33" kindref="member">MAKE_DADOS_DOUBLE</ref>(a+b);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(x.<ref refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kindref="member">tipo</ref><sp/>==<sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref><sp/>&amp;&amp;<sp/>y.<ref refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kindref="member">tipo</ref><sp/>==<sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>a<sp/>=<sp/>*(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*)<sp/>x.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>b<sp/>=<sp/>*(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*)<sp/>y.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/><ref refid="stack_8c_1a5f4af788272f9222778bf7ff297c9d33" kindref="member">MAKE_DADOS_DOUBLE</ref>(a+b);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>a<sp/>=<sp/>*(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*)<sp/>x.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>b<sp/>=<sp/>*(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*)<sp/>y.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/><ref refid="stack_8c_1a2661322ffb24bd2ba04c1f12c4efdb65" kindref="member">MAKE_DADOS_LONG</ref>(a+b);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>r;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><ref refid="structinicial" kindref="compound">DADOS</ref><sp/><ref refid="guiao1_8c_1ac5baff19092b827df1d3a96d8cad30b2" kindref="member">MULTIPLICAR_DADOS</ref><sp/>(<ref refid="structinicial" kindref="compound">DADOS</ref><sp/>x,<sp/><ref refid="structinicial" kindref="compound">DADOS</ref><sp/>y){</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structinicial" kindref="compound">DADOS</ref><sp/>r;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(x.<ref refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kindref="member">tipo</ref>==<ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref><sp/>&amp;&amp;<sp/>y.<ref refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kindref="member">tipo</ref>==<ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref>){</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>a=<sp/>*(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*)<sp/>x.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>b=<sp/>*(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*)<sp/>y.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/><ref refid="stack_8c_1a5f4af788272f9222778bf7ff297c9d33" kindref="member">MAKE_DADOS_DOUBLE</ref><sp/>(a*b);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(x.<ref refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kindref="member">tipo</ref><sp/>==<sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref><sp/>&amp;&amp;<sp/>y.<ref refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kindref="member">tipo</ref><sp/>==<sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>a<sp/>=<sp/>*(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*)<sp/>x.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>b<sp/>=<sp/>*(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*)<sp/>y.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/><ref refid="stack_8c_1a5f4af788272f9222778bf7ff297c9d33" kindref="member">MAKE_DADOS_DOUBLE</ref>(a*b);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(x.<ref refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kindref="member">tipo</ref><sp/>==<sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref><sp/>&amp;&amp;<sp/>y.<ref refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kindref="member">tipo</ref><sp/>==<sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>a<sp/>=<sp/>*(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*)<sp/>x.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>b<sp/>=<sp/>*(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*)<sp/>y.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/><ref refid="stack_8c_1a5f4af788272f9222778bf7ff297c9d33" kindref="member">MAKE_DADOS_DOUBLE</ref>(a*b);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>a<sp/>=<sp/>*(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*)<sp/>x.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>b<sp/>=<sp/>*(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*)<sp/>y.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/><ref refid="stack_8c_1a2661322ffb24bd2ba04c1f12c4efdb65" kindref="member">MAKE_DADOS_LONG</ref>(a*b);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>r;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><ref refid="structinicial" kindref="compound">DADOS</ref><sp/><ref refid="guiao1_8c_1a4206ce334cf7b0e29347d63f7b81c738" kindref="member">SUBTRAIR_DADOS</ref><sp/>(<ref refid="structinicial" kindref="compound">DADOS</ref><sp/>x,<sp/><ref refid="structinicial" kindref="compound">DADOS</ref><sp/>y){</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structinicial" kindref="compound">DADOS</ref><sp/>r;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(x.<ref refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kindref="member">tipo</ref>==<ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref><sp/>&amp;&amp;<sp/>y.<ref refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kindref="member">tipo</ref>==<ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref>){</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>a=<sp/>*(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*)<sp/>x.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>b=<sp/>*(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*)<sp/>y.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/><ref refid="stack_8c_1a5f4af788272f9222778bf7ff297c9d33" kindref="member">MAKE_DADOS_DOUBLE</ref><sp/>(a-b);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(x.<ref refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kindref="member">tipo</ref><sp/>==<sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref><sp/>&amp;&amp;<sp/>y.<ref refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kindref="member">tipo</ref><sp/>==<sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>a<sp/>=<sp/>*(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*)<sp/>x.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>b<sp/>=<sp/>*(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*)<sp/>y.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/><ref refid="stack_8c_1a5f4af788272f9222778bf7ff297c9d33" kindref="member">MAKE_DADOS_DOUBLE</ref>(a-b);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(x.<ref refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kindref="member">tipo</ref><sp/>==<sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref><sp/>&amp;&amp;<sp/>y.<ref refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kindref="member">tipo</ref><sp/>==<sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>a<sp/>=<sp/>*(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*)<sp/>x.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>b<sp/>=<sp/>*(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*)<sp/>y.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/><ref refid="stack_8c_1a5f4af788272f9222778bf7ff297c9d33" kindref="member">MAKE_DADOS_DOUBLE</ref>(a-b);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>a<sp/>=<sp/>*(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*)<sp/>x.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>b<sp/>=<sp/>*(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*)<sp/>y.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/><ref refid="stack_8c_1a2661322ffb24bd2ba04c1f12c4efdb65" kindref="member">MAKE_DADOS_LONG</ref>(a-b);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>r;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><ref refid="structinicial" kindref="compound">DADOS</ref><sp/><ref refid="guiao1_8c_1ad660aadf94ade2986f1ebe4e02042aa6" kindref="member">DIVIDIR_DADOS</ref><sp/>(<ref refid="structinicial" kindref="compound">DADOS</ref><sp/>x,<sp/><ref refid="structinicial" kindref="compound">DADOS</ref><sp/>y){</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structinicial" kindref="compound">DADOS</ref><sp/>r;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(x.<ref refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kindref="member">tipo</ref>==<ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref><sp/>&amp;&amp;<sp/>y.<ref refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kindref="member">tipo</ref>==<ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref>){</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>a=<sp/>*(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*)<sp/>x.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>b=<sp/>*(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*)<sp/>y.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/><ref refid="stack_8c_1a5f4af788272f9222778bf7ff297c9d33" kindref="member">MAKE_DADOS_DOUBLE</ref><sp/>(a/b);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(x.<ref refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kindref="member">tipo</ref><sp/>==<sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref><sp/>&amp;&amp;<sp/>y.<ref refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kindref="member">tipo</ref><sp/>==<sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>a<sp/>=<sp/>*(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*)<sp/>x.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>b<sp/>=<sp/>*(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*)<sp/>y.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/><ref refid="stack_8c_1a5f4af788272f9222778bf7ff297c9d33" kindref="member">MAKE_DADOS_DOUBLE</ref>(a/b);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(x.<ref refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kindref="member">tipo</ref><sp/>==<sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref><sp/>&amp;&amp;<sp/>y.<ref refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kindref="member">tipo</ref><sp/>==<sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>a<sp/>=<sp/>*(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*)<sp/>x.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>b<sp/>=<sp/>*(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*)<sp/>y.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/><ref refid="stack_8c_1a5f4af788272f9222778bf7ff297c9d33" kindref="member">MAKE_DADOS_DOUBLE</ref>(a/b);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>a<sp/>=<sp/>*(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*)<sp/>x.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>b<sp/>=<sp/>*(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*)<sp/>y.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/><ref refid="stack_8c_1a2661322ffb24bd2ba04c1f12c4efdb65" kindref="member">MAKE_DADOS_LONG</ref>(a/b);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>r;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><ref refid="structinicial" kindref="compound">DADOS</ref><sp/><ref refid="guiao1_8c_1a1b2e8ab6c1a78ed63e321ef2a19ca50b" kindref="member">INCREMENTAR_DADOS</ref><sp/>(<ref refid="structinicial" kindref="compound">DADOS</ref><sp/>x){</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structinicial" kindref="compound">DADOS</ref><sp/>r;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(x.<ref refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kindref="member">tipo</ref>==<ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref>){</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>a=<sp/>*(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*)<sp/>x.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/><ref refid="stack_8c_1a5f4af788272f9222778bf7ff297c9d33" kindref="member">MAKE_DADOS_DOUBLE</ref><sp/>(a+1);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(x.<ref refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kindref="member">tipo</ref>==<ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>a=<sp/>*(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*)<sp/>x.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/><ref refid="stack_8c_1a2661322ffb24bd2ba04c1f12c4efdb65" kindref="member">MAKE_DADOS_LONG</ref><sp/>(a+1);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>a<sp/>=<sp/>*(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*)<sp/>x.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/><ref refid="stack_8c_1afa7377ded223ad76e57a28c78adef616" kindref="member">MAKE_DADOS_CHAR</ref>(a+1);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>r;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><ref refid="structinicial" kindref="compound">DADOS</ref><sp/><ref refid="guiao1_8c_1ac9913046a8ef15f228edb55480b064dc" kindref="member">DECREMENTAR_DADOS</ref><sp/>(<ref refid="structinicial" kindref="compound">DADOS</ref><sp/>x){</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structinicial" kindref="compound">DADOS</ref><sp/>r;</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(x.<ref refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kindref="member">tipo</ref>==<ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref>){</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>a=<sp/>*(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*)<sp/>x.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/><ref refid="stack_8c_1a5f4af788272f9222778bf7ff297c9d33" kindref="member">MAKE_DADOS_DOUBLE</ref><sp/>(a-1);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(x.<ref refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kindref="member">tipo</ref>==<ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>a=<sp/>*(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*)<sp/>x.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/><ref refid="stack_8c_1a2661322ffb24bd2ba04c1f12c4efdb65" kindref="member">MAKE_DADOS_LONG</ref><sp/>(a-1);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>a<sp/>=<sp/>*(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*)<sp/>x.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/><ref refid="stack_8c_1afa7377ded223ad76e57a28c78adef616" kindref="member">MAKE_DADOS_CHAR</ref>(a-1);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>r;</highlight></codeline>
+<codeline lineno="177"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><ref refid="structinicial" kindref="compound">DADOS</ref><sp/><ref refid="guiao1_8c_1a17ee520b9b367c2b523ce4a2023865e9" kindref="member">MODULO_DADOS</ref><sp/>(<ref refid="structinicial" kindref="compound">DADOS</ref><sp/>x,<sp/><ref refid="structinicial" kindref="compound">DADOS</ref><sp/>y){</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structinicial" kindref="compound">DADOS</ref><sp/>r;</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(x.<ref refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kindref="member">tipo</ref>==<ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref><sp/>&amp;&amp;<sp/>y.<ref refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kindref="member">tipo</ref>==<ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref>){</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>a=<sp/>*(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*)<sp/>x.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>b=<sp/>*(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*)<sp/>y.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/><ref refid="stack_8c_1a5f4af788272f9222778bf7ff297c9d33" kindref="member">MAKE_DADOS_DOUBLE</ref><sp/>(remainder(a,b));</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(x.<ref refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kindref="member">tipo</ref><sp/>==<sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref><sp/>&amp;&amp;<sp/>y.<ref refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kindref="member">tipo</ref><sp/>==<sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>a<sp/>=<sp/>*(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*)<sp/>x.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>b<sp/>=<sp/>*(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*)<sp/>y.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/><ref refid="stack_8c_1a5f4af788272f9222778bf7ff297c9d33" kindref="member">MAKE_DADOS_DOUBLE</ref><sp/>(remainder(a,b));</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(x.<ref refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kindref="member">tipo</ref><sp/>==<sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref><sp/>&amp;&amp;<sp/>y.<ref refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kindref="member">tipo</ref><sp/>==<sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>a<sp/>=<sp/>*(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*)<sp/>x.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>b<sp/>=<sp/>*(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*)<sp/>y.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/><ref refid="stack_8c_1a5f4af788272f9222778bf7ff297c9d33" kindref="member">MAKE_DADOS_DOUBLE</ref><sp/>(remainder(a,b));</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>a<sp/>=<sp/>*(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*)<sp/>x.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>b<sp/>=<sp/>*(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*)<sp/>y.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/><ref refid="stack_8c_1a2661322ffb24bd2ba04c1f12c4efdb65" kindref="member">MAKE_DADOS_LONG</ref>(a%b);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>r;</highlight></codeline>
+<codeline lineno="209"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><ref refid="structinicial" kindref="compound">DADOS</ref><sp/><ref refid="guiao1_8c_1a30aff7fd9814b6dd25f89b1794789043" kindref="member">ELEVADO_DADOS</ref><sp/>(<ref refid="structinicial" kindref="compound">DADOS</ref><sp/>x,<sp/><ref refid="structinicial" kindref="compound">DADOS</ref><sp/>y){</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structinicial" kindref="compound">DADOS</ref><sp/>r;</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(x.<ref refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kindref="member">tipo</ref>==<ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref><sp/>&amp;&amp;<sp/>y.<ref refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kindref="member">tipo</ref>==<ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref>){</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>a=<sp/>*(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*)<sp/>x.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>b=<sp/>*(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*)<sp/>y.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/><ref refid="stack_8c_1a5f4af788272f9222778bf7ff297c9d33" kindref="member">MAKE_DADOS_DOUBLE</ref><sp/>(pow(a,b));</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(x.<ref refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kindref="member">tipo</ref><sp/>==<sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref><sp/>&amp;&amp;<sp/>y.<ref refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kindref="member">tipo</ref><sp/>==<sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>a<sp/>=<sp/>*(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*)<sp/>x.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>b<sp/>=<sp/>*(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*)<sp/>y.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/><ref refid="stack_8c_1a5f4af788272f9222778bf7ff297c9d33" kindref="member">MAKE_DADOS_DOUBLE</ref><sp/>(pow(a,b));</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(x.<ref refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kindref="member">tipo</ref><sp/>==<sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref><sp/>&amp;&amp;<sp/>y.<ref refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kindref="member">tipo</ref><sp/>==<sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>a<sp/>=<sp/>*(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*)<sp/>x.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>b<sp/>=<sp/>*(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*)<sp/>y.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/><ref refid="stack_8c_1a5f4af788272f9222778bf7ff297c9d33" kindref="member">MAKE_DADOS_DOUBLE</ref><sp/>(pow(a,b));</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>a<sp/>=<sp/>*(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*)<sp/>x.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>b<sp/>=<sp/>*(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*)<sp/>y.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/><ref refid="stack_8c_1a5f4af788272f9222778bf7ff297c9d33" kindref="member">MAKE_DADOS_DOUBLE</ref>(pow(a,b));</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>r;</highlight></codeline>
+<codeline lineno="241"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><ref refid="structinicial" kindref="compound">DADOS</ref><sp/><ref refid="guiao1_8c_1a33cf2210a309d26b7c2cdb5f60eac34e" kindref="member">CONJUNCAO_DADOS</ref><sp/>(<ref refid="structinicial" kindref="compound">DADOS</ref><sp/>x,<sp/><ref refid="structinicial" kindref="compound">DADOS</ref><sp/>y){</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>a<sp/>=<sp/>*(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*)<sp/>x.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>b<sp/>=<sp/>*(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*)<sp/>y.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="stack_8c_1a2661322ffb24bd2ba04c1f12c4efdb65" kindref="member">MAKE_DADOS_LONG</ref><sp/>(a&amp;b);</highlight></codeline>
+<codeline lineno="254"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><ref refid="structinicial" kindref="compound">DADOS</ref><sp/><ref refid="guiao1_8c_1a0512d2bdbc4d0718d66867955a64e4d8" kindref="member">DISJUNCAO_DADOS</ref><sp/>(<ref refid="structinicial" kindref="compound">DADOS</ref><sp/>x,<sp/><ref refid="structinicial" kindref="compound">DADOS</ref><sp/>y){</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>a<sp/>=<sp/>*(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*)<sp/>x.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>b<sp/>=<sp/>*(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*)<sp/>y.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="stack_8c_1a2661322ffb24bd2ba04c1f12c4efdb65" kindref="member">MAKE_DADOS_LONG</ref>(a|b);</highlight></codeline>
+<codeline lineno="267"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><ref refid="structinicial" kindref="compound">DADOS</ref><sp/><ref refid="guiao1_8c_1a359198ccdbf483b9de30a52a76b59778" kindref="member">XOR_DADOS</ref>(<ref refid="structinicial" kindref="compound">DADOS</ref><sp/>x,<sp/><ref refid="structinicial" kindref="compound">DADOS</ref><sp/>y)<sp/>{</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>a<sp/>=<sp/>*(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*)<sp/>x.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>b<sp/>=<sp/>*(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*)<sp/>y.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="stack_8c_1a2661322ffb24bd2ba04c1f12c4efdb65" kindref="member">MAKE_DADOS_LONG</ref>(a^b);</highlight></codeline>
+<codeline lineno="280"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"></highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><ref refid="structinicial" kindref="compound">DADOS</ref><sp/><ref refid="guiao1_8c_1ab00e634026d4ebde01fa552b02cdbe00" kindref="member">NOT_DADOS</ref><sp/>(<ref refid="structinicial" kindref="compound">DADOS</ref><sp/>x){</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>a=<sp/>*(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*)<sp/>x.<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="stack_8c_1a2661322ffb24bd2ba04c1f12c4efdb65" kindref="member">MAKE_DADOS_LONG</ref><sp/>(~a);</highlight></codeline>
+<codeline lineno="291"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="guiao1.c"/>
+  </compounddef>
+</doxygen>

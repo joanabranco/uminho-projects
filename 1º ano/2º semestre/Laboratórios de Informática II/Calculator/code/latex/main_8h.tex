@@ -1,0 +1,77 @@
+\hypertarget{main_8h}{}\doxysection{main.\+h File Reference}
+\label{main_8h}\index{main.h@{main.h}}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+char $\ast$ \mbox{\hyperlink{main_8h_a05997d6a6561fed5f899850b4d53eccc}{getstring}} (char $\ast$line)
+\begin{DoxyCompactList}\small\item\em Procura a string na linha inserida ~\newline
+ \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{main_8h_adbc0a6075a3e8b8c0f3553eff75f6822}{get\+\_\+token}} (char $\ast$line, char $\ast$$\ast$rest)
+\begin{DoxyCompactList}\small\item\em Procura o token na linha inserida. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8h_ad36d1cfc7c4f8e45e60624f38a5a079d}{parse}} (char $\ast$line, \mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$\mbox{\hyperlink{structstack}{stack}})
+\begin{DoxyCompactList}\small\item\em Esta é a função principal do programa. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{main_8h_adbc0a6075a3e8b8c0f3553eff75f6822}\label{main_8h_adbc0a6075a3e8b8c0f3553eff75f6822}} 
+\index{main.h@{main.h}!get\_token@{get\_token}}
+\index{get\_token@{get\_token}!main.h@{main.h}}
+\doxysubsubsection{\texorpdfstring{get\_token()}{get\_token()}}
+{\footnotesize\ttfamily char$\ast$ get\+\_\+token (\begin{DoxyParamCaption}\item[{char $\ast$}]{line,  }\item[{char $\ast$$\ast$}]{rest }\end{DoxyParamCaption})}
+
+
+
+Procura o token na linha inserida. 
+
+Procura o token na linha inserida
+
+
+\begin{DoxyParams}{Parameters}
+{\em line} & a linha inserida \\
+\hline
+{\em $\ast$$\ast$rest} & parte restante da linha inserida \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+o token 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8h_a05997d6a6561fed5f899850b4d53eccc}\label{main_8h_a05997d6a6561fed5f899850b4d53eccc}} 
+\index{main.h@{main.h}!getstring@{getstring}}
+\index{getstring@{getstring}!main.h@{main.h}}
+\doxysubsubsection{\texorpdfstring{getstring()}{getstring()}}
+{\footnotesize\ttfamily char$\ast$ getstring (\begin{DoxyParamCaption}\item[{char $\ast$}]{line }\end{DoxyParamCaption})}
+
+
+
+Procura a string na linha inserida ~\newline
+ 
+
+Procura a string na linha inserida
+
+
+\begin{DoxyParams}{Parameters}
+{\em line} & a linha inserida \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a string inserida 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8h_ad36d1cfc7c4f8e45e60624f38a5a079d}\label{main_8h_ad36d1cfc7c4f8e45e60624f38a5a079d}} 
+\index{main.h@{main.h}!parse@{parse}}
+\index{parse@{parse}!main.h@{main.h}}
+\doxysubsubsection{\texorpdfstring{parse()}{parse()}}
+{\footnotesize\ttfamily void parse (\begin{DoxyParamCaption}\item[{char $\ast$}]{line,  }\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{stack }\end{DoxyParamCaption})}
+
+
+
+Esta é a função principal do programa. 
+
+É a função principal do programa
+
+
+\begin{DoxyParams}{Parameters}
+{\em line} & a linha lida e à qual vai ser aplicada o parse \\
+\hline
+{\em $\ast$stack} & que vai sofrer modificações \\
+\hline
+\end{DoxyParams}

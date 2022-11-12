@@ -1,0 +1,580 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="guiao4_8h" kind="file" language="C++">
+    <compoundname>guiao4.h</compoundname>
+    <includes refid="stack_8h" local="yes">stack.h</includes>
+    <includedby refid="guiao4_8c" local="yes">guiao4.c</includedby>
+    <includedby refid="main_8c" local="yes">main.c</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>stack.h</label>
+        <link refid="stack_8h"/>
+      </node>
+      <node id="1">
+        <label>guiao4.h</label>
+        <link refid="guiao4_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>guiao4.c</label>
+        <link refid="guiao4_8c"/>
+      </node>
+      <node id="1">
+        <label>guiao4.h</label>
+        <link refid="guiao4_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>main.c</label>
+        <link refid="main_8c"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="guiao4_8h_1a534dd99995f99988f20680e5b3e1192c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+        <definition>DADOS Concatea</definition>
+        <argsstring>(DADOS x, DADOS y)</argsstring>
+        <name>Concatea</name>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Efetua a concatenação entre strings e arrays. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>1º valor recebido </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>2º valor recebido </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a junção entre os dados inseridos </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="guiao4.h" line="9" column="7" bodyfile="guiao4.c" bodystart="74" bodyend="110" declfile="guiao4.h" declline="9" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="guiao4_8h_1af4632daf6947bf66d3e1e079480ba496" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ConcateaMULT</definition>
+        <argsstring>(STACK *stack, DADOS x, DADOS y)</argsstring>
+        <name>ConcateaMULT</name>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>stack</declname>
+        </param>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Efetua a concatenação múltiplas vezes de strings ou arrays. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>1º valor recebido </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>2º valor recebido </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a strings ou arrays repetido várias vezes </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="guiao4.h" line="11" column="6" bodyfile="guiao4.c" bodystart="119" bodyend="158" declfile="guiao4.h" declline="11" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="guiao4_8h_1a84a987c296dfad8f354c6aaf03dfe5a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+        <definition>DADOS TAMANHO</definition>
+        <argsstring>(DADOS x)</argsstring>
+        <name>TAMANHO</name>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Tamanho do array inserido. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>valor recebido </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>o comprimento em questão </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="guiao4.h" line="13" column="7" bodyfile="guiao4.c" bodystart="165" bodyend="173" declfile="guiao4.h" declline="13" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="guiao4_8h_1a898cdd2cd79f5740cc2b425e0ea503c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void RANGE</definition>
+        <argsstring>(DADOS x, STACK *s)</argsstring>
+        <name>RANGE</name>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Alcance do array inserido. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>valor recebido </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>*s</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>stack que vai sofrer modificações </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a distância em questão </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="guiao4.h" line="15" column="6" bodyfile="guiao4.c" bodystart="182" bodyend="193" declfile="guiao4.h" declline="15" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="guiao4_8h_1a046c17c107169f73a8cfab68ab5bdbec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void REMPRIM</definition>
+        <argsstring>(DADOS x, STACK *stack)</argsstring>
+        <name>REMPRIM</name>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>stack</declname>
+        </param>
+        <briefdescription>
+<para>Remover o primeiro elemento do array ou string e colocar na stack. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>valor recebido </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>*stack</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>que vai sofrer modificações </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a stack com o primeiro elemento do array </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="guiao4.h" line="17" column="6" bodyfile="guiao4.c" bodystart="202" bodyend="221" declfile="guiao4.h" declline="17" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="guiao4_8h_1ab332c24a262f2f445bbdaf1bce58c0b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void REMULT</definition>
+        <argsstring>(DADOS x, STACK *stack)</argsstring>
+        <name>REMULT</name>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>stack</declname>
+        </param>
+        <briefdescription>
+<para>Remover o último elemento do array ou string e colocar na stack. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>valor recebido </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>*stack</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>que vai sofrer modificações </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a stack com o último elemento do array </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="guiao4.h" line="19" column="6" bodyfile="guiao4.c" bodystart="230" bodyend="246" declfile="guiao4.h" declline="19" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="guiao4_8h_1a171629ba2eea38bddce5f587e47e9d4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void READLINE</definition>
+        <argsstring>(STACK *stack)</argsstring>
+        <name>READLINE</name>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>stack</declname>
+        </param>
+        <briefdescription>
+<para>Lẽ toda a linha do Input. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>*stack</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>que vai sofrer modificações </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a stack com a string inserida </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="guiao4.h" line="21" column="6" bodyfile="guiao4.c" bodystart="254" bodyend="263" declfile="guiao4.h" declline="21" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="guiao4_8h_1a0eef3434c897c531302f0fa6b8960634" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* append</definition>
+        <argsstring>(char before, char *str, char after)</argsstring>
+        <name>append</name>
+        <param>
+          <type>char</type>
+          <declname>before</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>after</declname>
+        </param>
+        <briefdescription>
+<para>Efetua a concatenação entre strings e arrays. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>before</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>conteúdo anterior </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>*str</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>string recebida </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>after</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>conteúdo posterior </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a string com a junção dos dados inseridos </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="guiao4.h" line="23" column="6" bodyfile="guiao4.c" bodystart="19" bodyend="32" declfile="guiao4.h" declline="23" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="guiao4_8h_1aeb895b374cdf2ee55ae078536117c464" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void transfer</definition>
+        <argsstring>(STACK *s1, STACK *s2)</argsstring>
+        <name>transfer</name>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>s1</declname>
+        </param>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>s2</declname>
+        </param>
+        <briefdescription>
+<para>Coloca na stack os elementos do array. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Coloca todos os elementos do array na stack</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>*s1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>stack recebida </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>*s2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>stack recebida </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="guiao4.h" line="25" column="6" bodyfile="guiao4.c" bodystart="40" bodyend="65" declfile="guiao4.h" declline="25" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="guiao4_8h_1a010868909911d467ee8502d24cc4e805" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int procAUX</definition>
+        <argsstring>(char *s1, char *s2)</argsstring>
+        <name>procAUX</name>
+        <param>
+          <type>char *</type>
+          <declname>s1</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>s2</declname>
+        </param>
+        <briefdescription>
+<para>Função auxiliar à função PROCURA. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>s1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>string lida no input </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>s2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>string lida no input </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>o valor na posiçao pedida </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="guiao4.h" line="27" column="5" bodyfile="guiao4.c" bodystart="272" bodyend="286" declfile="guiao4.h" declline="27" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="guiao4_8h_1ab6672673b744863e269f3c039fa0bdc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PROCURA</definition>
+        <argsstring>(DADOS Y, DADOS X, STACK *stack)</argsstring>
+        <name>PROCURA</name>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>Y</declname>
+        </param>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>X</declname>
+        </param>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>stack</declname>
+        </param>
+        <briefdescription>
+<para>Procura substring na string e devolve o índice. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>X</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>*stack</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>que vai sofrer modificações </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="guiao4.h" line="29" column="6" bodyfile="guiao4.c" bodystart="295" bodyend="301" declfile="guiao4.h" declline="29" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="guiao4_8h_1a76858b8dc18152d158e5a2b8745da90f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void splitString</definition>
+        <argsstring>(char *delims, STACK *s)</argsstring>
+        <name>splitString</name>
+        <param>
+          <type>char *</type>
+          <declname>delims</declname>
+        </param>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Separa string por uma substring. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>*delims</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>string inserida </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>*stack</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>que vai sofrer modificações </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="guiao4.h" line="31" column="6" bodyfile="guiao4.c" bodystart="309" bodyend="326" declfile="guiao4.h" declline="31" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>GUIAO4_H_INCLUDED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GUIAO4_H_INCLUDED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="stack_8h" kindref="compound">stack.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><ref refid="structinicial" kindref="compound">DADOS</ref><sp/><ref refid="guiao4_8h_1a534dd99995f99988f20680e5b3e1192c" kindref="member">Concatea</ref>(<ref refid="structinicial" kindref="compound">DADOS</ref><sp/>x,<sp/><ref refid="structinicial" kindref="compound">DADOS</ref><sp/>y);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="guiao4_8h_1af4632daf6947bf66d3e1e079480ba496" kindref="member">ConcateaMULT</ref>(<ref refid="structstack" kindref="compound">STACK</ref><sp/>*<ref refid="structstack" kindref="compound">stack</ref>,<ref refid="structinicial" kindref="compound">DADOS</ref><sp/>x,<ref refid="structinicial" kindref="compound">DADOS</ref><sp/>y);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><ref refid="structinicial" kindref="compound">DADOS</ref><sp/><ref refid="guiao4_8h_1a84a987c296dfad8f354c6aaf03dfe5a6" kindref="member">TAMANHO</ref>(<ref refid="structinicial" kindref="compound">DADOS</ref><sp/>x);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="guiao4_8h_1a898cdd2cd79f5740cc2b425e0ea503c7" kindref="member">RANGE</ref>(<ref refid="structinicial" kindref="compound">DADOS</ref><sp/>x,<ref refid="structstack" kindref="compound">STACK</ref><sp/>*s);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="guiao4_8h_1a046c17c107169f73a8cfab68ab5bdbec" kindref="member">REMPRIM</ref>(<ref refid="structinicial" kindref="compound">DADOS</ref><sp/>x,<ref refid="structstack" kindref="compound">STACK</ref><sp/>*<ref refid="structstack" kindref="compound">stack</ref>);<sp/></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="guiao4_8h_1ab332c24a262f2f445bbdaf1bce58c0b9" kindref="member">REMULT</ref>(<ref refid="structinicial" kindref="compound">DADOS</ref><sp/>x,<ref refid="structstack" kindref="compound">STACK</ref><sp/>*<ref refid="structstack" kindref="compound">stack</ref>);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="guiao4_8h_1a171629ba2eea38bddce5f587e47e9d4e" kindref="member">READLINE</ref>(<ref refid="structstack" kindref="compound">STACK</ref><sp/>*<ref refid="structstack" kindref="compound">stack</ref>);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="guiao4_8h_1a0eef3434c897c531302f0fa6b8960634" kindref="member">append</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>before,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>after);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="guiao4_8h_1aeb895b374cdf2ee55ae078536117c464" kindref="member">transfer</ref>(<ref refid="structstack" kindref="compound">STACK</ref><sp/>*s1,<sp/><ref refid="structstack" kindref="compound">STACK</ref><sp/>*s2);<sp/></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="guiao4_8h_1a010868909911d467ee8502d24cc4e805" kindref="member">procAUX</ref><sp/>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*s1,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*s2);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="guiao4_8h_1ab6672673b744863e269f3c039fa0bdc7" kindref="member">PROCURA</ref><sp/>(<ref refid="structinicial" kindref="compound">DADOS</ref><sp/>Y,<sp/><ref refid="structinicial" kindref="compound">DADOS</ref><sp/>X,<sp/><ref refid="structstack" kindref="compound">STACK</ref><sp/>*<ref refid="structstack" kindref="compound">stack</ref>);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="guiao4_8h_1a76858b8dc18152d158e5a2b8745da90f" kindref="member">splitString</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>delims,<ref refid="structstack" kindref="compound">STACK</ref><sp/>*s);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//MAIN_C_GUIAO4_H</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="guiao4.h"/>
+  </compounddef>
+</doxygen>

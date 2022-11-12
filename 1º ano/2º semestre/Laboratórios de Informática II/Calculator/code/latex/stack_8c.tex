@@ -1,0 +1,227 @@
+\hypertarget{stack_8c}{}\doxysection{stack.\+c File Reference}
+\label{stack_8c}\index{stack.c@{stack.c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}stack.\+h\char`\"{}}\newline
+Include dependency graph for stack.\+c\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$ \mbox{\hyperlink{stack_8c_ab37b0d083f873fbdc37d708bb9f40efc}{create\+\_\+stack}} ()
+\begin{DoxyCompactList}\small\item\em Produz a stack. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{stack_8c_a6da247d11bbdc02f685775c0ad7683e5}{push}} (\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$s, \mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} elem)
+\begin{DoxyCompactList}\small\item\em Adiciona um elemento dado ao topo da stack. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{stack_8c_a4a17e13318cc29c9b85fec0dcc4d6b66}{print\+\_\+array}} (\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Imprime o array. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{stack_8c_a42b87bab2d601cb02900935c9b80fc23}{print\+\_\+stack}} (\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Imprime a stack no endereço s. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} \mbox{\hyperlink{stack_8c_aec9ac4a3a9271f16fd6aa58771182ca2}{pop}} (\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Retira elemento da stack no endereço s. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} \mbox{\hyperlink{stack_8c_a37b995ce0da16a4b6b90ca8f1f52eef7}{top}} (\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Indica qual o próximo elemento a ser retirado da stack no endereço s. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{stack_8c_ae31d2a4c10db0d5b01ecd8a8aab01cfc}{is\+\_\+empty}} (\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Verifica se a stack está vazia. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} \mbox{\hyperlink{stack_8c_a2661322ffb24bd2ba04c1f12c4efdb65}{MAKE\+\_\+\+DADOS\+\_\+\+LONG}} (long v)
+\begin{DoxyCompactList}\small\item\em Produz os dados do tipo long. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} \mbox{\hyperlink{stack_8c_a5f4af788272f9222778bf7ff297c9d33}{MAKE\+\_\+\+DADOS\+\_\+\+DOUBLE}} (double v)
+\begin{DoxyCompactList}\small\item\em Produz os dados do tipo double. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} \mbox{\hyperlink{stack_8c_afa7377ded223ad76e57a28c78adef616}{MAKE\+\_\+\+DADOS\+\_\+\+CHAR}} (char v)
+\begin{DoxyCompactList}\small\item\em Produz os dados do tipo char. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} \mbox{\hyperlink{stack_8c_a21eb9ccd09c39057c1a31e49b35bed53}{MAKE\+\_\+\+DADOS\+\_\+\+STRING}} (char $\ast$s)
+\begin{DoxyCompactList}\small\item\em Produz os dados do tipo string. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} \mbox{\hyperlink{stack_8c_a9e58e79adfbd7cb9815e0da90234b660}{MAKE\+\_\+\+DADOS\+\_\+\+ARRAY}} (\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Produz os dados do tipo array. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{stack_8c_ab37b0d083f873fbdc37d708bb9f40efc}\label{stack_8c_ab37b0d083f873fbdc37d708bb9f40efc}} 
+\index{stack.c@{stack.c}!create\_stack@{create\_stack}}
+\index{create\_stack@{create\_stack}!stack.c@{stack.c}}
+\doxysubsubsection{\texorpdfstring{create\_stack()}{create\_stack()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}}$\ast$ create\+\_\+stack (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Produz a stack. 
+
+\begin{DoxyReturn}{Returns}
+a stack 
+\end{DoxyReturn}
+\mbox{\Hypertarget{stack_8c_ae31d2a4c10db0d5b01ecd8a8aab01cfc}\label{stack_8c_ae31d2a4c10db0d5b01ecd8a8aab01cfc}} 
+\index{stack.c@{stack.c}!is\_empty@{is\_empty}}
+\index{is\_empty@{is\_empty}!stack.c@{stack.c}}
+\doxysubsubsection{\texorpdfstring{is\_empty()}{is\_empty()}}
+{\footnotesize\ttfamily int is\+\_\+empty (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Verifica se a stack está vazia. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$s} & endereço onde imprime a STACK \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{stack_8c_a9e58e79adfbd7cb9815e0da90234b660}\label{stack_8c_a9e58e79adfbd7cb9815e0da90234b660}} 
+\index{stack.c@{stack.c}!MAKE\_DADOS\_ARRAY@{MAKE\_DADOS\_ARRAY}}
+\index{MAKE\_DADOS\_ARRAY@{MAKE\_DADOS\_ARRAY}!stack.c@{stack.c}}
+\doxysubsubsection{\texorpdfstring{MAKE\_DADOS\_ARRAY()}{MAKE\_DADOS\_ARRAY()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} MAKE\+\_\+\+DADOS\+\_\+\+ARRAY (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Produz os dados do tipo array. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$s} & stack onde está o array \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+os dados do tipo array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{stack_8c_afa7377ded223ad76e57a28c78adef616}\label{stack_8c_afa7377ded223ad76e57a28c78adef616}} 
+\index{stack.c@{stack.c}!MAKE\_DADOS\_CHAR@{MAKE\_DADOS\_CHAR}}
+\index{MAKE\_DADOS\_CHAR@{MAKE\_DADOS\_CHAR}!stack.c@{stack.c}}
+\doxysubsubsection{\texorpdfstring{MAKE\_DADOS\_CHAR()}{MAKE\_DADOS\_CHAR()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} MAKE\+\_\+\+DADOS\+\_\+\+CHAR (\begin{DoxyParamCaption}\item[{char}]{v }\end{DoxyParamCaption})}
+
+
+
+Produz os dados do tipo char. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em v} & dado recebido do tipo char \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{stack_8c_a5f4af788272f9222778bf7ff297c9d33}\label{stack_8c_a5f4af788272f9222778bf7ff297c9d33}} 
+\index{stack.c@{stack.c}!MAKE\_DADOS\_DOUBLE@{MAKE\_DADOS\_DOUBLE}}
+\index{MAKE\_DADOS\_DOUBLE@{MAKE\_DADOS\_DOUBLE}!stack.c@{stack.c}}
+\doxysubsubsection{\texorpdfstring{MAKE\_DADOS\_DOUBLE()}{MAKE\_DADOS\_DOUBLE()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} MAKE\+\_\+\+DADOS\+\_\+\+DOUBLE (\begin{DoxyParamCaption}\item[{double}]{v }\end{DoxyParamCaption})}
+
+
+
+Produz os dados do tipo double. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em v} & dado recebido do tipo double \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{stack_8c_a2661322ffb24bd2ba04c1f12c4efdb65}\label{stack_8c_a2661322ffb24bd2ba04c1f12c4efdb65}} 
+\index{stack.c@{stack.c}!MAKE\_DADOS\_LONG@{MAKE\_DADOS\_LONG}}
+\index{MAKE\_DADOS\_LONG@{MAKE\_DADOS\_LONG}!stack.c@{stack.c}}
+\doxysubsubsection{\texorpdfstring{MAKE\_DADOS\_LONG()}{MAKE\_DADOS\_LONG()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} MAKE\+\_\+\+DADOS\+\_\+\+LONG (\begin{DoxyParamCaption}\item[{long}]{v }\end{DoxyParamCaption})}
+
+
+
+Produz os dados do tipo long. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em v} & dado recebido do tipo long \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{stack_8c_a21eb9ccd09c39057c1a31e49b35bed53}\label{stack_8c_a21eb9ccd09c39057c1a31e49b35bed53}} 
+\index{stack.c@{stack.c}!MAKE\_DADOS\_STRING@{MAKE\_DADOS\_STRING}}
+\index{MAKE\_DADOS\_STRING@{MAKE\_DADOS\_STRING}!stack.c@{stack.c}}
+\doxysubsubsection{\texorpdfstring{MAKE\_DADOS\_STRING()}{MAKE\_DADOS\_STRING()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} MAKE\+\_\+\+DADOS\+\_\+\+STRING (\begin{DoxyParamCaption}\item[{char $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Produz os dados do tipo string. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em v} & dado recebido do tipo string \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{stack_8c_aec9ac4a3a9271f16fd6aa58771182ca2}\label{stack_8c_aec9ac4a3a9271f16fd6aa58771182ca2}} 
+\index{stack.c@{stack.c}!pop@{pop}}
+\index{pop@{pop}!stack.c@{stack.c}}
+\doxysubsubsection{\texorpdfstring{pop()}{pop()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} pop (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Retira elemento da stack no endereço s. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$s} & endereço onde imprime a STACK \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a stack sem elemento 
+\end{DoxyReturn}
+\mbox{\Hypertarget{stack_8c_a4a17e13318cc29c9b85fec0dcc4d6b66}\label{stack_8c_a4a17e13318cc29c9b85fec0dcc4d6b66}} 
+\index{stack.c@{stack.c}!print\_array@{print\_array}}
+\index{print\_array@{print\_array}!stack.c@{stack.c}}
+\doxysubsubsection{\texorpdfstring{print\_array()}{print\_array()}}
+{\footnotesize\ttfamily void print\+\_\+array (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Imprime o array. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$s} & stack que vai sofrer modificações \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{stack_8c_a42b87bab2d601cb02900935c9b80fc23}\label{stack_8c_a42b87bab2d601cb02900935c9b80fc23}} 
+\index{stack.c@{stack.c}!print\_stack@{print\_stack}}
+\index{print\_stack@{print\_stack}!stack.c@{stack.c}}
+\doxysubsubsection{\texorpdfstring{print\_stack()}{print\_stack()}}
+{\footnotesize\ttfamily void print\+\_\+stack (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Imprime a stack no endereço s. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$s} & endereço onde imprime a STACK \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{stack_8c_a6da247d11bbdc02f685775c0ad7683e5}\label{stack_8c_a6da247d11bbdc02f685775c0ad7683e5}} 
+\index{stack.c@{stack.c}!push@{push}}
+\index{push@{push}!stack.c@{stack.c}}
+\doxysubsubsection{\texorpdfstring{push()}{push()}}
+{\footnotesize\ttfamily void push (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{s,  }\item[{\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}}}]{elem }\end{DoxyParamCaption})}
+
+
+
+Adiciona um elemento dado ao topo da stack. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$s} & correspondente à stack inicial \\
+\hline
+{\em o} & elemento a adicionar \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{stack_8c_a37b995ce0da16a4b6b90ca8f1f52eef7}\label{stack_8c_a37b995ce0da16a4b6b90ca8f1f52eef7}} 
+\index{stack.c@{stack.c}!top@{top}}
+\index{top@{top}!stack.c@{stack.c}}
+\doxysubsubsection{\texorpdfstring{top()}{top()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} top (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Indica qual o próximo elemento a ser retirado da stack no endereço s. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$s} & endereço onde imprime a STACK \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+posição do próximo elemento a retirar 
+\end{DoxyReturn}

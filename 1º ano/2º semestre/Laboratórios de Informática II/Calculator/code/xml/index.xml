@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.1" xml:lang="en-US">
+  <compound refid="uniondados" kind="union"><name>dados</name>
+    <member refid="uniondados_1ae7d45557d9679e4d35af856bb46540f7" kind="variable"><name>x</name></member>
+    <member refid="uniondados_1aae5c632fc7416eb5f6c41d1c2b9bc0b4" kind="variable"><name>y</name></member>
+    <member refid="uniondados_1a13d5ca92696b4d951ab1b7636419c097" kind="variable"><name>z</name></member>
+    <member refid="uniondados_1a4a73f7349e6b0da3425d1e8a39b845cf" kind="variable"><name>w</name></member>
+  </compound>
+  <compound refid="structinicial" kind="struct"><name>inicial</name>
+    <member refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kind="variable"><name>tipo</name></member>
+    <member refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kind="variable"><name>dados</name></member>
+  </compound>
+  <compound refid="structstack" kind="struct"><name>stack</name>
+    <member refid="structstack_1ac8fc5be92f20684ddfd1060b4f7ab4f7" kind="variable"><name>stack</name></member>
+    <member refid="structstack_1a926a597bae913d1bf4772be35c14b71e" kind="variable"><name>size</name></member>
+    <member refid="structstack_1a2d100511cad42e140cbbe2863cab8c8c" kind="variable"><name>top</name></member>
+    <member refid="structstack_1a8009cc34985fef473a64a8db01e539cc" kind="variable"><name>var</name></member>
+  </compound>
+  <compound refid="structvariaveis" kind="struct"><name>variaveis</name>
+    <member refid="structvariaveis_1a9dfcf15fc364658f793f18b1b7545e1e" kind="variable"><name>t</name></member>
+    <member refid="structvariaveis_1ae2f9e418bebfeb0302788991b49eafb1" kind="variable"><name>v</name></member>
+  </compound>
+  <compound refid="CMakeLists_8txt" kind="file"><name>CMakeLists.txt</name>
+  </compound>
+  <compound refid="guiao1_8c" kind="file"><name>guiao1.c</name>
+    <member refid="guiao1_8c_1acd9cae455fbd63026e91eecb33cbdbab" kind="function"><name>SOMAR_DADOS</name></member>
+    <member refid="guiao1_8c_1ac5baff19092b827df1d3a96d8cad30b2" kind="function"><name>MULTIPLICAR_DADOS</name></member>
+    <member refid="guiao1_8c_1a4206ce334cf7b0e29347d63f7b81c738" kind="function"><name>SUBTRAIR_DADOS</name></member>
+    <member refid="guiao1_8c_1ad660aadf94ade2986f1ebe4e02042aa6" kind="function"><name>DIVIDIR_DADOS</name></member>
+    <member refid="guiao1_8c_1a1b2e8ab6c1a78ed63e321ef2a19ca50b" kind="function"><name>INCREMENTAR_DADOS</name></member>
+    <member refid="guiao1_8c_1ac9913046a8ef15f228edb55480b064dc" kind="function"><name>DECREMENTAR_DADOS</name></member>
+    <member refid="guiao1_8c_1a17ee520b9b367c2b523ce4a2023865e9" kind="function"><name>MODULO_DADOS</name></member>
+    <member refid="guiao1_8c_1a30aff7fd9814b6dd25f89b1794789043" kind="function"><name>ELEVADO_DADOS</name></member>
+    <member refid="guiao1_8c_1a33cf2210a309d26b7c2cdb5f60eac34e" kind="function"><name>CONJUNCAO_DADOS</name></member>
+    <member refid="guiao1_8c_1a0512d2bdbc4d0718d66867955a64e4d8" kind="function"><name>DISJUNCAO_DADOS</name></member>
+    <member refid="guiao1_8c_1a359198ccdbf483b9de30a52a76b59778" kind="function"><name>XOR_DADOS</name></member>
+    <member refid="guiao1_8c_1ab00e634026d4ebde01fa552b02cdbe00" kind="function"><name>NOT_DADOS</name></member>
+  </compound>
+  <compound refid="guiao1_8h" kind="file"><name>guiao1.h</name>
+    <member refid="guiao1_8h_1acd9cae455fbd63026e91eecb33cbdbab" kind="function"><name>SOMAR_DADOS</name></member>
+    <member refid="guiao1_8h_1ac5baff19092b827df1d3a96d8cad30b2" kind="function"><name>MULTIPLICAR_DADOS</name></member>
+    <member refid="guiao1_8h_1a4206ce334cf7b0e29347d63f7b81c738" kind="function"><name>SUBTRAIR_DADOS</name></member>
+    <member refid="guiao1_8h_1ad660aadf94ade2986f1ebe4e02042aa6" kind="function"><name>DIVIDIR_DADOS</name></member>
+    <member refid="guiao1_8h_1a1b2e8ab6c1a78ed63e321ef2a19ca50b" kind="function"><name>INCREMENTAR_DADOS</name></member>
+    <member refid="guiao1_8h_1ac9913046a8ef15f228edb55480b064dc" kind="function"><name>DECREMENTAR_DADOS</name></member>
+    <member refid="guiao1_8h_1a17ee520b9b367c2b523ce4a2023865e9" kind="function"><name>MODULO_DADOS</name></member>
+    <member refid="guiao1_8h_1a30aff7fd9814b6dd25f89b1794789043" kind="function"><name>ELEVADO_DADOS</name></member>
+    <member refid="guiao1_8h_1a33cf2210a309d26b7c2cdb5f60eac34e" kind="function"><name>CONJUNCAO_DADOS</name></member>
+    <member refid="guiao1_8h_1a0512d2bdbc4d0718d66867955a64e4d8" kind="function"><name>DISJUNCAO_DADOS</name></member>
+    <member refid="guiao1_8h_1a359198ccdbf483b9de30a52a76b59778" kind="function"><name>XOR_DADOS</name></member>
+    <member refid="guiao1_8h_1ab00e634026d4ebde01fa552b02cdbe00" kind="function"><name>NOT_DADOS</name></member>
+  </compound>
+  <compound refid="guiao2_8c" kind="file"><name>guiao2.c</name>
+    <member refid="guiao2_8c_1a2ee93538fafb24a181f7e70b5054bae3" kind="function"><name>DUPLICAR</name></member>
+    <member refid="guiao2_8c_1a7af8bbc3d807acd337e45d3f0f2effec" kind="function"><name>RODAR_DOIS_ELEMENTOS</name></member>
+    <member refid="guiao2_8c_1a7b710b16d1f93f3830b85d93399e010a" kind="function"><name>RODAR_TRES_ELEMENTOS</name></member>
+    <member refid="guiao2_8c_1ad89344d88149d8b5adfd555caab38801" kind="function"><name>COPIAR_N_ELEMENTO</name></member>
+    <member refid="guiao2_8c_1ad2bb331f9ce74fd71c18bde1c7a3ba52" kind="function"><name>INT_CONVERTE</name></member>
+    <member refid="guiao2_8c_1a744d80cd90ed4f6ae0c8334e8f368277" kind="function"><name>DOUBLE_CONVERTE</name></member>
+    <member refid="guiao2_8c_1ae9865bfa9d2d6a47a5ed0061312215d0" kind="function"><name>CHAR_CONVERTE</name></member>
+  </compound>
+  <compound refid="guiao2_8h" kind="file"><name>guiao2.h</name>
+    <member refid="guiao2_8h_1a2ee93538fafb24a181f7e70b5054bae3" kind="function"><name>DUPLICAR</name></member>
+    <member refid="guiao2_8h_1a7af8bbc3d807acd337e45d3f0f2effec" kind="function"><name>RODAR_DOIS_ELEMENTOS</name></member>
+    <member refid="guiao2_8h_1a7b710b16d1f93f3830b85d93399e010a" kind="function"><name>RODAR_TRES_ELEMENTOS</name></member>
+    <member refid="guiao2_8h_1ad89344d88149d8b5adfd555caab38801" kind="function"><name>COPIAR_N_ELEMENTO</name></member>
+    <member refid="guiao2_8h_1ad2bb331f9ce74fd71c18bde1c7a3ba52" kind="function"><name>INT_CONVERTE</name></member>
+    <member refid="guiao2_8h_1a744d80cd90ed4f6ae0c8334e8f368277" kind="function"><name>DOUBLE_CONVERTE</name></member>
+    <member refid="guiao2_8h_1ae9865bfa9d2d6a47a5ed0061312215d0" kind="function"><name>CHAR_CONVERTE</name></member>
+  </compound>
+  <compound refid="guiao3_8c" kind="file"><name>guiao3.c</name>
+    <member refid="guiao3_8c_1ac64f328a831edd5979f86440d5cc8b0d" kind="function"><name>igual</name></member>
+    <member refid="guiao3_8c_1a51e19259c906a572cdfce9b3a28eafc8" kind="function"><name>menor</name></member>
+    <member refid="guiao3_8c_1a2e77f3bcc1b218f4d3c2f5606eec7ca1" kind="function"><name>maior</name></member>
+    <member refid="guiao3_8c_1a2daaa62cfd20c768a918b259b857b4a1" kind="function"><name>negacao</name></member>
+    <member refid="guiao3_8c_1a001b364bd5eab16dd3328dcf410ded20" kind="function"><name>eComercial</name></member>
+    <member refid="guiao3_8c_1a9123b11d955a56331a2fee61ad8fb7b4" kind="function"><name>eBarra</name></member>
+    <member refid="guiao3_8c_1a367888d89e2cfe789ee4b9e31cac48ac" kind="function"><name>emenor</name></member>
+    <member refid="guiao3_8c_1ac53c5b96a8dac0ff58ec9efc60abbaec" kind="function"><name>eMaior</name></member>
+    <member refid="guiao3_8c_1a716ebbabdd1dbe61492ca8cb8c1614f7" kind="function"><name>ptInterr</name></member>
+    <member refid="guiao3_8c_1a721ec797d754c03710bbe4c42914d496" kind="function"><name>Evariavel</name></member>
+    <member refid="guiao3_8c_1af117bd1c6557966e1737330290d595b0" kind="function"><name>handleVariable</name></member>
+  </compound>
+  <compound refid="guiao3_8h" kind="file"><name>guiao3.h</name>
+    <member refid="guiao3_8h_1ac64f328a831edd5979f86440d5cc8b0d" kind="function"><name>igual</name></member>
+    <member refid="guiao3_8h_1a51e19259c906a572cdfce9b3a28eafc8" kind="function"><name>menor</name></member>
+    <member refid="guiao3_8h_1a2e77f3bcc1b218f4d3c2f5606eec7ca1" kind="function"><name>maior</name></member>
+    <member refid="guiao3_8h_1a2daaa62cfd20c768a918b259b857b4a1" kind="function"><name>negacao</name></member>
+    <member refid="guiao3_8h_1a001b364bd5eab16dd3328dcf410ded20" kind="function"><name>eComercial</name></member>
+    <member refid="guiao3_8h_1a9123b11d955a56331a2fee61ad8fb7b4" kind="function"><name>eBarra</name></member>
+    <member refid="guiao3_8h_1a367888d89e2cfe789ee4b9e31cac48ac" kind="function"><name>emenor</name></member>
+    <member refid="guiao3_8h_1ac53c5b96a8dac0ff58ec9efc60abbaec" kind="function"><name>eMaior</name></member>
+    <member refid="guiao3_8h_1a716ebbabdd1dbe61492ca8cb8c1614f7" kind="function"><name>ptInterr</name></member>
+    <member refid="guiao3_8h_1a721ec797d754c03710bbe4c42914d496" kind="function"><name>Evariavel</name></member>
+    <member refid="guiao3_8h_1af117bd1c6557966e1737330290d595b0" kind="function"><name>handleVariable</name></member>
+  </compound>
+  <compound refid="guiao4_8c" kind="file"><name>guiao4.c</name>
+    <member refid="guiao4_8c_1a0eef3434c897c531302f0fa6b8960634" kind="function"><name>append</name></member>
+    <member refid="guiao4_8c_1aeb895b374cdf2ee55ae078536117c464" kind="function"><name>transfer</name></member>
+    <member refid="guiao4_8c_1a534dd99995f99988f20680e5b3e1192c" kind="function"><name>Concatea</name></member>
+    <member refid="guiao4_8c_1af4632daf6947bf66d3e1e079480ba496" kind="function"><name>ConcateaMULT</name></member>
+    <member refid="guiao4_8c_1a84a987c296dfad8f354c6aaf03dfe5a6" kind="function"><name>TAMANHO</name></member>
+    <member refid="guiao4_8c_1a898cdd2cd79f5740cc2b425e0ea503c7" kind="function"><name>RANGE</name></member>
+    <member refid="guiao4_8c_1a046c17c107169f73a8cfab68ab5bdbec" kind="function"><name>REMPRIM</name></member>
+    <member refid="guiao4_8c_1ab332c24a262f2f445bbdaf1bce58c0b9" kind="function"><name>REMULT</name></member>
+    <member refid="guiao4_8c_1a171629ba2eea38bddce5f587e47e9d4e" kind="function"><name>READLINE</name></member>
+    <member refid="guiao4_8c_1a010868909911d467ee8502d24cc4e805" kind="function"><name>procAUX</name></member>
+    <member refid="guiao4_8c_1ab6672673b744863e269f3c039fa0bdc7" kind="function"><name>PROCURA</name></member>
+    <member refid="guiao4_8c_1a76858b8dc18152d158e5a2b8745da90f" kind="function"><name>splitString</name></member>
+  </compound>
+  <compound refid="guiao4_8h" kind="file"><name>guiao4.h</name>
+    <member refid="guiao4_8h_1a534dd99995f99988f20680e5b3e1192c" kind="function"><name>Concatea</name></member>
+    <member refid="guiao4_8h_1af4632daf6947bf66d3e1e079480ba496" kind="function"><name>ConcateaMULT</name></member>
+    <member refid="guiao4_8h_1a84a987c296dfad8f354c6aaf03dfe5a6" kind="function"><name>TAMANHO</name></member>
+    <member refid="guiao4_8h_1a898cdd2cd79f5740cc2b425e0ea503c7" kind="function"><name>RANGE</name></member>
+    <member refid="guiao4_8h_1a046c17c107169f73a8cfab68ab5bdbec" kind="function"><name>REMPRIM</name></member>
+    <member refid="guiao4_8h_1ab332c24a262f2f445bbdaf1bce58c0b9" kind="function"><name>REMULT</name></member>
+    <member refid="guiao4_8h_1a171629ba2eea38bddce5f587e47e9d4e" kind="function"><name>READLINE</name></member>
+    <member refid="guiao4_8h_1a0eef3434c897c531302f0fa6b8960634" kind="function"><name>append</name></member>
+    <member refid="guiao4_8h_1aeb895b374cdf2ee55ae078536117c464" kind="function"><name>transfer</name></member>
+    <member refid="guiao4_8h_1a010868909911d467ee8502d24cc4e805" kind="function"><name>procAUX</name></member>
+    <member refid="guiao4_8h_1ab6672673b744863e269f3c039fa0bdc7" kind="function"><name>PROCURA</name></member>
+    <member refid="guiao4_8h_1a76858b8dc18152d158e5a2b8745da90f" kind="function"><name>splitString</name></member>
+  </compound>
+  <compound refid="guiao5_8c" kind="file"><name>guiao5.c</name>
+    <member refid="guiao5_8c_1ad9860c022e2d4274a8ec759488d4ff7c" kind="function"><name>get_bloco</name></member>
+  </compound>
+  <compound refid="guiao5_8h" kind="file"><name>guiao5.h</name>
+    <member refid="guiao5_8h_1ad9860c022e2d4274a8ec759488d4ff7c" kind="function"><name>get_bloco</name></member>
+  </compound>
+  <compound refid="main_8c" kind="file"><name>main.c</name>
+    <member refid="main_8c_1a05997d6a6561fed5f899850b4d53eccc" kind="function"><name>getstring</name></member>
+    <member refid="main_8c_1adbc0a6075a3e8b8c0f3553eff75f6822" kind="function"><name>get_token</name></member>
+    <member refid="main_8c_1a9283d3390c6b7c8134bb21235c8fc6ce" kind="function"><name>delim</name></member>
+    <member refid="main_8c_1ad36d1cfc7c4f8e45e60624f38a5a079d" kind="function"><name>parse</name></member>
+    <member refid="main_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="main_8h" kind="file"><name>main.h</name>
+    <member refid="main_8h_1a05997d6a6561fed5f899850b4d53eccc" kind="function"><name>getstring</name></member>
+    <member refid="main_8h_1adbc0a6075a3e8b8c0f3553eff75f6822" kind="function"><name>get_token</name></member>
+    <member refid="main_8h_1ad36d1cfc7c4f8e45e60624f38a5a079d" kind="function"><name>parse</name></member>
+  </compound>
+  <compound refid="stack_8c" kind="file"><name>stack.c</name>
+    <member refid="stack_8c_1ab37b0d083f873fbdc37d708bb9f40efc" kind="function"><name>create_stack</name></member>
+    <member refid="stack_8c_1a6da247d11bbdc02f685775c0ad7683e5" kind="function"><name>push</name></member>
+    <member refid="stack_8c_1a4a17e13318cc29c9b85fec0dcc4d6b66" kind="function"><name>print_array</name></member>
+    <member refid="stack_8c_1a42b87bab2d601cb02900935c9b80fc23" kind="function"><name>print_stack</name></member>
+    <member refid="stack_8c_1aec9ac4a3a9271f16fd6aa58771182ca2" kind="function"><name>pop</name></member>
+    <member refid="stack_8c_1a37b995ce0da16a4b6b90ca8f1f52eef7" kind="function"><name>top</name></member>
+    <member refid="stack_8c_1ae31d2a4c10db0d5b01ecd8a8aab01cfc" kind="function"><name>is_empty</name></member>
+    <member refid="stack_8c_1a2661322ffb24bd2ba04c1f12c4efdb65" kind="function"><name>MAKE_DADOS_LONG</name></member>
+    <member refid="stack_8c_1a5f4af788272f9222778bf7ff297c9d33" kind="function"><name>MAKE_DADOS_DOUBLE</name></member>
+    <member refid="stack_8c_1afa7377ded223ad76e57a28c78adef616" kind="function"><name>MAKE_DADOS_CHAR</name></member>
+    <member refid="stack_8c_1a21eb9ccd09c39057c1a31e49b35bed53" kind="function"><name>MAKE_DADOS_STRING</name></member>
+    <member refid="stack_8c_1a9e58e79adfbd7cb9815e0da90234b660" kind="function"><name>MAKE_DADOS_ARRAY</name></member>
+  </compound>
+  <compound refid="stack_8h" kind="file"><name>stack.h</name>
+    <member refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54" kind="enum"><name>tipo</name></member>
+    <member refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54aaee055c4a5aba7d55774e4f1c01dacea" kind="enumvalue"><name>LONG</name></member>
+    <member refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a33465d1d419b1074fb259ef444609e92" kind="enumvalue"><name>DOUBLE</name></member>
+    <member refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a4618cf21306b3c647741afa7ebefcab8" kind="enumvalue"><name>CHAR</name></member>
+    <member refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54aee847e634a4297b274316de8a8ca9921" kind="enumvalue"><name>STRING</name></member>
+    <member refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a1e029fbf0c881b85d80fc8e89b753688" kind="enumvalue"><name>ARRAY</name></member>
+    <member refid="stack_8h_1a12ffc82dea4852d9ad6c3ff0be139b8d" kind="typedef"><name>TIPO</name></member>
+    <member refid="stack_8h_1a79b38e3b849aa85be5d9a433085235b5" kind="typedef"><name>VALOR</name></member>
+    <member refid="stack_8h_1a51f541c7c9972833bb75a178574c73c9" kind="typedef"><name>VAR</name></member>
+    <member refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kind="typedef"><name>DADOS</name></member>
+    <member refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kind="typedef"><name>STACK</name></member>
+    <member refid="stack_8h_1ab37b0d083f873fbdc37d708bb9f40efc" kind="function"><name>create_stack</name></member>
+    <member refid="stack_8h_1a6da247d11bbdc02f685775c0ad7683e5" kind="function"><name>push</name></member>
+    <member refid="stack_8h_1a42b87bab2d601cb02900935c9b80fc23" kind="function"><name>print_stack</name></member>
+    <member refid="stack_8h_1a4a17e13318cc29c9b85fec0dcc4d6b66" kind="function"><name>print_array</name></member>
+    <member refid="stack_8h_1aec9ac4a3a9271f16fd6aa58771182ca2" kind="function"><name>pop</name></member>
+    <member refid="stack_8h_1a37b995ce0da16a4b6b90ca8f1f52eef7" kind="function"><name>top</name></member>
+    <member refid="stack_8h_1ae31d2a4c10db0d5b01ecd8a8aab01cfc" kind="function"><name>is_empty</name></member>
+    <member refid="stack_8h_1a2661322ffb24bd2ba04c1f12c4efdb65" kind="function"><name>MAKE_DADOS_LONG</name></member>
+    <member refid="stack_8h_1a5f4af788272f9222778bf7ff297c9d33" kind="function"><name>MAKE_DADOS_DOUBLE</name></member>
+    <member refid="stack_8h_1afa7377ded223ad76e57a28c78adef616" kind="function"><name>MAKE_DADOS_CHAR</name></member>
+    <member refid="stack_8h_1a21eb9ccd09c39057c1a31e49b35bed53" kind="function"><name>MAKE_DADOS_STRING</name></member>
+    <member refid="stack_8h_1a9e58e79adfbd7cb9815e0da90234b660" kind="function"><name>MAKE_DADOS_ARRAY</name></member>
+  </compound>
+</doxygenindex>

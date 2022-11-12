@@ -1,0 +1,274 @@
+\hypertarget{guiao1_8c}{}\doxysection{guiao1.\+c File Reference}
+\label{guiao1_8c}\index{guiao1.c@{guiao1.c}}
+{\ttfamily \#include $<$math.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}guiao1.\+h\char`\"{}}\newline
+Include dependency graph for guiao1.\+c\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} \mbox{\hyperlink{guiao1_8c_acd9cae455fbd63026e91eecb33cbdbab}{SOMAR\+\_\+\+DADOS}} (\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} x, \mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} y)
+\begin{DoxyCompactList}\small\item\em Efetua a soma entre os dados inseridos, dependendo do seu tipo. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} \mbox{\hyperlink{guiao1_8c_ac5baff19092b827df1d3a96d8cad30b2}{MULTIPLICAR\+\_\+\+DADOS}} (\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} x, \mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} y)
+\begin{DoxyCompactList}\small\item\em Efetua a multiplicação entre os dados inseridos, dependendo do seu tipo. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} \mbox{\hyperlink{guiao1_8c_a4206ce334cf7b0e29347d63f7b81c738}{SUBTRAIR\+\_\+\+DADOS}} (\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} x, \mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} y)
+\begin{DoxyCompactList}\small\item\em Efetua a subtração entre os dados inseridos, dependendo do seu tipo. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} \mbox{\hyperlink{guiao1_8c_ad660aadf94ade2986f1ebe4e02042aa6}{DIVIDIR\+\_\+\+DADOS}} (\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} x, \mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} y)
+\begin{DoxyCompactList}\small\item\em Efetua a divisão entre os dados inseridos, dependendo do seu tipo. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} \mbox{\hyperlink{guiao1_8c_a1b2e8ab6c1a78ed63e321ef2a19ca50b}{INCREMENTAR\+\_\+\+DADOS}} (\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} x)
+\begin{DoxyCompactList}\small\item\em Efetua a incrementação do dado inserido, dependendo do seu tipo. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} \mbox{\hyperlink{guiao1_8c_ac9913046a8ef15f228edb55480b064dc}{DECREMENTAR\+\_\+\+DADOS}} (\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} x)
+\begin{DoxyCompactList}\small\item\em Efetua a decrementação do dado inserido, dependendo do seu tipo. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} \mbox{\hyperlink{guiao1_8c_a17ee520b9b367c2b523ce4a2023865e9}{MODULO\+\_\+\+DADOS}} (\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} x, \mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} y)
+\begin{DoxyCompactList}\small\item\em Efetua o módulo do dado inserido, dependendo do seu tipo. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} \mbox{\hyperlink{guiao1_8c_a30aff7fd9814b6dd25f89b1794789043}{ELEVADO\+\_\+\+DADOS}} (\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} x, \mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} y)
+\begin{DoxyCompactList}\small\item\em Efetua a exponenciação do dado inserido, dependendo do seu tipo. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} \mbox{\hyperlink{guiao1_8c_a33cf2210a309d26b7c2cdb5f60eac34e}{CONJUNCAO\+\_\+\+DADOS}} (\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} x, \mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} y)
+\begin{DoxyCompactList}\small\item\em Efetua a conjunção dos dados inseridos. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} \mbox{\hyperlink{guiao1_8c_a0512d2bdbc4d0718d66867955a64e4d8}{DISJUNCAO\+\_\+\+DADOS}} (\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} x, \mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} y)
+\begin{DoxyCompactList}\small\item\em Efetua a disjunção dos dados inseridos. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} \mbox{\hyperlink{guiao1_8c_a359198ccdbf483b9de30a52a76b59778}{XOR\+\_\+\+DADOS}} (\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} x, \mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} y)
+\begin{DoxyCompactList}\small\item\em Efetua a disjunção exclusiva dos dados inseridos. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} \mbox{\hyperlink{guiao1_8c_ab00e634026d4ebde01fa552b02cdbe00}{NOT\+\_\+\+DADOS}} (\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} x)
+\begin{DoxyCompactList}\small\item\em Efetua a negação dos dados inseridos. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{guiao1_8c_a33cf2210a309d26b7c2cdb5f60eac34e}\label{guiao1_8c_a33cf2210a309d26b7c2cdb5f60eac34e}} 
+\index{guiao1.c@{guiao1.c}!CONJUNCAO\_DADOS@{CONJUNCAO\_DADOS}}
+\index{CONJUNCAO\_DADOS@{CONJUNCAO\_DADOS}!guiao1.c@{guiao1.c}}
+\doxysubsubsection{\texorpdfstring{CONJUNCAO\_DADOS()}{CONJUNCAO\_DADOS()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} CONJUNCAO\+\_\+\+DADOS (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}}}]{x,  }\item[{\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}}}]{y }\end{DoxyParamCaption})}
+
+
+
+Efetua a conjunção dos dados inseridos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & 1º valor recebido para realizar a operação de conjunção \\
+\hline
+{\em y} & 2º valor recebido para realizar a operação de conjunção \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+o resultado da operação no tipo long 
+\end{DoxyReturn}
+\mbox{\Hypertarget{guiao1_8c_ac9913046a8ef15f228edb55480b064dc}\label{guiao1_8c_ac9913046a8ef15f228edb55480b064dc}} 
+\index{guiao1.c@{guiao1.c}!DECREMENTAR\_DADOS@{DECREMENTAR\_DADOS}}
+\index{DECREMENTAR\_DADOS@{DECREMENTAR\_DADOS}!guiao1.c@{guiao1.c}}
+\doxysubsubsection{\texorpdfstring{DECREMENTAR\_DADOS()}{DECREMENTAR\_DADOS()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} DECREMENTAR\+\_\+\+DADOS (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}}}]{x }\end{DoxyParamCaption})}
+
+
+
+Efetua a decrementação do dado inserido, dependendo do seu tipo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & 1º valor recebido para realizar a operação de decrementação \\
+\hline
+{\em y} & 2º valor recebido para realizar a operação de decrementação \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+o resultado da operação no seu respetivo tipo 
+\end{DoxyReturn}
+\mbox{\Hypertarget{guiao1_8c_a0512d2bdbc4d0718d66867955a64e4d8}\label{guiao1_8c_a0512d2bdbc4d0718d66867955a64e4d8}} 
+\index{guiao1.c@{guiao1.c}!DISJUNCAO\_DADOS@{DISJUNCAO\_DADOS}}
+\index{DISJUNCAO\_DADOS@{DISJUNCAO\_DADOS}!guiao1.c@{guiao1.c}}
+\doxysubsubsection{\texorpdfstring{DISJUNCAO\_DADOS()}{DISJUNCAO\_DADOS()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} DISJUNCAO\+\_\+\+DADOS (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}}}]{x,  }\item[{\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}}}]{y }\end{DoxyParamCaption})}
+
+
+
+Efetua a disjunção dos dados inseridos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & 1º valor recebido para realizar a operação de disjunção \\
+\hline
+{\em y} & 2º valor recebido para realizar a operação de disjunção \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+o resultado da operação no tipo long 
+\end{DoxyReturn}
+\mbox{\Hypertarget{guiao1_8c_ad660aadf94ade2986f1ebe4e02042aa6}\label{guiao1_8c_ad660aadf94ade2986f1ebe4e02042aa6}} 
+\index{guiao1.c@{guiao1.c}!DIVIDIR\_DADOS@{DIVIDIR\_DADOS}}
+\index{DIVIDIR\_DADOS@{DIVIDIR\_DADOS}!guiao1.c@{guiao1.c}}
+\doxysubsubsection{\texorpdfstring{DIVIDIR\_DADOS()}{DIVIDIR\_DADOS()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} DIVIDIR\+\_\+\+DADOS (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}}}]{x,  }\item[{\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}}}]{y }\end{DoxyParamCaption})}
+
+
+
+Efetua a divisão entre os dados inseridos, dependendo do seu tipo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & 1º valor recebido para realizar a operação de divisão \\
+\hline
+{\em y} & 2º valor recebido para realizar a operação de divisão \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+o resultado da operação no seu respetivo tipo 
+\end{DoxyReturn}
+\mbox{\Hypertarget{guiao1_8c_a30aff7fd9814b6dd25f89b1794789043}\label{guiao1_8c_a30aff7fd9814b6dd25f89b1794789043}} 
+\index{guiao1.c@{guiao1.c}!ELEVADO\_DADOS@{ELEVADO\_DADOS}}
+\index{ELEVADO\_DADOS@{ELEVADO\_DADOS}!guiao1.c@{guiao1.c}}
+\doxysubsubsection{\texorpdfstring{ELEVADO\_DADOS()}{ELEVADO\_DADOS()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} ELEVADO\+\_\+\+DADOS (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}}}]{x,  }\item[{\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}}}]{y }\end{DoxyParamCaption})}
+
+
+
+Efetua a exponenciação do dado inserido, dependendo do seu tipo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & 1º valor recebido para realizar a operação de exponenciação \\
+\hline
+{\em y} & 2º valor recebido para realizar a operação de exponenciação \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+o resultado da operação no seu respetivo tipo 
+\end{DoxyReturn}
+\mbox{\Hypertarget{guiao1_8c_a1b2e8ab6c1a78ed63e321ef2a19ca50b}\label{guiao1_8c_a1b2e8ab6c1a78ed63e321ef2a19ca50b}} 
+\index{guiao1.c@{guiao1.c}!INCREMENTAR\_DADOS@{INCREMENTAR\_DADOS}}
+\index{INCREMENTAR\_DADOS@{INCREMENTAR\_DADOS}!guiao1.c@{guiao1.c}}
+\doxysubsubsection{\texorpdfstring{INCREMENTAR\_DADOS()}{INCREMENTAR\_DADOS()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} INCREMENTAR\+\_\+\+DADOS (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}}}]{x }\end{DoxyParamCaption})}
+
+
+
+Efetua a incrementação do dado inserido, dependendo do seu tipo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & 1º valor recebido para realizar a operação de incrementação \\
+\hline
+{\em y} & 2º valor recebido para realizar a operação de incrementação \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+o resultado da operação no seu respetivo tipo 
+\end{DoxyReturn}
+\mbox{\Hypertarget{guiao1_8c_a17ee520b9b367c2b523ce4a2023865e9}\label{guiao1_8c_a17ee520b9b367c2b523ce4a2023865e9}} 
+\index{guiao1.c@{guiao1.c}!MODULO\_DADOS@{MODULO\_DADOS}}
+\index{MODULO\_DADOS@{MODULO\_DADOS}!guiao1.c@{guiao1.c}}
+\doxysubsubsection{\texorpdfstring{MODULO\_DADOS()}{MODULO\_DADOS()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} MODULO\+\_\+\+DADOS (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}}}]{x,  }\item[{\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}}}]{y }\end{DoxyParamCaption})}
+
+
+
+Efetua o módulo do dado inserido, dependendo do seu tipo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & 1º valor recebido para realizar a operação do módulo \\
+\hline
+{\em y} & 2º valor recebido para realizar a operação do módulo \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+o resultado da operação no seu respetivo tipo 
+\end{DoxyReturn}
+\mbox{\Hypertarget{guiao1_8c_ac5baff19092b827df1d3a96d8cad30b2}\label{guiao1_8c_ac5baff19092b827df1d3a96d8cad30b2}} 
+\index{guiao1.c@{guiao1.c}!MULTIPLICAR\_DADOS@{MULTIPLICAR\_DADOS}}
+\index{MULTIPLICAR\_DADOS@{MULTIPLICAR\_DADOS}!guiao1.c@{guiao1.c}}
+\doxysubsubsection{\texorpdfstring{MULTIPLICAR\_DADOS()}{MULTIPLICAR\_DADOS()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} MULTIPLICAR\+\_\+\+DADOS (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}}}]{x,  }\item[{\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}}}]{y }\end{DoxyParamCaption})}
+
+
+
+Efetua a multiplicação entre os dados inseridos, dependendo do seu tipo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & 1º valor recebido para realizar a operação de multiplicação \\
+\hline
+{\em y} & 2º valor recebido para realizar a operação de multiplicação \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+o resultado da operação no seu respetivo tipo 
+\end{DoxyReturn}
+\mbox{\Hypertarget{guiao1_8c_ab00e634026d4ebde01fa552b02cdbe00}\label{guiao1_8c_ab00e634026d4ebde01fa552b02cdbe00}} 
+\index{guiao1.c@{guiao1.c}!NOT\_DADOS@{NOT\_DADOS}}
+\index{NOT\_DADOS@{NOT\_DADOS}!guiao1.c@{guiao1.c}}
+\doxysubsubsection{\texorpdfstring{NOT\_DADOS()}{NOT\_DADOS()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} NOT\+\_\+\+DADOS (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}}}]{x }\end{DoxyParamCaption})}
+
+
+
+Efetua a negação dos dados inseridos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & valor recebido para realizar a operação de negação \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+o resultado da operação no tipo long 
+\end{DoxyReturn}
+\mbox{\Hypertarget{guiao1_8c_acd9cae455fbd63026e91eecb33cbdbab}\label{guiao1_8c_acd9cae455fbd63026e91eecb33cbdbab}} 
+\index{guiao1.c@{guiao1.c}!SOMAR\_DADOS@{SOMAR\_DADOS}}
+\index{SOMAR\_DADOS@{SOMAR\_DADOS}!guiao1.c@{guiao1.c}}
+\doxysubsubsection{\texorpdfstring{SOMAR\_DADOS()}{SOMAR\_DADOS()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} SOMAR\+\_\+\+DADOS (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}}}]{x,  }\item[{\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}}}]{y }\end{DoxyParamCaption})}
+
+
+
+Efetua a soma entre os dados inseridos, dependendo do seu tipo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & 1º valor recebido para realizar a operação de adição \\
+\hline
+{\em y} & 2º valor recebido para realizar a operação de adição \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+o resultado da operação no seu respetivo tipo 
+\end{DoxyReturn}
+\mbox{\Hypertarget{guiao1_8c_a4206ce334cf7b0e29347d63f7b81c738}\label{guiao1_8c_a4206ce334cf7b0e29347d63f7b81c738}} 
+\index{guiao1.c@{guiao1.c}!SUBTRAIR\_DADOS@{SUBTRAIR\_DADOS}}
+\index{SUBTRAIR\_DADOS@{SUBTRAIR\_DADOS}!guiao1.c@{guiao1.c}}
+\doxysubsubsection{\texorpdfstring{SUBTRAIR\_DADOS()}{SUBTRAIR\_DADOS()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} SUBTRAIR\+\_\+\+DADOS (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}}}]{x,  }\item[{\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}}}]{y }\end{DoxyParamCaption})}
+
+
+
+Efetua a subtração entre os dados inseridos, dependendo do seu tipo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & 1º valor recebido para realizar a operação de subtração \\
+\hline
+{\em y} & 2º valor recebido para realizar a operação de subtração \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+o resultado da operação no seu respetivo tipo 
+\end{DoxyReturn}
+\mbox{\Hypertarget{guiao1_8c_a359198ccdbf483b9de30a52a76b59778}\label{guiao1_8c_a359198ccdbf483b9de30a52a76b59778}} 
+\index{guiao1.c@{guiao1.c}!XOR\_DADOS@{XOR\_DADOS}}
+\index{XOR\_DADOS@{XOR\_DADOS}!guiao1.c@{guiao1.c}}
+\doxysubsubsection{\texorpdfstring{XOR\_DADOS()}{XOR\_DADOS()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} XOR\+\_\+\+DADOS (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}}}]{x,  }\item[{\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}}}]{y }\end{DoxyParamCaption})}
+
+
+
+Efetua a disjunção exclusiva dos dados inseridos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & 1º valor recebido para realizar a operação de ou-\/exclusivo \\
+\hline
+{\em y} & 2º valor recebido para realizar a operação de ou-\/exclusivo \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+o resultado da operação no tipo long 
+\end{DoxyReturn}

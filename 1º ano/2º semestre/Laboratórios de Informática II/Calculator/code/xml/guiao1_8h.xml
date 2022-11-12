@@ -1,0 +1,564 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="guiao1_8h" kind="file" language="C++">
+    <compoundname>guiao1.h</compoundname>
+    <includes refid="stack_8h" local="yes">stack.h</includes>
+    <includedby refid="guiao1_8c" local="yes">guiao1.c</includedby>
+    <includedby refid="main_8c" local="yes">main.c</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>guiao1.h</label>
+        <link refid="guiao1_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>stack.h</label>
+        <link refid="stack_8h"/>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>guiao1.c</label>
+        <link refid="guiao1_8c"/>
+      </node>
+      <node id="1">
+        <label>guiao1.h</label>
+        <link refid="guiao1_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>main.c</label>
+        <link refid="main_8c"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="guiao1_8h_1acd9cae455fbd63026e91eecb33cbdbab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+        <definition>DADOS SOMAR_DADOS</definition>
+        <argsstring>(DADOS x, DADOS y)</argsstring>
+        <name>SOMAR_DADOS</name>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Efetua a soma entre os dados inseridos, dependendo do seu tipo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>1º valor recebido para realizar a operação de adição </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>2º valor recebido para realizar a operação de adição </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>o resultado da operação no seu respetivo tipo </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="guiao1.h" line="10" column="7" bodyfile="guiao1.c" bodystart="15" bodyend="35" declfile="guiao1.h" declline="10" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="guiao1_8h_1ac5baff19092b827df1d3a96d8cad30b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+        <definition>DADOS MULTIPLICAR_DADOS</definition>
+        <argsstring>(DADOS x, DADOS y)</argsstring>
+        <name>MULTIPLICAR_DADOS</name>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Efetua a multiplicação entre os dados inseridos, dependendo do seu tipo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>1º valor recebido para realizar a operação de multiplicação </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>2º valor recebido para realizar a operação de multiplicação </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>o resultado da operação no seu respetivo tipo </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="guiao1.h" line="12" column="7" bodyfile="guiao1.c" bodystart="44" bodyend="67" declfile="guiao1.h" declline="12" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="guiao1_8h_1a4206ce334cf7b0e29347d63f7b81c738" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+        <definition>DADOS SUBTRAIR_DADOS</definition>
+        <argsstring>(DADOS x, DADOS y)</argsstring>
+        <name>SUBTRAIR_DADOS</name>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Efetua a subtração entre os dados inseridos, dependendo do seu tipo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>1º valor recebido para realizar a operação de subtração </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>2º valor recebido para realizar a operação de subtração </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>o resultado da operação no seu respetivo tipo </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="guiao1.h" line="14" column="7" bodyfile="guiao1.c" bodystart="76" bodyend="99" declfile="guiao1.h" declline="14" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="guiao1_8h_1ad660aadf94ade2986f1ebe4e02042aa6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+        <definition>DADOS DIVIDIR_DADOS</definition>
+        <argsstring>(DADOS x, DADOS y)</argsstring>
+        <name>DIVIDIR_DADOS</name>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Efetua a divisão entre os dados inseridos, dependendo do seu tipo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>1º valor recebido para realizar a operação de divisão </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>2º valor recebido para realizar a operação de divisão </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>o resultado da operação no seu respetivo tipo </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="guiao1.h" line="16" column="7" bodyfile="guiao1.c" bodystart="108" bodyend="131" declfile="guiao1.h" declline="16" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="guiao1_8h_1a1b2e8ab6c1a78ed63e321ef2a19ca50b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+        <definition>DADOS INCREMENTAR_DADOS</definition>
+        <argsstring>(DADOS x)</argsstring>
+        <name>INCREMENTAR_DADOS</name>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Efetua a incrementação do dado inserido, dependendo do seu tipo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>1º valor recebido para realizar a operação de incrementação </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>2º valor recebido para realizar a operação de incrementação </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>o resultado da operação no seu respetivo tipo </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="guiao1.h" line="18" column="7" bodyfile="guiao1.c" bodystart="140" bodyend="154" declfile="guiao1.h" declline="18" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="guiao1_8h_1ac9913046a8ef15f228edb55480b064dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+        <definition>DADOS DECREMENTAR_DADOS</definition>
+        <argsstring>(DADOS x)</argsstring>
+        <name>DECREMENTAR_DADOS</name>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Efetua a decrementação do dado inserido, dependendo do seu tipo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>1º valor recebido para realizar a operação de decrementação </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>2º valor recebido para realizar a operação de decrementação </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>o resultado da operação no seu respetivo tipo </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="guiao1.h" line="20" column="7" bodyfile="guiao1.c" bodystart="163" bodyend="177" declfile="guiao1.h" declline="20" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="guiao1_8h_1a17ee520b9b367c2b523ce4a2023865e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+        <definition>DADOS MODULO_DADOS</definition>
+        <argsstring>(DADOS x, DADOS y)</argsstring>
+        <name>MODULO_DADOS</name>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Efetua o módulo do dado inserido, dependendo do seu tipo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>1º valor recebido para realizar a operação do módulo </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>2º valor recebido para realizar a operação do módulo </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>o resultado da operação no seu respetivo tipo </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="guiao1.h" line="22" column="7" bodyfile="guiao1.c" bodystart="186" bodyend="209" declfile="guiao1.h" declline="22" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="guiao1_8h_1a30aff7fd9814b6dd25f89b1794789043" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+        <definition>DADOS ELEVADO_DADOS</definition>
+        <argsstring>(DADOS x, DADOS y)</argsstring>
+        <name>ELEVADO_DADOS</name>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Efetua a exponenciação do dado inserido, dependendo do seu tipo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>1º valor recebido para realizar a operação de exponenciação </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>2º valor recebido para realizar a operação de exponenciação </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>o resultado da operação no seu respetivo tipo </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="guiao1.h" line="24" column="7" bodyfile="guiao1.c" bodystart="218" bodyend="241" declfile="guiao1.h" declline="24" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="guiao1_8h_1a33cf2210a309d26b7c2cdb5f60eac34e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+        <definition>DADOS CONJUNCAO_DADOS</definition>
+        <argsstring>(DADOS x, DADOS y)</argsstring>
+        <name>CONJUNCAO_DADOS</name>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Efetua a conjunção dos dados inseridos. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>1º valor recebido para realizar a operação de conjunção </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>2º valor recebido para realizar a operação de conjunção </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>o resultado da operação no tipo long </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="guiao1.h" line="26" column="7" bodyfile="guiao1.c" bodystart="250" bodyend="254" declfile="guiao1.h" declline="26" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="guiao1_8h_1a0512d2bdbc4d0718d66867955a64e4d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+        <definition>DADOS DISJUNCAO_DADOS</definition>
+        <argsstring>(DADOS x, DADOS y)</argsstring>
+        <name>DISJUNCAO_DADOS</name>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Efetua a disjunção dos dados inseridos. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>1º valor recebido para realizar a operação de disjunção </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>2º valor recebido para realizar a operação de disjunção </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>o resultado da operação no tipo long </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="guiao1.h" line="28" column="7" bodyfile="guiao1.c" bodystart="263" bodyend="267" declfile="guiao1.h" declline="28" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="guiao1_8h_1a359198ccdbf483b9de30a52a76b59778" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+        <definition>DADOS XOR_DADOS</definition>
+        <argsstring>(DADOS x, DADOS y)</argsstring>
+        <name>XOR_DADOS</name>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Efetua a disjunção exclusiva dos dados inseridos. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>1º valor recebido para realizar a operação de ou-exclusivo </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>2º valor recebido para realizar a operação de ou-exclusivo </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>o resultado da operação no tipo long </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="guiao1.h" line="30" column="7" bodyfile="guiao1.c" bodystart="276" bodyend="280" declfile="guiao1.h" declline="30" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="guiao1_8h_1ab00e634026d4ebde01fa552b02cdbe00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+        <definition>DADOS NOT_DADOS</definition>
+        <argsstring>(DADOS x)</argsstring>
+        <name>NOT_DADOS</name>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Efetua a negação dos dados inseridos. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>valor recebido para realizar a operação de negação </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>o resultado da operação no tipo long </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="guiao1.h" line="32" column="7" bodyfile="guiao1.c" bodystart="288" bodyend="291" declfile="guiao1.h" declline="32" declcolumn="7"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>GUIAO1_H_INCLUDED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GUIAO1_H_INCLUDED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="stack_8h" kindref="compound">stack.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><ref refid="structinicial" kindref="compound">DADOS</ref><sp/><ref refid="guiao1_8h_1acd9cae455fbd63026e91eecb33cbdbab" kindref="member">SOMAR_DADOS</ref>(<ref refid="structinicial" kindref="compound">DADOS</ref><sp/>x,<sp/><ref refid="structinicial" kindref="compound">DADOS</ref><sp/>y);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><ref refid="structinicial" kindref="compound">DADOS</ref><sp/><ref refid="guiao1_8h_1ac5baff19092b827df1d3a96d8cad30b2" kindref="member">MULTIPLICAR_DADOS</ref><sp/>(<ref refid="structinicial" kindref="compound">DADOS</ref><sp/>x,<sp/><ref refid="structinicial" kindref="compound">DADOS</ref><sp/>y);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><ref refid="structinicial" kindref="compound">DADOS</ref><sp/><ref refid="guiao1_8h_1a4206ce334cf7b0e29347d63f7b81c738" kindref="member">SUBTRAIR_DADOS</ref><sp/>(<ref refid="structinicial" kindref="compound">DADOS</ref><sp/>x,<sp/><ref refid="structinicial" kindref="compound">DADOS</ref><sp/>y);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><ref refid="structinicial" kindref="compound">DADOS</ref><sp/><ref refid="guiao1_8h_1ad660aadf94ade2986f1ebe4e02042aa6" kindref="member">DIVIDIR_DADOS</ref><sp/>(<ref refid="structinicial" kindref="compound">DADOS</ref><sp/>x,<sp/><ref refid="structinicial" kindref="compound">DADOS</ref><sp/>y);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><ref refid="structinicial" kindref="compound">DADOS</ref><sp/><ref refid="guiao1_8h_1a1b2e8ab6c1a78ed63e321ef2a19ca50b" kindref="member">INCREMENTAR_DADOS</ref><sp/>(<ref refid="structinicial" kindref="compound">DADOS</ref><sp/>x);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><ref refid="structinicial" kindref="compound">DADOS</ref><sp/><ref refid="guiao1_8h_1ac9913046a8ef15f228edb55480b064dc" kindref="member">DECREMENTAR_DADOS</ref><sp/>(<ref refid="structinicial" kindref="compound">DADOS</ref><sp/>x);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><ref refid="structinicial" kindref="compound">DADOS</ref><sp/><ref refid="guiao1_8h_1a17ee520b9b367c2b523ce4a2023865e9" kindref="member">MODULO_DADOS</ref><sp/>(<ref refid="structinicial" kindref="compound">DADOS</ref><sp/>x,<sp/><ref refid="structinicial" kindref="compound">DADOS</ref><sp/>y);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><ref refid="structinicial" kindref="compound">DADOS</ref><sp/><ref refid="guiao1_8h_1a30aff7fd9814b6dd25f89b1794789043" kindref="member">ELEVADO_DADOS</ref><sp/>(<ref refid="structinicial" kindref="compound">DADOS</ref><sp/>x,<sp/><ref refid="structinicial" kindref="compound">DADOS</ref><sp/>y);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><ref refid="structinicial" kindref="compound">DADOS</ref><sp/><ref refid="guiao1_8h_1a33cf2210a309d26b7c2cdb5f60eac34e" kindref="member">CONJUNCAO_DADOS</ref><sp/>(<ref refid="structinicial" kindref="compound">DADOS</ref><sp/>x,<sp/><ref refid="structinicial" kindref="compound">DADOS</ref><sp/>y);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><ref refid="structinicial" kindref="compound">DADOS</ref><sp/><ref refid="guiao1_8h_1a0512d2bdbc4d0718d66867955a64e4d8" kindref="member">DISJUNCAO_DADOS</ref><sp/>(<ref refid="structinicial" kindref="compound">DADOS</ref><sp/>x,<sp/><ref refid="structinicial" kindref="compound">DADOS</ref><sp/>y);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><ref refid="structinicial" kindref="compound">DADOS</ref><sp/><ref refid="guiao1_8h_1a359198ccdbf483b9de30a52a76b59778" kindref="member">XOR_DADOS</ref>(<ref refid="structinicial" kindref="compound">DADOS</ref><sp/>x,<sp/><ref refid="structinicial" kindref="compound">DADOS</ref><sp/>y);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><ref refid="structinicial" kindref="compound">DADOS</ref><sp/><ref refid="guiao1_8h_1ab00e634026d4ebde01fa552b02cdbe00" kindref="member">NOT_DADOS</ref><sp/>(<ref refid="structinicial" kindref="compound">DADOS</ref><sp/>x);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//MAIN_C_GUIAO1_H</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="guiao1.h"/>
+  </compounddef>
+</doxygen>

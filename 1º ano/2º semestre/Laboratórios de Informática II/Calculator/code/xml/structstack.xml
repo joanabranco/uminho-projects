@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structstack" kind="struct" language="C++" prot="public">
+    <compoundname>stack</compoundname>
+    <includes refid="stack_8h" local="no">stack.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structstack_1ac8fc5be92f20684ddfd1060b4f7ab4f7" prot="public" static="no" mutable="no">
+        <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref> *</type>
+        <definition>DADOS* stack::stack</definition>
+        <argsstring></argsstring>
+        <name>stack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>dados na stack </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="stack.h" line="54" column="11" bodyfile="stack.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structstack_1a926a597bae913d1bf4772be35c14b71e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int stack::size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>tamanho da stack </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="stack.h" line="55" column="9" bodyfile="stack.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structstack_1a2d100511cad42e140cbbe2863cab8c8c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int stack::top</definition>
+        <argsstring></argsstring>
+        <name>top</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>topo da stack </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="stack.h" line="56" column="9" bodyfile="stack.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structstack_1a8009cc34985fef473a64a8db01e539cc" prot="public" static="no" mutable="no">
+        <type><ref refid="stack_8h_1a51f541c7c9972833bb75a178574c73c9" kindref="member">VAR</ref> *</type>
+        <definition>VAR* stack::var</definition>
+        <argsstring></argsstring>
+        <name>var</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>array das variáveis </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="stack.h" line="57" column="9" bodyfile="stack.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>É a estrutura que forma a stack. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>dados</label>
+        <link refid="uniondados"/>
+      </node>
+      <node id="2">
+        <label>variaveis</label>
+        <link refid="structvariaveis"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>v</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>inicial</label>
+        <link refid="structinicial"/>
+      </node>
+      <node id="1">
+        <label>stack</label>
+        <link refid="structstack"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>var</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>stack</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="stack.h" line="53" column="1" bodyfile="stack.h" bodystart="53" bodyend="58"/>
+    <listofallmembers>
+      <member refid="structstack_1a926a597bae913d1bf4772be35c14b71e" prot="public" virt="non-virtual"><scope>stack</scope><name>size</name></member>
+      <member refid="structstack_1ac8fc5be92f20684ddfd1060b4f7ab4f7" prot="public" virt="non-virtual"><scope>stack</scope><name>stack</name></member>
+      <member refid="structstack_1a2d100511cad42e140cbbe2863cab8c8c" prot="public" virt="non-virtual"><scope>stack</scope><name>top</name></member>
+      <member refid="structstack_1a8009cc34985fef473a64a8db01e539cc" prot="public" virt="non-virtual"><scope>stack</scope><name>var</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

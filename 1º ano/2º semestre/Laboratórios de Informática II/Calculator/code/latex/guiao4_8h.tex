@@ -1,0 +1,270 @@
+\hypertarget{guiao4_8h}{}\doxysection{guiao4.\+h File Reference}
+\label{guiao4_8h}\index{guiao4.h@{guiao4.h}}
+{\ttfamily \#include \char`\"{}stack.\+h\char`\"{}}\newline
+Include dependency graph for guiao4.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} \mbox{\hyperlink{guiao4_8h_a534dd99995f99988f20680e5b3e1192c}{Concatea}} (\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} x, \mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} y)
+\begin{DoxyCompactList}\small\item\em Efetua a concatenação entre strings e arrays. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{guiao4_8h_af4632daf6947bf66d3e1e079480ba496}{Concatea\+MULT}} (\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$\mbox{\hyperlink{structstack}{stack}}, \mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} x, \mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} y)
+\begin{DoxyCompactList}\small\item\em Efetua a concatenação múltiplas vezes de strings ou arrays. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} \mbox{\hyperlink{guiao4_8h_a84a987c296dfad8f354c6aaf03dfe5a6}{TAMANHO}} (\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} x)
+\begin{DoxyCompactList}\small\item\em Tamanho do array inserido. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{guiao4_8h_a898cdd2cd79f5740cc2b425e0ea503c7}{RANGE}} (\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} x, \mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Alcance do array inserido. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{guiao4_8h_a046c17c107169f73a8cfab68ab5bdbec}{REMPRIM}} (\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} x, \mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$\mbox{\hyperlink{structstack}{stack}})
+\begin{DoxyCompactList}\small\item\em Remover o primeiro elemento do array ou string e colocar na stack. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{guiao4_8h_ab332c24a262f2f445bbdaf1bce58c0b9}{REMULT}} (\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} x, \mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$\mbox{\hyperlink{structstack}{stack}})
+\begin{DoxyCompactList}\small\item\em Remover o último elemento do array ou string e colocar na stack. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{guiao4_8h_a171629ba2eea38bddce5f587e47e9d4e}{READLINE}} (\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$\mbox{\hyperlink{structstack}{stack}})
+\begin{DoxyCompactList}\small\item\em Lẽ toda a linha do Input. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{guiao4_8h_a0eef3434c897c531302f0fa6b8960634}{append}} (char before, char $\ast$str, char after)
+\begin{DoxyCompactList}\small\item\em Efetua a concatenação entre strings e arrays. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{guiao4_8h_aeb895b374cdf2ee55ae078536117c464}{transfer}} (\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$s1, \mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$s2)
+\begin{DoxyCompactList}\small\item\em Coloca na stack os elementos do array. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{guiao4_8h_a010868909911d467ee8502d24cc4e805}{proc\+AUX}} (char $\ast$s1, char $\ast$s2)
+\begin{DoxyCompactList}\small\item\em Função auxiliar à função PROCURA. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{guiao4_8h_ab6672673b744863e269f3c039fa0bdc7}{PROCURA}} (\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} Y, \mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} X, \mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$\mbox{\hyperlink{structstack}{stack}})
+\begin{DoxyCompactList}\small\item\em Procura substring na string e devolve o índice. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{guiao4_8h_a76858b8dc18152d158e5a2b8745da90f}{split\+String}} (char $\ast$delims, \mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Separa string por uma substring. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{guiao4_8h_a0eef3434c897c531302f0fa6b8960634}\label{guiao4_8h_a0eef3434c897c531302f0fa6b8960634}} 
+\index{guiao4.h@{guiao4.h}!append@{append}}
+\index{append@{append}!guiao4.h@{guiao4.h}}
+\doxysubsubsection{\texorpdfstring{append()}{append()}}
+{\footnotesize\ttfamily char$\ast$ append (\begin{DoxyParamCaption}\item[{char}]{before,  }\item[{char $\ast$}]{str,  }\item[{char}]{after }\end{DoxyParamCaption})}
+
+
+
+Efetua a concatenação entre strings e arrays. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em before} & conteúdo anterior \\
+\hline
+{\em $\ast$str} & string recebida \\
+\hline
+{\em after} & conteúdo posterior \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a string com a junção dos dados inseridos 
+\end{DoxyReturn}
+\mbox{\Hypertarget{guiao4_8h_a534dd99995f99988f20680e5b3e1192c}\label{guiao4_8h_a534dd99995f99988f20680e5b3e1192c}} 
+\index{guiao4.h@{guiao4.h}!Concatea@{Concatea}}
+\index{Concatea@{Concatea}!guiao4.h@{guiao4.h}}
+\doxysubsubsection{\texorpdfstring{Concatea()}{Concatea()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} Concatea (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}}}]{x,  }\item[{\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}}}]{y }\end{DoxyParamCaption})}
+
+
+
+Efetua a concatenação entre strings e arrays. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & 1º valor recebido \\
+\hline
+{\em y} & 2º valor recebido \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a junção entre os dados inseridos 
+\end{DoxyReturn}
+\mbox{\Hypertarget{guiao4_8h_af4632daf6947bf66d3e1e079480ba496}\label{guiao4_8h_af4632daf6947bf66d3e1e079480ba496}} 
+\index{guiao4.h@{guiao4.h}!ConcateaMULT@{ConcateaMULT}}
+\index{ConcateaMULT@{ConcateaMULT}!guiao4.h@{guiao4.h}}
+\doxysubsubsection{\texorpdfstring{ConcateaMULT()}{ConcateaMULT()}}
+{\footnotesize\ttfamily void Concatea\+MULT (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{stack,  }\item[{\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}}}]{x,  }\item[{\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}}}]{y }\end{DoxyParamCaption})}
+
+
+
+Efetua a concatenação múltiplas vezes de strings ou arrays. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & 1º valor recebido \\
+\hline
+{\em y} & 2º valor recebido \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a strings ou arrays repetido várias vezes 
+\end{DoxyReturn}
+\mbox{\Hypertarget{guiao4_8h_a010868909911d467ee8502d24cc4e805}\label{guiao4_8h_a010868909911d467ee8502d24cc4e805}} 
+\index{guiao4.h@{guiao4.h}!procAUX@{procAUX}}
+\index{procAUX@{procAUX}!guiao4.h@{guiao4.h}}
+\doxysubsubsection{\texorpdfstring{procAUX()}{procAUX()}}
+{\footnotesize\ttfamily int proc\+AUX (\begin{DoxyParamCaption}\item[{char $\ast$}]{s1,  }\item[{char $\ast$}]{s2 }\end{DoxyParamCaption})}
+
+
+
+Função auxiliar à função PROCURA. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em s1} & string lida no input \\
+\hline
+{\em s2} & string lida no input \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+o valor na posiçao pedida 
+\end{DoxyReturn}
+\mbox{\Hypertarget{guiao4_8h_ab6672673b744863e269f3c039fa0bdc7}\label{guiao4_8h_ab6672673b744863e269f3c039fa0bdc7}} 
+\index{guiao4.h@{guiao4.h}!PROCURA@{PROCURA}}
+\index{PROCURA@{PROCURA}!guiao4.h@{guiao4.h}}
+\doxysubsubsection{\texorpdfstring{PROCURA()}{PROCURA()}}
+{\footnotesize\ttfamily void PROCURA (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}}}]{Y,  }\item[{\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}}}]{X,  }\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{stack }\end{DoxyParamCaption})}
+
+
+
+Procura substring na string e devolve o índice. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Y} & \\
+\hline
+{\em X} & \\
+\hline
+{\em $\ast$stack} & que vai sofrer modificações \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{guiao4_8h_a898cdd2cd79f5740cc2b425e0ea503c7}\label{guiao4_8h_a898cdd2cd79f5740cc2b425e0ea503c7}} 
+\index{guiao4.h@{guiao4.h}!RANGE@{RANGE}}
+\index{RANGE@{RANGE}!guiao4.h@{guiao4.h}}
+\doxysubsubsection{\texorpdfstring{RANGE()}{RANGE()}}
+{\footnotesize\ttfamily void RANGE (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}}}]{x,  }\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Alcance do array inserido. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & valor recebido \\
+\hline
+{\em $\ast$s} & stack que vai sofrer modificações \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a distância em questão 
+\end{DoxyReturn}
+\mbox{\Hypertarget{guiao4_8h_a171629ba2eea38bddce5f587e47e9d4e}\label{guiao4_8h_a171629ba2eea38bddce5f587e47e9d4e}} 
+\index{guiao4.h@{guiao4.h}!READLINE@{READLINE}}
+\index{READLINE@{READLINE}!guiao4.h@{guiao4.h}}
+\doxysubsubsection{\texorpdfstring{READLINE()}{READLINE()}}
+{\footnotesize\ttfamily void READLINE (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{stack }\end{DoxyParamCaption})}
+
+
+
+Lẽ toda a linha do Input. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$stack} & que vai sofrer modificações \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a stack com a string inserida 
+\end{DoxyReturn}
+\mbox{\Hypertarget{guiao4_8h_a046c17c107169f73a8cfab68ab5bdbec}\label{guiao4_8h_a046c17c107169f73a8cfab68ab5bdbec}} 
+\index{guiao4.h@{guiao4.h}!REMPRIM@{REMPRIM}}
+\index{REMPRIM@{REMPRIM}!guiao4.h@{guiao4.h}}
+\doxysubsubsection{\texorpdfstring{REMPRIM()}{REMPRIM()}}
+{\footnotesize\ttfamily void REMPRIM (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}}}]{x,  }\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{stack }\end{DoxyParamCaption})}
+
+
+
+Remover o primeiro elemento do array ou string e colocar na stack. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & valor recebido \\
+\hline
+{\em $\ast$stack} & que vai sofrer modificações \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a stack com o primeiro elemento do array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{guiao4_8h_ab332c24a262f2f445bbdaf1bce58c0b9}\label{guiao4_8h_ab332c24a262f2f445bbdaf1bce58c0b9}} 
+\index{guiao4.h@{guiao4.h}!REMULT@{REMULT}}
+\index{REMULT@{REMULT}!guiao4.h@{guiao4.h}}
+\doxysubsubsection{\texorpdfstring{REMULT()}{REMULT()}}
+{\footnotesize\ttfamily void REMULT (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}}}]{x,  }\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{stack }\end{DoxyParamCaption})}
+
+
+
+Remover o último elemento do array ou string e colocar na stack. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & valor recebido \\
+\hline
+{\em $\ast$stack} & que vai sofrer modificações \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a stack com o último elemento do array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{guiao4_8h_a76858b8dc18152d158e5a2b8745da90f}\label{guiao4_8h_a76858b8dc18152d158e5a2b8745da90f}} 
+\index{guiao4.h@{guiao4.h}!splitString@{splitString}}
+\index{splitString@{splitString}!guiao4.h@{guiao4.h}}
+\doxysubsubsection{\texorpdfstring{splitString()}{splitString()}}
+{\footnotesize\ttfamily void split\+String (\begin{DoxyParamCaption}\item[{char $\ast$}]{delims,  }\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Separa string por uma substring. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$delims} & string inserida \\
+\hline
+{\em $\ast$stack} & que vai sofrer modificações \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{guiao4_8h_a84a987c296dfad8f354c6aaf03dfe5a6}\label{guiao4_8h_a84a987c296dfad8f354c6aaf03dfe5a6}} 
+\index{guiao4.h@{guiao4.h}!TAMANHO@{TAMANHO}}
+\index{TAMANHO@{TAMANHO}!guiao4.h@{guiao4.h}}
+\doxysubsubsection{\texorpdfstring{TAMANHO()}{TAMANHO()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}} TAMANHO (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_a0ba49a2bb5b8885b0e71e4f659e0db0d}{DADOS}}}]{x }\end{DoxyParamCaption})}
+
+
+
+Tamanho do array inserido. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & valor recebido \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+o comprimento em questão 
+\end{DoxyReturn}
+\mbox{\Hypertarget{guiao4_8h_aeb895b374cdf2ee55ae078536117c464}\label{guiao4_8h_aeb895b374cdf2ee55ae078536117c464}} 
+\index{guiao4.h@{guiao4.h}!transfer@{transfer}}
+\index{transfer@{transfer}!guiao4.h@{guiao4.h}}
+\doxysubsubsection{\texorpdfstring{transfer()}{transfer()}}
+{\footnotesize\ttfamily void transfer (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{s1,  }\item[{\mbox{\hyperlink{stack_8h_ade8bb1f37e07eb511f3873082665d739}{STACK}} $\ast$}]{s2 }\end{DoxyParamCaption})}
+
+
+
+Coloca na stack os elementos do array. 
+
+Coloca todos os elementos do array na stack
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$s1} & stack recebida \\
+\hline
+{\em $\ast$s2} & stack recebida \\
+\hline
+\end{DoxyParams}

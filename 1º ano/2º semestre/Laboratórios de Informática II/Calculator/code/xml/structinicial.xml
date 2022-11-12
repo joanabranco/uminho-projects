@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structinicial" kind="struct" language="C++" prot="public">
+    <compoundname>inicial</compoundname>
+    <includes refid="stack_8h" local="no">stack.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" prot="public" static="no" mutable="no">
+        <type><ref refid="stack_8h_1a12ffc82dea4852d9ad6c3ff0be139b8d" kindref="member">TIPO</ref></type>
+        <definition>TIPO inicial::tipo</definition>
+        <argsstring></argsstring>
+        <name>tipo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>todos os tipos </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="stack.h" line="45" column="10" bodyfile="stack.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* inicial::dados</definition>
+        <argsstring></argsstring>
+        <name>dados</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>todos os dados </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="stack.h" line="46" column="10" bodyfile="stack.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>É a estrutura inicial. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="stack.h" line="44" column="1" bodyfile="stack.h" bodystart="44" bodyend="47"/>
+    <listofallmembers>
+      <member refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" prot="public" virt="non-virtual"><scope>inicial</scope><name>dados</name></member>
+      <member refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" prot="public" virt="non-virtual"><scope>inicial</scope><name>tipo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

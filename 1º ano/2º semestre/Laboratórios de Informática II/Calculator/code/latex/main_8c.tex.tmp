@@ -1,0 +1,919 @@
+\hypertarget{main_8c}{}\doxysection{main.\+c File Reference}
+\label{main_8c}\index{main.c@{main.c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$assert.\+h$>$}\newline
+{\ttfamily \#include $<$math.\+h$>$}\newline
+Include dependency graph for main.\+c\+:
+% FIG 0
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+union \mbox{\hyperlink{uniondados}{dados}}
+\begin{DoxyCompactList}\small\item\em Diferentes tipos para os valores. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structvariaveis}{variaveis}}
+\begin{DoxyCompactList}\small\item\em É a estrutura que vai ser usada para as variáveis. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structinicial}{inicial}}
+\begin{DoxyCompactList}\small\item\em É a estrutura inicial. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{structstack}{stack}}
+\begin{DoxyCompactList}\small\item\em É a estrutura que forma a stack. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef enum \mbox{\hyperlink{main_8c_a030a181134e163cb2a9e98e83810bb54}{tipo}} \mbox{\hyperlink{main_8c_a12ffc82dea4852d9ad6c3ff0be139b8d}{T\+I\+PO}}
+\item 
+typedef union \mbox{\hyperlink{uniondados}{dados}} \mbox{\hyperlink{main_8c_a79b38e3b849aa85be5d9a433085235b5}{V\+A\+L\+OR}}
+\item 
+typedef struct \mbox{\hyperlink{structvariaveis}{variaveis}} \mbox{\hyperlink{main_8c_a51f541c7c9972833bb75a178574c73c9}{V\+AR}}
+\item 
+typedef struct \mbox{\hyperlink{structinicial}{inicial}} \mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}}
+\item 
+typedef struct \mbox{\hyperlink{structstack}{stack}} \mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{main_8c_a030a181134e163cb2a9e98e83810bb54}{tipo}} \{ \mbox{\hyperlink{main_8c_a030a181134e163cb2a9e98e83810bb54aaee055c4a5aba7d55774e4f1c01dacea}{L\+O\+NG}}, 
+\mbox{\hyperlink{main_8c_a030a181134e163cb2a9e98e83810bb54a33465d1d419b1074fb259ef444609e92}{D\+O\+U\+B\+LE}}, 
+\mbox{\hyperlink{main_8c_a030a181134e163cb2a9e98e83810bb54a4618cf21306b3c647741afa7ebefcab8}{C\+H\+AR}}, 
+\mbox{\hyperlink{main_8c_a030a181134e163cb2a9e98e83810bb54aee847e634a4297b274316de8a8ca9921}{S\+T\+R\+I\+NG}}
+ \}
+\begin{DoxyCompactList}\small\item\em Diferentes tipos para as variáveis. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$ \mbox{\hyperlink{main_8c_ab37b0d083f873fbdc37d708bb9f40efc}{create\+\_\+stack}} ()
+\begin{DoxyCompactList}\small\item\em Produz a stack. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8c_a6da247d11bbdc02f685775c0ad7683e5}{push}} (\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$s, \mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} elem)
+\begin{DoxyCompactList}\small\item\em Adiciona um elemento dado ao topo da stack. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8c_a42b87bab2d601cb02900935c9b80fc23}{print\+\_\+stack}} (\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Imprime a stack no endereço s. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} \mbox{\hyperlink{main_8c_aec9ac4a3a9271f16fd6aa58771182ca2}{pop}} (\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Retira elemento da stack no endereço s. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} \mbox{\hyperlink{main_8c_a37b995ce0da16a4b6b90ca8f1f52eef7}{top}} (\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Indica qual o próximo elemento a ser retirado da stack no endereço s. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_8c_ae31d2a4c10db0d5b01ecd8a8aab01cfc}{is\+\_\+empty}} (\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Verifica se a stack está vazia. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} \mbox{\hyperlink{main_8c_a2661322ffb24bd2ba04c1f12c4efdb65}{M\+A\+K\+E\+\_\+\+D\+A\+D\+O\+S\+\_\+\+L\+O\+NG}} (long v)
+\begin{DoxyCompactList}\small\item\em Produz os dados do tipo long. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} \mbox{\hyperlink{main_8c_a5f4af788272f9222778bf7ff297c9d33}{M\+A\+K\+E\+\_\+\+D\+A\+D\+O\+S\+\_\+\+D\+O\+U\+B\+LE}} (double v)
+\begin{DoxyCompactList}\small\item\em Produz os dados do tipo double. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} \mbox{\hyperlink{main_8c_afa7377ded223ad76e57a28c78adef616}{M\+A\+K\+E\+\_\+\+D\+A\+D\+O\+S\+\_\+\+C\+H\+AR}} (char v)
+\begin{DoxyCompactList}\small\item\em Produz os dados do tipo char. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} \mbox{\hyperlink{main_8c_a21eb9ccd09c39057c1a31e49b35bed53}{M\+A\+K\+E\+\_\+\+D\+A\+D\+O\+S\+\_\+\+S\+T\+R\+I\+NG}} (char $\ast$s)
+\begin{DoxyCompactList}\small\item\em Produz os dados do tipo string. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} \mbox{\hyperlink{main_8c_acd9cae455fbd63026e91eecb33cbdbab}{S\+O\+M\+A\+R\+\_\+\+D\+A\+D\+OS}} (\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} x, \mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} y)
+\begin{DoxyCompactList}\small\item\em Efetua a soma entre os dados inseridos, dependendo do seu tipo. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} \mbox{\hyperlink{main_8c_ac5baff19092b827df1d3a96d8cad30b2}{M\+U\+L\+T\+I\+P\+L\+I\+C\+A\+R\+\_\+\+D\+A\+D\+OS}} (\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} x, \mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} y)
+\begin{DoxyCompactList}\small\item\em Efetua a multiplicação entre os dados inseridos, dependendo do seu tipo. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} \mbox{\hyperlink{main_8c_a4206ce334cf7b0e29347d63f7b81c738}{S\+U\+B\+T\+R\+A\+I\+R\+\_\+\+D\+A\+D\+OS}} (\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} x, \mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} y)
+\begin{DoxyCompactList}\small\item\em Efetua a subtração entre os dados inseridos, dependendo do seu tipo. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} \mbox{\hyperlink{main_8c_ad660aadf94ade2986f1ebe4e02042aa6}{D\+I\+V\+I\+D\+I\+R\+\_\+\+D\+A\+D\+OS}} (\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} x, \mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} y)
+\begin{DoxyCompactList}\small\item\em Efetua a divisão entre os dados inseridos, dependendo do seu tipo. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} \mbox{\hyperlink{main_8c_a1b2e8ab6c1a78ed63e321ef2a19ca50b}{I\+N\+C\+R\+E\+M\+E\+N\+T\+A\+R\+\_\+\+D\+A\+D\+OS}} (\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} x)
+\begin{DoxyCompactList}\small\item\em Efetua a incrementação do dado inserido, dependendo do seu tipo. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} \mbox{\hyperlink{main_8c_ac9913046a8ef15f228edb55480b064dc}{D\+E\+C\+R\+E\+M\+E\+N\+T\+A\+R\+\_\+\+D\+A\+D\+OS}} (\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} x)
+\begin{DoxyCompactList}\small\item\em Efetua a decrementação do dado inserido, dependendo do seu tipo. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} \mbox{\hyperlink{main_8c_a17ee520b9b367c2b523ce4a2023865e9}{M\+O\+D\+U\+L\+O\+\_\+\+D\+A\+D\+OS}} (\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} x, \mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} y)
+\begin{DoxyCompactList}\small\item\em Efetua o módulo do dado inserido, dependendo do seu tipo. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} \mbox{\hyperlink{main_8c_a30aff7fd9814b6dd25f89b1794789043}{E\+L\+E\+V\+A\+D\+O\+\_\+\+D\+A\+D\+OS}} (\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} x, \mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} y)
+\begin{DoxyCompactList}\small\item\em Efetua a exponenciação do dado inserido, dependendo do seu tipo. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} \mbox{\hyperlink{main_8c_a33cf2210a309d26b7c2cdb5f60eac34e}{C\+O\+N\+J\+U\+N\+C\+A\+O\+\_\+\+D\+A\+D\+OS}} (\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} x, \mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} y)
+\begin{DoxyCompactList}\small\item\em Efetua a conjunção dos dados inseridos. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} \mbox{\hyperlink{main_8c_a0512d2bdbc4d0718d66867955a64e4d8}{D\+I\+S\+J\+U\+N\+C\+A\+O\+\_\+\+D\+A\+D\+OS}} (\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} x, \mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} y)
+\begin{DoxyCompactList}\small\item\em Efetua a disjunção dos dados inseridos. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} \mbox{\hyperlink{main_8c_a359198ccdbf483b9de30a52a76b59778}{X\+O\+R\+\_\+\+D\+A\+D\+OS}} (\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} x, \mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} y)
+\begin{DoxyCompactList}\small\item\em Efetua a disjunção exclusiva dos dados inseridos. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} \mbox{\hyperlink{main_8c_ab00e634026d4ebde01fa552b02cdbe00}{N\+O\+T\+\_\+\+D\+A\+D\+OS}} (\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} x)
+\begin{DoxyCompactList}\small\item\em Efetua a negação dos dados inseridos. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8c_a2ee93538fafb24a181f7e70b5054bae3}{D\+U\+P\+L\+I\+C\+AR}} (\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$\mbox{\hyperlink{structstack}{stack}})
+\begin{DoxyCompactList}\small\item\em Realiza a operação de duplicar na stack. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8c_a7af8bbc3d807acd337e45d3f0f2effec}{R\+O\+D\+A\+R\+\_\+\+D\+O\+I\+S\+\_\+\+E\+L\+E\+M\+E\+N\+T\+OS}} (\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$\mbox{\hyperlink{structstack}{stack}})
+\begin{DoxyCompactList}\small\item\em Realiza a operação de rodar dois elementos na stack. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8c_a7b710b16d1f93f3830b85d93399e010a}{R\+O\+D\+A\+R\+\_\+\+T\+R\+E\+S\+\_\+\+E\+L\+E\+M\+E\+N\+T\+OS}} (\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$\mbox{\hyperlink{structstack}{stack}})
+\begin{DoxyCompactList}\small\item\em Realiza a operação de rodar três elementos na stack. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8c_ad89344d88149d8b5adfd555caab38801}{C\+O\+P\+I\+A\+R\+\_\+\+N\+\_\+\+E\+L\+E\+M\+E\+N\+TO}} (\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$\mbox{\hyperlink{structstack}{stack}})
+\begin{DoxyCompactList}\small\item\em Realiza a operação de copiar n elementos na stack. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8c_ad2bb331f9ce74fd71c18bde1c7a3ba52}{I\+N\+T\+\_\+\+C\+O\+N\+V\+E\+R\+TE}} (\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$\mbox{\hyperlink{structstack}{stack}})
+\begin{DoxyCompactList}\small\item\em Realiza a operação de conversão de inteiros na stack. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8c_a744d80cd90ed4f6ae0c8334e8f368277}{D\+O\+U\+B\+L\+E\+\_\+\+C\+O\+N\+V\+E\+R\+TE}} (\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$\mbox{\hyperlink{structstack}{stack}})
+\begin{DoxyCompactList}\small\item\em Realiza a operação de conversão de doubles na stack. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8c_ae9865bfa9d2d6a47a5ed0061312215d0}{C\+H\+A\+R\+\_\+\+C\+O\+N\+V\+E\+R\+TE}} (\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$\mbox{\hyperlink{structstack}{stack}})
+\begin{DoxyCompactList}\small\item\em Realiza a operação de conversão de chars na stack. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8c_a5aa336e196d4628c92469a144b1c173a}{zero\+O\+Uvazio}} (\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$\mbox{\hyperlink{structstack}{stack}})
+\begin{DoxyCompactList}\small\item\em Verifica se o valor inserido é zero ou nada. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8c_ac64f328a831edd5979f86440d5cc8b0d}{igual}} (\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$\mbox{\hyperlink{structstack}{stack}})
+\begin{DoxyCompactList}\small\item\em Compara a igualdade entre dois valores inseridos na stack. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8c_a51e19259c906a572cdfce9b3a28eafc8}{menor}} (\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$\mbox{\hyperlink{structstack}{stack}})
+\begin{DoxyCompactList}\small\item\em Compara entre dois valores qual o menor deles. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8c_a2e77f3bcc1b218f4d3c2f5606eec7ca1}{maior}} (\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$\mbox{\hyperlink{structstack}{stack}})
+\begin{DoxyCompactList}\small\item\em Compara entre dois valores qual o maior deles. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8c_a2daaa62cfd20c768a918b259b857b4a1}{negacao}} (\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$\mbox{\hyperlink{structstack}{stack}})
+\begin{DoxyCompactList}\small\item\em Nega um dado valor inserido na stack. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8c_a001b364bd5eab16dd3328dcf410ded20}{e\+Comercial}} (\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$\mbox{\hyperlink{structstack}{stack}})
+\begin{DoxyCompactList}\small\item\em Compara entre dois valores qual o maior, exceto para zero. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8c_a9123b11d955a56331a2fee61ad8fb7b4}{e\+Barra}} (\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$\mbox{\hyperlink{structstack}{stack}})
+\begin{DoxyCompactList}\small\item\em Compara se os valores inseridos são diferentes de zero. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8c_a367888d89e2cfe789ee4b9e31cac48ac}{emenor}} (\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$\mbox{\hyperlink{structstack}{stack}})
+\begin{DoxyCompactList}\small\item\em Compara o menor entre dois valores. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8c_ac53c5b96a8dac0ff58ec9efc60abbaec}{e\+Maior}} (\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$\mbox{\hyperlink{structstack}{stack}})
+\begin{DoxyCompactList}\small\item\em Compara o maior entre dois valores. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8c_a716ebbabdd1dbe61492ca8cb8c1614f7}{pt\+Interr}} (\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$\mbox{\hyperlink{structstack}{stack}})
+\begin{DoxyCompactList}\small\item\em Dados 3 valores verifica a condição (!=0 ou é vazio) no topo da stack. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8c_af117bd1c6557966e1737330290d595b0}{handle\+Variable}} (char $\ast$token, \mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$\mbox{\hyperlink{structstack}{stack}})
+\begin{DoxyCompactList}\small\item\em Função de manipulação das variáveis. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8c_ad36d1cfc7c4f8e45e60624f38a5a079d}{parse}} (char $\ast$line, \mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$\mbox{\hyperlink{structstack}{stack}})
+\begin{DoxyCompactList}\small\item\em Esta é a função principal do programa. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\begin{DoxyCompactList}\small\item\em Esta é a função principal do programa. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Typedef Documentation}
+\mbox{\Hypertarget{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}\label{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}} 
+\index{main.c@{main.c}!DADOS@{DADOS}}
+\index{DADOS@{DADOS}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{DADOS}{DADOS}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{structinicial}{inicial}} \mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}}}
+
+representa os dados \mbox{\Hypertarget{main_8c_ade8bb1f37e07eb511f3873082665d739}\label{main_8c_ade8bb1f37e07eb511f3873082665d739}} 
+\index{main.c@{main.c}!STACK@{STACK}}
+\index{STACK@{STACK}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{STACK}{STACK}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{structstack}{stack}} \mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}}}
+
+representa a stack \mbox{\Hypertarget{main_8c_a12ffc82dea4852d9ad6c3ff0be139b8d}\label{main_8c_a12ffc82dea4852d9ad6c3ff0be139b8d}} 
+\index{main.c@{main.c}!TIPO@{TIPO}}
+\index{TIPO@{TIPO}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{TIPO}{TIPO}}
+{\footnotesize\ttfamily typedef enum \mbox{\hyperlink{main_8c_a030a181134e163cb2a9e98e83810bb54}{tipo}} \mbox{\hyperlink{main_8c_a12ffc82dea4852d9ad6c3ff0be139b8d}{T\+I\+PO}}}
+
+representa os tipos \mbox{\Hypertarget{main_8c_a79b38e3b849aa85be5d9a433085235b5}\label{main_8c_a79b38e3b849aa85be5d9a433085235b5}} 
+\index{main.c@{main.c}!VALOR@{VALOR}}
+\index{VALOR@{VALOR}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{VALOR}{VALOR}}
+{\footnotesize\ttfamily typedef union \mbox{\hyperlink{uniondados}{dados}} \mbox{\hyperlink{main_8c_a79b38e3b849aa85be5d9a433085235b5}{V\+A\+L\+OR}}}
+
+representa os valores \mbox{\Hypertarget{main_8c_a51f541c7c9972833bb75a178574c73c9}\label{main_8c_a51f541c7c9972833bb75a178574c73c9}} 
+\index{main.c@{main.c}!VAR@{VAR}}
+\index{VAR@{VAR}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{VAR}{VAR}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{structvariaveis}{variaveis}} \mbox{\hyperlink{main_8c_a51f541c7c9972833bb75a178574c73c9}{V\+AR}}}
+
+representa as variáveis 
+
+\doxysubsection{Enumeration Type Documentation}
+\mbox{\Hypertarget{main_8c_a030a181134e163cb2a9e98e83810bb54}\label{main_8c_a030a181134e163cb2a9e98e83810bb54}} 
+\index{main.c@{main.c}!tipo@{tipo}}
+\index{tipo@{tipo}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{tipo}{tipo}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{main_8c_a030a181134e163cb2a9e98e83810bb54}{tipo}}}
+
+
+
+Diferentes tipos para as variáveis. 
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{LONG@{LONG}!main.c@{main.c}}\index{main.c@{main.c}!LONG@{LONG}}}\mbox{\Hypertarget{main_8c_a030a181134e163cb2a9e98e83810bb54aaee055c4a5aba7d55774e4f1c01dacea}\label{main_8c_a030a181134e163cb2a9e98e83810bb54aaee055c4a5aba7d55774e4f1c01dacea}} 
+L\+O\+NG&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{DOUBLE@{DOUBLE}!main.c@{main.c}}\index{main.c@{main.c}!DOUBLE@{DOUBLE}}}\mbox{\Hypertarget{main_8c_a030a181134e163cb2a9e98e83810bb54a33465d1d419b1074fb259ef444609e92}\label{main_8c_a030a181134e163cb2a9e98e83810bb54a33465d1d419b1074fb259ef444609e92}} 
+D\+O\+U\+B\+LE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{CHAR@{CHAR}!main.c@{main.c}}\index{main.c@{main.c}!CHAR@{CHAR}}}\mbox{\Hypertarget{main_8c_a030a181134e163cb2a9e98e83810bb54a4618cf21306b3c647741afa7ebefcab8}\label{main_8c_a030a181134e163cb2a9e98e83810bb54a4618cf21306b3c647741afa7ebefcab8}} 
+C\+H\+AR&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{STRING@{STRING}!main.c@{main.c}}\index{main.c@{main.c}!STRING@{STRING}}}\mbox{\Hypertarget{main_8c_a030a181134e163cb2a9e98e83810bb54aee847e634a4297b274316de8a8ca9921}\label{main_8c_a030a181134e163cb2a9e98e83810bb54aee847e634a4297b274316de8a8ca9921}} 
+S\+T\+R\+I\+NG&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{main_8c_ae9865bfa9d2d6a47a5ed0061312215d0}\label{main_8c_ae9865bfa9d2d6a47a5ed0061312215d0}} 
+\index{main.c@{main.c}!CHAR\_CONVERTE@{CHAR\_CONVERTE}}
+\index{CHAR\_CONVERTE@{CHAR\_CONVERTE}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{CHAR\_CONVERTE()}{CHAR\_CONVERTE()}}
+{\footnotesize\ttfamily void C\+H\+A\+R\+\_\+\+C\+O\+N\+V\+E\+R\+TE (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$}]{stack }\end{DoxyParamCaption})}
+
+
+
+Realiza a operação de conversão de chars na stack. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$stack} & que vai sofrer modificações \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8c_a33cf2210a309d26b7c2cdb5f60eac34e}\label{main_8c_a33cf2210a309d26b7c2cdb5f60eac34e}} 
+\index{main.c@{main.c}!CONJUNCAO\_DADOS@{CONJUNCAO\_DADOS}}
+\index{CONJUNCAO\_DADOS@{CONJUNCAO\_DADOS}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{CONJUNCAO\_DADOS()}{CONJUNCAO\_DADOS()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} C\+O\+N\+J\+U\+N\+C\+A\+O\+\_\+\+D\+A\+D\+OS (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}}}]{x,  }\item[{\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}}}]{y }\end{DoxyParamCaption})}
+
+
+
+Efetua a conjunção dos dados inseridos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & 1º valor recebido para realizar a operação de conjunção \\
+\hline
+{\em y} & 2º valor recebido para realizar a operação de conjunção \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+o resultado da operação no tipo long 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8c_ad89344d88149d8b5adfd555caab38801}\label{main_8c_ad89344d88149d8b5adfd555caab38801}} 
+\index{main.c@{main.c}!COPIAR\_N\_ELEMENTO@{COPIAR\_N\_ELEMENTO}}
+\index{COPIAR\_N\_ELEMENTO@{COPIAR\_N\_ELEMENTO}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{COPIAR\_N\_ELEMENTO()}{COPIAR\_N\_ELEMENTO()}}
+{\footnotesize\ttfamily void C\+O\+P\+I\+A\+R\+\_\+\+N\+\_\+\+E\+L\+E\+M\+E\+N\+TO (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$}]{stack }\end{DoxyParamCaption})}
+
+
+
+Realiza a operação de copiar n elementos na stack. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$stack} & que vai sofrer modificações \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8c_ab37b0d083f873fbdc37d708bb9f40efc}\label{main_8c_ab37b0d083f873fbdc37d708bb9f40efc}} 
+\index{main.c@{main.c}!create\_stack@{create\_stack}}
+\index{create\_stack@{create\_stack}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{create\_stack()}{create\_stack()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}}$\ast$ create\+\_\+stack (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Produz a stack. 
+
+\begin{DoxyReturn}{Returns}
+a stack 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8c_ac9913046a8ef15f228edb55480b064dc}\label{main_8c_ac9913046a8ef15f228edb55480b064dc}} 
+\index{main.c@{main.c}!DECREMENTAR\_DADOS@{DECREMENTAR\_DADOS}}
+\index{DECREMENTAR\_DADOS@{DECREMENTAR\_DADOS}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{DECREMENTAR\_DADOS()}{DECREMENTAR\_DADOS()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} D\+E\+C\+R\+E\+M\+E\+N\+T\+A\+R\+\_\+\+D\+A\+D\+OS (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}}}]{x }\end{DoxyParamCaption})}
+
+
+
+Efetua a decrementação do dado inserido, dependendo do seu tipo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & 1º valor recebido para realizar a operação de decrementação \\
+\hline
+{\em y} & 2º valor recebido para realizar a operação de decrementação \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+o resultado da operação no seu respetivo tipo 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8c_a0512d2bdbc4d0718d66867955a64e4d8}\label{main_8c_a0512d2bdbc4d0718d66867955a64e4d8}} 
+\index{main.c@{main.c}!DISJUNCAO\_DADOS@{DISJUNCAO\_DADOS}}
+\index{DISJUNCAO\_DADOS@{DISJUNCAO\_DADOS}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{DISJUNCAO\_DADOS()}{DISJUNCAO\_DADOS()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} D\+I\+S\+J\+U\+N\+C\+A\+O\+\_\+\+D\+A\+D\+OS (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}}}]{x,  }\item[{\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}}}]{y }\end{DoxyParamCaption})}
+
+
+
+Efetua a disjunção dos dados inseridos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & 1º valor recebido para realizar a operação de disjunção \\
+\hline
+{\em y} & 2º valor recebido para realizar a operação de disjunção \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+o resultado da operação no tipo long 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8c_ad660aadf94ade2986f1ebe4e02042aa6}\label{main_8c_ad660aadf94ade2986f1ebe4e02042aa6}} 
+\index{main.c@{main.c}!DIVIDIR\_DADOS@{DIVIDIR\_DADOS}}
+\index{DIVIDIR\_DADOS@{DIVIDIR\_DADOS}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{DIVIDIR\_DADOS()}{DIVIDIR\_DADOS()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} D\+I\+V\+I\+D\+I\+R\+\_\+\+D\+A\+D\+OS (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}}}]{x,  }\item[{\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}}}]{y }\end{DoxyParamCaption})}
+
+
+
+Efetua a divisão entre os dados inseridos, dependendo do seu tipo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & 1º valor recebido para realizar a operação de divisão \\
+\hline
+{\em y} & 2º valor recebido para realizar a operação de divisão \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+o resultado da operação no seu respetivo tipo 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8c_a744d80cd90ed4f6ae0c8334e8f368277}\label{main_8c_a744d80cd90ed4f6ae0c8334e8f368277}} 
+\index{main.c@{main.c}!DOUBLE\_CONVERTE@{DOUBLE\_CONVERTE}}
+\index{DOUBLE\_CONVERTE@{DOUBLE\_CONVERTE}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{DOUBLE\_CONVERTE()}{DOUBLE\_CONVERTE()}}
+{\footnotesize\ttfamily void D\+O\+U\+B\+L\+E\+\_\+\+C\+O\+N\+V\+E\+R\+TE (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$}]{stack }\end{DoxyParamCaption})}
+
+
+
+Realiza a operação de conversão de doubles na stack. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$stack} & que vai sofrer modificações \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8c_a2ee93538fafb24a181f7e70b5054bae3}\label{main_8c_a2ee93538fafb24a181f7e70b5054bae3}} 
+\index{main.c@{main.c}!DUPLICAR@{DUPLICAR}}
+\index{DUPLICAR@{DUPLICAR}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{DUPLICAR()}{DUPLICAR()}}
+{\footnotesize\ttfamily void D\+U\+P\+L\+I\+C\+AR (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$}]{stack }\end{DoxyParamCaption})}
+
+
+
+Realiza a operação de duplicar na stack. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$stack} & que vai sofrer modificações \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8c_a9123b11d955a56331a2fee61ad8fb7b4}\label{main_8c_a9123b11d955a56331a2fee61ad8fb7b4}} 
+\index{main.c@{main.c}!eBarra@{eBarra}}
+\index{eBarra@{eBarra}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{eBarra()}{eBarra()}}
+{\footnotesize\ttfamily void e\+Barra (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$}]{stack }\end{DoxyParamCaption})}
+
+
+
+Compara se os valores inseridos são diferentes de zero. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$stack} & que vai sofrer modificações \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+o primeiro valor na stack se forem diferentes de zero e, o outro valor caso contrário 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8c_a001b364bd5eab16dd3328dcf410ded20}\label{main_8c_a001b364bd5eab16dd3328dcf410ded20}} 
+\index{main.c@{main.c}!eComercial@{eComercial}}
+\index{eComercial@{eComercial}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{eComercial()}{eComercial()}}
+{\footnotesize\ttfamily void e\+Comercial (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$}]{stack }\end{DoxyParamCaption})}
+
+
+
+Compara entre dois valores qual o maior, exceto para zero. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$stack} & que vai sofrer modificações \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+o valor zero se um deles for zero ou, caso contrário, o maior entre os dois valores 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8c_a30aff7fd9814b6dd25f89b1794789043}\label{main_8c_a30aff7fd9814b6dd25f89b1794789043}} 
+\index{main.c@{main.c}!ELEVADO\_DADOS@{ELEVADO\_DADOS}}
+\index{ELEVADO\_DADOS@{ELEVADO\_DADOS}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{ELEVADO\_DADOS()}{ELEVADO\_DADOS()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} E\+L\+E\+V\+A\+D\+O\+\_\+\+D\+A\+D\+OS (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}}}]{x,  }\item[{\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}}}]{y }\end{DoxyParamCaption})}
+
+
+
+Efetua a exponenciação do dado inserido, dependendo do seu tipo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & 1º valor recebido para realizar a operação de exponenciação \\
+\hline
+{\em y} & 2º valor recebido para realizar a operação de exponenciação \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+o resultado da operação no seu respetivo tipo 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8c_ac53c5b96a8dac0ff58ec9efc60abbaec}\label{main_8c_ac53c5b96a8dac0ff58ec9efc60abbaec}} 
+\index{main.c@{main.c}!eMaior@{eMaior}}
+\index{eMaior@{eMaior}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{eMaior()}{eMaior()}}
+{\footnotesize\ttfamily void e\+Maior (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$}]{stack }\end{DoxyParamCaption})}
+
+
+
+Compara o maior entre dois valores. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$stack} & que vai sofrer modificações \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+o maior valor inserido 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8c_a367888d89e2cfe789ee4b9e31cac48ac}\label{main_8c_a367888d89e2cfe789ee4b9e31cac48ac}} 
+\index{main.c@{main.c}!emenor@{emenor}}
+\index{emenor@{emenor}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{emenor()}{emenor()}}
+{\footnotesize\ttfamily void emenor (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$}]{stack }\end{DoxyParamCaption})}
+
+
+
+Compara o menor entre dois valores. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$stack} & que vai sofrer modificações \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+o menor valor inserido 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8c_af117bd1c6557966e1737330290d595b0}\label{main_8c_af117bd1c6557966e1737330290d595b0}} 
+\index{main.c@{main.c}!handleVariable@{handleVariable}}
+\index{handleVariable@{handleVariable}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{handleVariable()}{handleVariable()}}
+{\footnotesize\ttfamily void handle\+Variable (\begin{DoxyParamCaption}\item[{char $\ast$}]{token,  }\item[{\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$}]{stack }\end{DoxyParamCaption})}
+
+
+
+Função de manipulação das variáveis. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em token} & correspondente às variáveis \\
+\hline
+{\em $\ast$stack} & que vai sofrer modificações \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8c_ac64f328a831edd5979f86440d5cc8b0d}\label{main_8c_ac64f328a831edd5979f86440d5cc8b0d}} 
+\index{main.c@{main.c}!igual@{igual}}
+\index{igual@{igual}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{igual()}{igual()}}
+{\footnotesize\ttfamily void igual (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$}]{stack }\end{DoxyParamCaption})}
+
+
+
+Compara a igualdade entre dois valores inseridos na stack. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$stack} & que vai sofrer modificações \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+o valor lógico da operação realizada (zero ou um) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8c_a1b2e8ab6c1a78ed63e321ef2a19ca50b}\label{main_8c_a1b2e8ab6c1a78ed63e321ef2a19ca50b}} 
+\index{main.c@{main.c}!INCREMENTAR\_DADOS@{INCREMENTAR\_DADOS}}
+\index{INCREMENTAR\_DADOS@{INCREMENTAR\_DADOS}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{INCREMENTAR\_DADOS()}{INCREMENTAR\_DADOS()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} I\+N\+C\+R\+E\+M\+E\+N\+T\+A\+R\+\_\+\+D\+A\+D\+OS (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}}}]{x }\end{DoxyParamCaption})}
+
+
+
+Efetua a incrementação do dado inserido, dependendo do seu tipo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & 1º valor recebido para realizar a operação de incrementação \\
+\hline
+{\em y} & 2º valor recebido para realizar a operação de incrementação \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+o resultado da operação no seu respetivo tipo 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8c_ad2bb331f9ce74fd71c18bde1c7a3ba52}\label{main_8c_ad2bb331f9ce74fd71c18bde1c7a3ba52}} 
+\index{main.c@{main.c}!INT\_CONVERTE@{INT\_CONVERTE}}
+\index{INT\_CONVERTE@{INT\_CONVERTE}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{INT\_CONVERTE()}{INT\_CONVERTE()}}
+{\footnotesize\ttfamily void I\+N\+T\+\_\+\+C\+O\+N\+V\+E\+R\+TE (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$}]{stack }\end{DoxyParamCaption})}
+
+
+
+Realiza a operação de conversão de inteiros na stack. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$stack} & que vai sofrer modificações \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8c_ae31d2a4c10db0d5b01ecd8a8aab01cfc}\label{main_8c_ae31d2a4c10db0d5b01ecd8a8aab01cfc}} 
+\index{main.c@{main.c}!is\_empty@{is\_empty}}
+\index{is\_empty@{is\_empty}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{is\_empty()}{is\_empty()}}
+{\footnotesize\ttfamily int is\+\_\+empty (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Verifica se a stack está vazia. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$s} & endereço onde imprime a S\+T\+A\+CK \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{main_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{main.c@{main.c}!main@{main}}
+\index{main@{main}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Esta é a função principal do programa. 
+
+\begin{DoxyReturn}{Returns}
+o valor zero 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8c_a2e77f3bcc1b218f4d3c2f5606eec7ca1}\label{main_8c_a2e77f3bcc1b218f4d3c2f5606eec7ca1}} 
+\index{main.c@{main.c}!maior@{maior}}
+\index{maior@{maior}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{maior()}{maior()}}
+{\footnotesize\ttfamily void maior (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$}]{stack }\end{DoxyParamCaption})}
+
+
+
+Compara entre dois valores qual o maior deles. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$stack} & que vai sofrer modificações \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+o valor lógico da operação realizada (zero ou um) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8c_afa7377ded223ad76e57a28c78adef616}\label{main_8c_afa7377ded223ad76e57a28c78adef616}} 
+\index{main.c@{main.c}!MAKE\_DADOS\_CHAR@{MAKE\_DADOS\_CHAR}}
+\index{MAKE\_DADOS\_CHAR@{MAKE\_DADOS\_CHAR}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{MAKE\_DADOS\_CHAR()}{MAKE\_DADOS\_CHAR()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} M\+A\+K\+E\+\_\+\+D\+A\+D\+O\+S\+\_\+\+C\+H\+AR (\begin{DoxyParamCaption}\item[{char}]{v }\end{DoxyParamCaption})}
+
+
+
+Produz os dados do tipo char. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em v} & dado recebido do tipo char \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8c_a5f4af788272f9222778bf7ff297c9d33}\label{main_8c_a5f4af788272f9222778bf7ff297c9d33}} 
+\index{main.c@{main.c}!MAKE\_DADOS\_DOUBLE@{MAKE\_DADOS\_DOUBLE}}
+\index{MAKE\_DADOS\_DOUBLE@{MAKE\_DADOS\_DOUBLE}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{MAKE\_DADOS\_DOUBLE()}{MAKE\_DADOS\_DOUBLE()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} M\+A\+K\+E\+\_\+\+D\+A\+D\+O\+S\+\_\+\+D\+O\+U\+B\+LE (\begin{DoxyParamCaption}\item[{double}]{v }\end{DoxyParamCaption})}
+
+
+
+Produz os dados do tipo double. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em v} & dado recebido do tipo double \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8c_a2661322ffb24bd2ba04c1f12c4efdb65}\label{main_8c_a2661322ffb24bd2ba04c1f12c4efdb65}} 
+\index{main.c@{main.c}!MAKE\_DADOS\_LONG@{MAKE\_DADOS\_LONG}}
+\index{MAKE\_DADOS\_LONG@{MAKE\_DADOS\_LONG}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{MAKE\_DADOS\_LONG()}{MAKE\_DADOS\_LONG()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} M\+A\+K\+E\+\_\+\+D\+A\+D\+O\+S\+\_\+\+L\+O\+NG (\begin{DoxyParamCaption}\item[{long}]{v }\end{DoxyParamCaption})}
+
+
+
+Produz os dados do tipo long. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em v} & dado recebido do tipo long \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8c_a21eb9ccd09c39057c1a31e49b35bed53}\label{main_8c_a21eb9ccd09c39057c1a31e49b35bed53}} 
+\index{main.c@{main.c}!MAKE\_DADOS\_STRING@{MAKE\_DADOS\_STRING}}
+\index{MAKE\_DADOS\_STRING@{MAKE\_DADOS\_STRING}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{MAKE\_DADOS\_STRING()}{MAKE\_DADOS\_STRING()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} M\+A\+K\+E\+\_\+\+D\+A\+D\+O\+S\+\_\+\+S\+T\+R\+I\+NG (\begin{DoxyParamCaption}\item[{char $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Produz os dados do tipo string. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em v} & dado recebido do tipo string \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8c_a51e19259c906a572cdfce9b3a28eafc8}\label{main_8c_a51e19259c906a572cdfce9b3a28eafc8}} 
+\index{main.c@{main.c}!menor@{menor}}
+\index{menor@{menor}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{menor()}{menor()}}
+{\footnotesize\ttfamily void menor (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$}]{stack }\end{DoxyParamCaption})}
+
+
+
+Compara entre dois valores qual o menor deles. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$stack} & que vai sofrer modificações \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+o valor lógico da operação realizada (zero ou um) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8c_a17ee520b9b367c2b523ce4a2023865e9}\label{main_8c_a17ee520b9b367c2b523ce4a2023865e9}} 
+\index{main.c@{main.c}!MODULO\_DADOS@{MODULO\_DADOS}}
+\index{MODULO\_DADOS@{MODULO\_DADOS}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{MODULO\_DADOS()}{MODULO\_DADOS()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} M\+O\+D\+U\+L\+O\+\_\+\+D\+A\+D\+OS (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}}}]{x,  }\item[{\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}}}]{y }\end{DoxyParamCaption})}
+
+
+
+Efetua o módulo do dado inserido, dependendo do seu tipo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & 1º valor recebido para realizar a operação do módulo \\
+\hline
+{\em y} & 2º valor recebido para realizar a operação do módulo \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+o resultado da operação no seu respetivo tipo 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8c_ac5baff19092b827df1d3a96d8cad30b2}\label{main_8c_ac5baff19092b827df1d3a96d8cad30b2}} 
+\index{main.c@{main.c}!MULTIPLICAR\_DADOS@{MULTIPLICAR\_DADOS}}
+\index{MULTIPLICAR\_DADOS@{MULTIPLICAR\_DADOS}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{MULTIPLICAR\_DADOS()}{MULTIPLICAR\_DADOS()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} M\+U\+L\+T\+I\+P\+L\+I\+C\+A\+R\+\_\+\+D\+A\+D\+OS (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}}}]{x,  }\item[{\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}}}]{y }\end{DoxyParamCaption})}
+
+
+
+Efetua a multiplicação entre os dados inseridos, dependendo do seu tipo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & 1º valor recebido para realizar a operação de multiplicação \\
+\hline
+{\em y} & 2º valor recebido para realizar a operação de multiplicação \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+o resultado da operação no seu respetivo tipo 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8c_a2daaa62cfd20c768a918b259b857b4a1}\label{main_8c_a2daaa62cfd20c768a918b259b857b4a1}} 
+\index{main.c@{main.c}!negacao@{negacao}}
+\index{negacao@{negacao}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{negacao()}{negacao()}}
+{\footnotesize\ttfamily void negacao (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$}]{stack }\end{DoxyParamCaption})}
+
+
+
+Nega um dado valor inserido na stack. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$stack} & que vai sofrer modificações \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a negação do valor (zero ou um) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8c_ab00e634026d4ebde01fa552b02cdbe00}\label{main_8c_ab00e634026d4ebde01fa552b02cdbe00}} 
+\index{main.c@{main.c}!NOT\_DADOS@{NOT\_DADOS}}
+\index{NOT\_DADOS@{NOT\_DADOS}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{NOT\_DADOS()}{NOT\_DADOS()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} N\+O\+T\+\_\+\+D\+A\+D\+OS (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}}}]{x }\end{DoxyParamCaption})}
+
+
+
+Efetua a negação dos dados inseridos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & valor recebido para realizar a operação de negação \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+o resultado da operação no tipo long 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8c_ad36d1cfc7c4f8e45e60624f38a5a079d}\label{main_8c_ad36d1cfc7c4f8e45e60624f38a5a079d}} 
+\index{main.c@{main.c}!parse@{parse}}
+\index{parse@{parse}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{parse()}{parse()}}
+{\footnotesize\ttfamily void parse (\begin{DoxyParamCaption}\item[{char $\ast$}]{line,  }\item[{\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$}]{stack }\end{DoxyParamCaption})}
+
+
+
+Esta é a função principal do programa. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em line} & a linha lida e à qual vai ser aplicada o parse \\
+\hline
+{\em $\ast$stack} & que vai sofrer modificações \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8c_aec9ac4a3a9271f16fd6aa58771182ca2}\label{main_8c_aec9ac4a3a9271f16fd6aa58771182ca2}} 
+\index{main.c@{main.c}!pop@{pop}}
+\index{pop@{pop}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{pop()}{pop()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} pop (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Retira elemento da stack no endereço s. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$s} & endereço onde imprime a S\+T\+A\+CK \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a stack sem elemento 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8c_a42b87bab2d601cb02900935c9b80fc23}\label{main_8c_a42b87bab2d601cb02900935c9b80fc23}} 
+\index{main.c@{main.c}!print\_stack@{print\_stack}}
+\index{print\_stack@{print\_stack}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{print\_stack()}{print\_stack()}}
+{\footnotesize\ttfamily void print\+\_\+stack (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Imprime a stack no endereço s. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$s} & endereço onde imprime a S\+T\+A\+CK \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8c_a716ebbabdd1dbe61492ca8cb8c1614f7}\label{main_8c_a716ebbabdd1dbe61492ca8cb8c1614f7}} 
+\index{main.c@{main.c}!ptInterr@{ptInterr}}
+\index{ptInterr@{ptInterr}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{ptInterr()}{ptInterr()}}
+{\footnotesize\ttfamily void pt\+Interr (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$}]{stack }\end{DoxyParamCaption})}
+
+
+
+Dados 3 valores verifica a condição (!=0 ou é vazio) no topo da stack. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$stack} & que vai sofrer modificações \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8c_a6da247d11bbdc02f685775c0ad7683e5}\label{main_8c_a6da247d11bbdc02f685775c0ad7683e5}} 
+\index{main.c@{main.c}!push@{push}}
+\index{push@{push}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{push()}{push()}}
+{\footnotesize\ttfamily void push (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$}]{s,  }\item[{\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}}}]{elem }\end{DoxyParamCaption})}
+
+
+
+Adiciona um elemento dado ao topo da stack. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$s} & correspondente à stack inicial \\
+\hline
+{\em o} & elemento a adicionar \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8c_a7af8bbc3d807acd337e45d3f0f2effec}\label{main_8c_a7af8bbc3d807acd337e45d3f0f2effec}} 
+\index{main.c@{main.c}!RODAR\_DOIS\_ELEMENTOS@{RODAR\_DOIS\_ELEMENTOS}}
+\index{RODAR\_DOIS\_ELEMENTOS@{RODAR\_DOIS\_ELEMENTOS}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{RODAR\_DOIS\_ELEMENTOS()}{RODAR\_DOIS\_ELEMENTOS()}}
+{\footnotesize\ttfamily void R\+O\+D\+A\+R\+\_\+\+D\+O\+I\+S\+\_\+\+E\+L\+E\+M\+E\+N\+T\+OS (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$}]{stack }\end{DoxyParamCaption})}
+
+
+
+Realiza a operação de rodar dois elementos na stack. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$stack} & que vai sofrer modificações \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8c_a7b710b16d1f93f3830b85d93399e010a}\label{main_8c_a7b710b16d1f93f3830b85d93399e010a}} 
+\index{main.c@{main.c}!RODAR\_TRES\_ELEMENTOS@{RODAR\_TRES\_ELEMENTOS}}
+\index{RODAR\_TRES\_ELEMENTOS@{RODAR\_TRES\_ELEMENTOS}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{RODAR\_TRES\_ELEMENTOS()}{RODAR\_TRES\_ELEMENTOS()}}
+{\footnotesize\ttfamily void R\+O\+D\+A\+R\+\_\+\+T\+R\+E\+S\+\_\+\+E\+L\+E\+M\+E\+N\+T\+OS (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$}]{stack }\end{DoxyParamCaption})}
+
+
+
+Realiza a operação de rodar três elementos na stack. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$stack} & que vai sofrer modificações \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8c_acd9cae455fbd63026e91eecb33cbdbab}\label{main_8c_acd9cae455fbd63026e91eecb33cbdbab}} 
+\index{main.c@{main.c}!SOMAR\_DADOS@{SOMAR\_DADOS}}
+\index{SOMAR\_DADOS@{SOMAR\_DADOS}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{SOMAR\_DADOS()}{SOMAR\_DADOS()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} S\+O\+M\+A\+R\+\_\+\+D\+A\+D\+OS (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}}}]{x,  }\item[{\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}}}]{y }\end{DoxyParamCaption})}
+
+
+
+Efetua a soma entre os dados inseridos, dependendo do seu tipo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & 1º valor recebido para realizar a operação de adição \\
+\hline
+{\em y} & 2º valor recebido para realizar a operação de adição \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+o resultado da operação no seu respetivo tipo 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8c_a4206ce334cf7b0e29347d63f7b81c738}\label{main_8c_a4206ce334cf7b0e29347d63f7b81c738}} 
+\index{main.c@{main.c}!SUBTRAIR\_DADOS@{SUBTRAIR\_DADOS}}
+\index{SUBTRAIR\_DADOS@{SUBTRAIR\_DADOS}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{SUBTRAIR\_DADOS()}{SUBTRAIR\_DADOS()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} S\+U\+B\+T\+R\+A\+I\+R\+\_\+\+D\+A\+D\+OS (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}}}]{x,  }\item[{\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}}}]{y }\end{DoxyParamCaption})}
+
+
+
+Efetua a subtração entre os dados inseridos, dependendo do seu tipo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & 1º valor recebido para realizar a operação de subtração \\
+\hline
+{\em y} & 2º valor recebido para realizar a operação de subtração \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+o resultado da operação no seu respetivo tipo 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8c_a37b995ce0da16a4b6b90ca8f1f52eef7}\label{main_8c_a37b995ce0da16a4b6b90ca8f1f52eef7}} 
+\index{main.c@{main.c}!top@{top}}
+\index{top@{top}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{top()}{top()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} top (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Indica qual o próximo elemento a ser retirado da stack no endereço s. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$s} & endereço onde imprime a S\+T\+A\+CK \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+posição do próximo elemento a retirar 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8c_a359198ccdbf483b9de30a52a76b59778}\label{main_8c_a359198ccdbf483b9de30a52a76b59778}} 
+\index{main.c@{main.c}!XOR\_DADOS@{XOR\_DADOS}}
+\index{XOR\_DADOS@{XOR\_DADOS}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{XOR\_DADOS()}{XOR\_DADOS()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}} X\+O\+R\+\_\+\+D\+A\+D\+OS (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}}}]{x,  }\item[{\mbox{\hyperlink{main_8c_a0ba49a2bb5b8885b0e71e4f659e0db0d}{D\+A\+D\+OS}}}]{y }\end{DoxyParamCaption})}
+
+
+
+Efetua a disjunção exclusiva dos dados inseridos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & 1º valor recebido para realizar a operação de ou-\/exclusivo \\
+\hline
+{\em y} & 2º valor recebido para realizar a operação de ou-\/exclusivo \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+o resultado da operação no tipo long 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8c_a5aa336e196d4628c92469a144b1c173a}\label{main_8c_a5aa336e196d4628c92469a144b1c173a}} 
+\index{main.c@{main.c}!zeroOUvazio@{zeroOUvazio}}
+\index{zeroOUvazio@{zeroOUvazio}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{zeroOUvazio()}{zeroOUvazio()}}
+{\footnotesize\ttfamily void zero\+O\+Uvazio (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{main_8c_ade8bb1f37e07eb511f3873082665d739}{S\+T\+A\+CK}} $\ast$}]{stack }\end{DoxyParamCaption})}
+
+
+
+Verifica se o valor inserido é zero ou nada. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$stack} & que vai sofrer modificações \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+o valor lógico da operação realizada (zero ou um) 
+\end{DoxyReturn}

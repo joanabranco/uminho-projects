@@ -1,0 +1,639 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="stack_8h" kind="file" language="C++">
+    <compoundname>stack.h</compoundname>
+    <includedby refid="guiao1_8h" local="yes">guiao1.h</includedby>
+    <includedby refid="guiao2_8h" local="yes">guiao2.h</includedby>
+    <includedby refid="guiao3_8h" local="yes">guiao3.h</includedby>
+    <includedby refid="guiao4_8h" local="yes">guiao4.h</includedby>
+    <includedby refid="guiao5_8h" local="yes">guiao5.h</includedby>
+    <includedby refid="main_8c" local="yes">main.c</includedby>
+    <includedby refid="stack_8c" local="yes">stack.c</includedby>
+    <invincdepgraph>
+      <node id="3">
+        <label>guiao1.c</label>
+        <link refid="guiao1_8c"/>
+      </node>
+      <node id="2">
+        <label>guiao1.h</label>
+        <link refid="guiao1_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>guiao5.c</label>
+        <link refid="guiao5_8c"/>
+      </node>
+      <node id="11">
+        <label>guiao5.h</label>
+        <link refid="guiao5_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>stack.c</label>
+        <link refid="stack_8c"/>
+      </node>
+      <node id="1">
+        <label>stack.h</label>
+        <link refid="stack_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>guiao4.c</label>
+        <link refid="guiao4_8c"/>
+      </node>
+      <node id="9">
+        <label>guiao4.h</label>
+        <link refid="guiao4_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>main.c</label>
+        <link refid="main_8c"/>
+      </node>
+      <node id="8">
+        <label>guiao3.c</label>
+        <link refid="guiao3_8c"/>
+      </node>
+      <node id="7">
+        <label>guiao3.h</label>
+        <link refid="guiao3_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>guiao2.c</label>
+        <link refid="guiao2_8c"/>
+      </node>
+      <node id="5">
+        <label>guiao2.h</label>
+        <link refid="guiao2_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="uniondados" prot="public">dados</innerclass>
+    <innerclass refid="structvariaveis" prot="public">variaveis</innerclass>
+    <innerclass refid="structinicial" prot="public">inicial</innerclass>
+    <innerclass refid="structstack" prot="public">stack</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="stack_8h_1a030a181134e163cb2a9e98e83810bb54" prot="public" static="no" strong="no">
+        <type></type>
+        <name>tipo</name>
+        <enumvalue id="stack_8h_1a030a181134e163cb2a9e98e83810bb54aaee055c4a5aba7d55774e4f1c01dacea" prot="public">
+          <name>LONG</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>tipo long </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="stack_8h_1a030a181134e163cb2a9e98e83810bb54a33465d1d419b1074fb259ef444609e92" prot="public">
+          <name>DOUBLE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>tipo double </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="stack_8h_1a030a181134e163cb2a9e98e83810bb54a4618cf21306b3c647741afa7ebefcab8" prot="public">
+          <name>CHAR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>tipo char </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="stack_8h_1a030a181134e163cb2a9e98e83810bb54aee847e634a4297b274316de8a8ca9921" prot="public">
+          <name>STRING</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>tipo string </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="stack_8h_1a030a181134e163cb2a9e98e83810bb54a1e029fbf0c881b85d80fc8e89b753688" prot="public">
+          <name>ARRAY</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>tipo array </para>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Diferentes tipos para as variáveis. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="stack.h" line="12" column="1" bodyfile="stack.h" bodystart="12" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="stack_8h_1a12ffc82dea4852d9ad6c3ff0be139b8d" prot="public" static="no">
+        <type>enum <ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54" kindref="member">tipo</ref></type>
+        <definition>typedef enum tipo TIPO</definition>
+        <argsstring></argsstring>
+        <name>TIPO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>representa os tipos </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="stack.h" line="18" column="12"/>
+      </memberdef>
+      <memberdef kind="typedef" id="stack_8h_1a79b38e3b849aa85be5d9a433085235b5" prot="public" static="no">
+        <type>union <ref refid="uniondados" kindref="compound">dados</ref></type>
+        <definition>typedef union dados VALOR</definition>
+        <argsstring></argsstring>
+        <name>VALOR</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>representa os valores </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="stack.h" line="29" column="18"/>
+      </memberdef>
+      <memberdef kind="typedef" id="stack_8h_1a51f541c7c9972833bb75a178574c73c9" prot="public" static="no">
+        <type>struct <ref refid="structvariaveis" kindref="compound">variaveis</ref></type>
+        <definition>typedef struct variaveis VAR</definition>
+        <argsstring></argsstring>
+        <name>VAR</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>representa as variáveis </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="stack.h" line="38" column="17"/>
+      </memberdef>
+      <memberdef kind="typedef" id="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" prot="public" static="no">
+        <type>struct <ref refid="structinicial" kindref="compound">inicial</ref></type>
+        <definition>typedef struct inicial DADOS</definition>
+        <argsstring></argsstring>
+        <name>DADOS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>representa os dados </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="stack.h" line="47" column="21"/>
+      </memberdef>
+      <memberdef kind="typedef" id="stack_8h_1ade8bb1f37e07eb511f3873082665d739" prot="public" static="no">
+        <type>struct <ref refid="structstack" kindref="compound">stack</ref></type>
+        <definition>typedef struct stack STACK</definition>
+        <argsstring></argsstring>
+        <name>STACK</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>representa a stack </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="stack.h" line="58" column="22"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="stack_8h_1ab37b0d083f873fbdc37d708bb9f40efc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+        <definition>STACK* create_stack</definition>
+        <argsstring>()</argsstring>
+        <name>create_stack</name>
+        <briefdescription>
+<para>Produz a stack. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a stack </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="stack.h" line="60" column="7" bodyfile="stack.c" bodystart="16" bodyend="40" declfile="stack.h" declline="60" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="stack_8h_1a6da247d11bbdc02f685775c0ad7683e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void push</definition>
+        <argsstring>(STACK *s, DADOS elem)</argsstring>
+        <name>push</name>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+          <declname>elem</declname>
+        </param>
+        <briefdescription>
+<para>Adiciona um elemento dado ao topo da stack. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Adiciona um elemento dado ao topo da stack</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>*s</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>correspondente à stack inicial </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>o</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>elemento a adicionar </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="stack.h" line="62" column="6" bodyfile="stack.c" bodystart="48" bodyend="55" declfile="stack.h" declline="62" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="stack_8h_1a42b87bab2d601cb02900935c9b80fc23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void print_stack</definition>
+        <argsstring>(STACK *s)</argsstring>
+        <name>print_stack</name>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Imprime a stack no endereço s. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Imprime a stack</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>*s</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>endereço onde imprime a STACK </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="stack.h" line="64" column="6" bodyfile="stack.c" bodystart="86" bodyend="104" declfile="stack.h" declline="64" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="stack_8h_1a4a17e13318cc29c9b85fec0dcc4d6b66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void print_array</definition>
+        <argsstring>(STACK *s)</argsstring>
+        <name>print_array</name>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Imprime o array. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Imprime o array</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>*s</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>stack que vai sofrer modificações </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="stack.h" line="66" column="6" bodyfile="stack.c" bodystart="62" bodyend="80" declfile="stack.h" declline="66" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="stack_8h_1aec9ac4a3a9271f16fd6aa58771182ca2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+        <definition>DADOS pop</definition>
+        <argsstring>(STACK *s)</argsstring>
+        <name>pop</name>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Retira elemento da stack no endereço s. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Retira elemento da stack</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>*s</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>endereço onde imprime a STACK </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a stack sem elemento </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="stack.h" line="68" column="7" bodyfile="stack.c" bodystart="112" bodyend="116" declfile="stack.h" declline="68" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="stack_8h_1a37b995ce0da16a4b6b90ca8f1f52eef7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+        <definition>DADOS top</definition>
+        <argsstring>(STACK *s)</argsstring>
+        <name>top</name>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Indica qual o próximo elemento a ser retirado da stack no endereço s. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Indica qual o próximo elemento a ser retirado da stack</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>*s</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>endereço onde imprime a STACK </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>posição do próximo elemento a retirar </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="stack.h" line="70" column="7" bodyfile="stack.c" bodystart="124" bodyend="126" declfile="stack.h" declline="70" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="stack_8h_1ae31d2a4c10db0d5b01ecd8a8aab01cfc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int is_empty</definition>
+        <argsstring>(STACK *s)</argsstring>
+        <name>is_empty</name>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Verifica se a stack está vazia. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Verifica se a stack está vazia</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>*s</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>endereço onde imprime a STACK </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="stack.h" line="72" column="5" bodyfile="stack.c" bodystart="133" bodyend="135" declfile="stack.h" declline="72" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="stack_8h_1a2661322ffb24bd2ba04c1f12c4efdb65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+        <definition>DADOS MAKE_DADOS_LONG</definition>
+        <argsstring>(long v)</argsstring>
+        <name>MAKE_DADOS_LONG</name>
+        <param>
+          <type>long</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>Produz os dados do tipo long. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Produz dados do tipo long</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>v</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>dado recebido do tipo long </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="stack.h" line="74" column="7" bodyfile="stack.c" bodystart="142" bodyend="147" declfile="stack.h" declline="74" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="stack_8h_1a5f4af788272f9222778bf7ff297c9d33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+        <definition>DADOS MAKE_DADOS_DOUBLE</definition>
+        <argsstring>(double v)</argsstring>
+        <name>MAKE_DADOS_DOUBLE</name>
+        <param>
+          <type>double</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>Produz os dados do tipo double. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Produz dados do tipo double</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>v</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>dado recebido do tipo double </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="stack.h" line="76" column="7" bodyfile="stack.c" bodystart="154" bodyend="159" declfile="stack.h" declline="76" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="stack_8h_1afa7377ded223ad76e57a28c78adef616" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+        <definition>DADOS MAKE_DADOS_CHAR</definition>
+        <argsstring>(char v)</argsstring>
+        <name>MAKE_DADOS_CHAR</name>
+        <param>
+          <type>char</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>Produz os dados do tipo char. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Produz dados do tipo char</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>v</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>dado recebido do tipo char </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="stack.h" line="78" column="7" bodyfile="stack.c" bodystart="166" bodyend="171" declfile="stack.h" declline="78" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="stack_8h_1a21eb9ccd09c39057c1a31e49b35bed53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+        <definition>DADOS MAKE_DADOS_STRING</definition>
+        <argsstring>(char *s)</argsstring>
+        <name>MAKE_DADOS_STRING</name>
+        <param>
+          <type>char *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Produz os dados do tipo string. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Produz dados do tipo string</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>v</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>dado recebido do tipo string </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="stack.h" line="80" column="7" bodyfile="stack.c" bodystart="178" bodyend="182" declfile="stack.h" declline="80" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="stack_8h_1a9e58e79adfbd7cb9815e0da90234b660" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref></type>
+        <definition>DADOS MAKE_DADOS_ARRAY</definition>
+        <argsstring>(STACK *s)</argsstring>
+        <name>MAKE_DADOS_ARRAY</name>
+        <param>
+          <type><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Produz os dados do tipo array. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Produz dados do tipo array</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>*s</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>stack onde está o array </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>os dados do tipo array </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="stack.h" line="82" column="7" bodyfile="stack.c" bodystart="190" bodyend="195" declfile="stack.h" declline="82" declcolumn="7"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>STACK_H_INCLUDED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STACK_H_INCLUDED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54" kindref="member">tipo</ref>{</highlight></codeline>
+<codeline lineno="13" refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54aaee055c4a5aba7d55774e4f1c01dacea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54aaee055c4a5aba7d55774e4f1c01dacea" kindref="member">LONG</ref>,<sp/></highlight></codeline>
+<codeline lineno="14" refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a33465d1d419b1074fb259ef444609e92" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a33465d1d419b1074fb259ef444609e92" kindref="member">DOUBLE</ref>,<sp/></highlight></codeline>
+<codeline lineno="15" refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a4618cf21306b3c647741afa7ebefcab8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a4618cf21306b3c647741afa7ebefcab8" kindref="member">CHAR</ref>,<sp/></highlight></codeline>
+<codeline lineno="16" refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54aee847e634a4297b274316de8a8ca9921" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54aee847e634a4297b274316de8a8ca9921" kindref="member">STRING</ref>,</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a1e029fbf0c881b85d80fc8e89b753688" kindref="member">ARRAY</ref></highlight></codeline>
+<codeline lineno="18" refid="stack_8h_1a030a181134e163cb2a9e98e83810bb54a1e029fbf0c881b85d80fc8e89b753688" refkind="member"><highlight class="normal">}<sp/><ref refid="stack_8h_1a12ffc82dea4852d9ad6c3ff0be139b8d" kindref="member">TIPO</ref>;<sp/></highlight></codeline>
+<codeline lineno="24" refid="uniondados" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal"><ref refid="uniondados" kindref="compound">dados</ref>{</highlight></codeline>
+<codeline lineno="25" refid="uniondados_1ae7d45557d9679e4d35af856bb46540f7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="uniondados_1ae7d45557d9679e4d35af856bb46540f7" kindref="member">x</ref>;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="26" refid="uniondados_1aae5c632fc7416eb5f6c41d1c2b9bc0b4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="uniondados_1aae5c632fc7416eb5f6c41d1c2b9bc0b4" kindref="member">y</ref>;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="27" refid="uniondados_1a13d5ca92696b4d951ab1b7636419c097" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="uniondados_1a13d5ca92696b4d951ab1b7636419c097" kindref="member">z</ref>;<sp/></highlight></codeline>
+<codeline lineno="28" refid="uniondados_1a4a73f7349e6b0da3425d1e8a39b845cf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="uniondados_1a4a73f7349e6b0da3425d1e8a39b845cf" kindref="member">w</ref>;<sp/><sp/></highlight></codeline>
+<codeline lineno="29" refid="stack_8h_1a79b38e3b849aa85be5d9a433085235b5" refkind="member"><highlight class="normal">}<sp/><ref refid="stack_8h_1a79b38e3b849aa85be5d9a433085235b5" kindref="member">VALOR</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="35" refid="structvariaveis" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structvariaveis" kindref="compound">variaveis</ref>{</highlight></codeline>
+<codeline lineno="36" refid="structvariaveis_1a9dfcf15fc364658f793f18b1b7545e1e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="stack_8h_1a12ffc82dea4852d9ad6c3ff0be139b8d" kindref="member">TIPO</ref><sp/><ref refid="structvariaveis_1a9dfcf15fc364658f793f18b1b7545e1e" kindref="member">t</ref>;<sp/><sp/></highlight></codeline>
+<codeline lineno="37" refid="structvariaveis_1ae2f9e418bebfeb0302788991b49eafb1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="uniondados" kindref="compound">VALOR</ref><sp/><ref refid="structvariaveis_1ae2f9e418bebfeb0302788991b49eafb1" kindref="member">v</ref>;<sp/></highlight></codeline>
+<codeline lineno="38" refid="stack_8h_1a51f541c7c9972833bb75a178574c73c9" refkind="member"><highlight class="normal">}<sp/><ref refid="stack_8h_1a51f541c7c9972833bb75a178574c73c9" kindref="member">VAR</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="44" refid="structinicial" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structinicial" kindref="compound">inicial</ref>{</highlight></codeline>
+<codeline lineno="45" refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="stack_8h_1a12ffc82dea4852d9ad6c3ff0be139b8d" kindref="member">TIPO</ref><sp/><ref refid="structinicial_1a5f9b1789b75e80436c3eb8ebf410bbcd" kindref="member">tipo</ref>;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="46" refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="structinicial_1ae9dedea811e9039c844f4ad004ae35d6" kindref="member">dados</ref>;<sp/></highlight></codeline>
+<codeline lineno="47" refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" refkind="member"><highlight class="normal">}<sp/><ref refid="stack_8h_1a0ba49a2bb5b8885b0e71e4f659e0db0d" kindref="member">DADOS</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="53" refid="structstack" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structstack" kindref="compound">stack</ref>{</highlight></codeline>
+<codeline lineno="54" refid="structstack_1ac8fc5be92f20684ddfd1060b4f7ab4f7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structinicial" kindref="compound">DADOS</ref><sp/>*<ref refid="structstack_1ac8fc5be92f20684ddfd1060b4f7ab4f7" kindref="member">stack</ref>;<sp/></highlight></codeline>
+<codeline lineno="55" refid="structstack_1a926a597bae913d1bf4772be35c14b71e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structstack_1a926a597bae913d1bf4772be35c14b71e" kindref="member">size</ref>;<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="56" refid="structstack_1a2d100511cad42e140cbbe2863cab8c8c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structstack_1a2d100511cad42e140cbbe2863cab8c8c" kindref="member">top</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="57" refid="structstack_1a8009cc34985fef473a64a8db01e539cc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structvariaveis" kindref="compound">VAR</ref><sp/>*<ref refid="structstack_1a8009cc34985fef473a64a8db01e539cc" kindref="member">var</ref>;<sp/><sp/></highlight></codeline>
+<codeline lineno="58" refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" refkind="member"><highlight class="normal">}<sp/><ref refid="stack_8h_1ade8bb1f37e07eb511f3873082665d739" kindref="member">STACK</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><ref refid="structstack" kindref="compound">STACK</ref><sp/>*<ref refid="stack_8h_1ab37b0d083f873fbdc37d708bb9f40efc" kindref="member">create_stack</ref>();</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="stack_8h_1a6da247d11bbdc02f685775c0ad7683e5" kindref="member">push</ref>(<ref refid="structstack" kindref="compound">STACK</ref><sp/>*s,<sp/><ref refid="structinicial" kindref="compound">DADOS</ref><sp/>elem);<sp/></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="stack_8h_1a42b87bab2d601cb02900935c9b80fc23" kindref="member">print_stack</ref>(<ref refid="structstack" kindref="compound">STACK</ref><sp/>*s);<sp/></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="stack_8h_1a4a17e13318cc29c9b85fec0dcc4d6b66" kindref="member">print_array</ref>(<ref refid="structstack" kindref="compound">STACK</ref><sp/>*s);<sp/></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><ref refid="structinicial" kindref="compound">DADOS</ref><sp/><ref refid="stack_8h_1aec9ac4a3a9271f16fd6aa58771182ca2" kindref="member">pop</ref>(<ref refid="structstack" kindref="compound">STACK</ref><sp/>*s);<sp/></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><ref refid="structinicial" kindref="compound">DADOS</ref><sp/><ref refid="stack_8h_1a37b995ce0da16a4b6b90ca8f1f52eef7" kindref="member">top</ref>(<ref refid="structstack" kindref="compound">STACK</ref><sp/>*s);<sp/></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="stack_8h_1ae31d2a4c10db0d5b01ecd8a8aab01cfc" kindref="member">is_empty</ref>(<ref refid="structstack" kindref="compound">STACK</ref><sp/>*s);<sp/></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><ref refid="structinicial" kindref="compound">DADOS</ref><sp/><ref refid="stack_8h_1a2661322ffb24bd2ba04c1f12c4efdb65" kindref="member">MAKE_DADOS_LONG</ref>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>v);<sp/></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><ref refid="structinicial" kindref="compound">DADOS</ref><sp/><ref refid="stack_8h_1a5f4af788272f9222778bf7ff297c9d33" kindref="member">MAKE_DADOS_DOUBLE</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>v);<sp/></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><ref refid="structinicial" kindref="compound">DADOS</ref><sp/><ref refid="stack_8h_1afa7377ded223ad76e57a28c78adef616" kindref="member">MAKE_DADOS_CHAR</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>v);<sp/></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><ref refid="structinicial" kindref="compound">DADOS</ref><sp/><ref refid="stack_8h_1a21eb9ccd09c39057c1a31e49b35bed53" kindref="member">MAKE_DADOS_STRING</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*s);<sp/></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><ref refid="structinicial" kindref="compound">DADOS</ref><sp/><ref refid="stack_8h_1a9e58e79adfbd7cb9815e0da90234b660" kindref="member">MAKE_DADOS_ARRAY</ref>(<ref refid="structstack" kindref="compound">STACK</ref><sp/>*s);<sp/></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//MAIN_C_STACK_H</highlight></codeline>
+    </programlisting>
+    <location file="stack.h"/>
+  </compounddef>
+</doxygen>
