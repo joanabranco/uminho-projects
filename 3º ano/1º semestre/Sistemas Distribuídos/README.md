@@ -2,7 +2,7 @@
 
 Trabalho realizado por:
  
-- [Ana Poças](https://github.com/anaritaaasp)
+- [Ana Poças](https://github.com/anaritaasp)
 - [Inês Ferreira](https://github.com/venicexbish)
 - [Joana Branco](https://github.com/joanabranco)
 - [João Braga](https://github.com/lykifyar)
