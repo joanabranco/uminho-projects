@@ -1,14 +1,11 @@
 # LI4 2022/2023
 
+
 Trabalho realizado por:
-
-  Ana Poças
-
-  Inês Ferreira
-
-  Joana Branco
-
-  João Braga
-  
+ 
+- [Ana Poças](https://github.com/anaritaaasp)
+- [Inês Ferreira](https://github.com/venicexbish)
+- [Joana Branco](https://github.com/joanabranco)
+- [João Braga](https://github.com/lykifyar)
   
 
