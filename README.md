@@ -25,7 +25,7 @@
 | Sistemas Operativos | [Project](https://github.com/joanabranco/Projetos-Universidade/tree/main/2%C2%BA%20ano/2%C2%BA%20semestre/Sistemas%20Operativos/SDStore) |
 
 
-| 3<sup>nd</sup> year - 1<sup>st</sup> semester | |
+| 3<sup>rd</sup> year - 1<sup>st</sup> semester | |
 | --- | :---: |
 | Comunicações por Computador | [Project](https://github.com/joanabranco/Projetos-Universidade/tree/main/3%C2%BA%20ano/1%C2%BA%20semestre/Comunica%C3%A7%C3%B5es%20por%20Computador) |
 | Cálculo de Programas | [Project](https://github.com/joanabranco/Projetos-Universidade/tree/main/3%C2%BA%20ano/1%C2%BA%20semestre/C%C3%A1lculo%20de%20Programas) |
@@ -35,7 +35,7 @@
 | Sistemas Distribuídos | [Project](https://github.com/joanabranco/Projetos-Universidade/tree/main/3%C2%BA%20ano/1%C2%BA%20semestre/Sistemas%20Distribu%C3%ADdos) |
 
 
-| 3<sup>nd</sup> year - 2<sup>st</sup> semester | |
+| 3<sup>rd</sup> year - 2<sup>nd</sup> semester | |
 | --- | :---: |
 | Análise e Teste de Software | [Project](https://github.com/joanabranco/University-Projects/tree/main/3%C2%BA%20ano/2%C2%BA%20semestre/An%C3%A1lise%20e%20Teste%20de%20Software) |
 | Aprendizagem e Decisão Inteligente | [Project](https://github.com/joanabranco/University-Projects/tree/main/3%C2%BA%20ano/2%C2%BA%20semestre/Aprendizagem%20e%20Decis%C3%A3o%20Inteligente) |
