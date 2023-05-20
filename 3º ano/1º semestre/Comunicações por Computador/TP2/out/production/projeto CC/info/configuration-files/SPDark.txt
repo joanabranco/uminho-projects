@@ -1,0 +1,8 @@
+# Configuration file for primary server for .elemt
+.elemt DB src/info/data-base-files/Dark.bd
+.elemt SS 10.0.19.10
+.elemt SS 10.0.14.10
+.elemt DD 10.0.4.10
+.elemt LG src/logs/elemt.log
+all LG src/logs/all.log
+root ST src/info/root-files/ST.db

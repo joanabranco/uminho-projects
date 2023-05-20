@@ -1,0 +1,56 @@
+*[b-xthen5nby8] {
+    /padding e margin aplicável a todos/ margin: 0;
+    padding: 0;
+}
+
+.header[b-xthen5nby8] {
+    height: 100px;
+    width: 100%;
+    background-image: linear-gradient(rgba(170, 239, 198), rgba(170, 239, 198)), url(images/banner.jpg);
+    background-position: center;
+    background-size: cover; 
+    position: relative;
+}
+
+menu[b-xthen5nby8] {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    menu img[b-xthen5nby8] {
+        width: 150px;
+    }
+
+.menu-links[b-xthen5nby8] {
+    flex: 1;
+    text-align: right;
+}
+
+    .menu-links ul li[b-xthen5nby8] {
+        list-style: none;
+        display: inline-block; /* para ficar na horizontal */
+        padding: 8px 12px;
+        position: relative;
+    }
+
+        .menu-links ul li a[b-xthen5nby8] {
+            color: rgb(0, 0, 0);
+            text-decoration: solid;
+            font-size: 1;
+        }
+
+        .menu-links ul li[b-xthen5nby8]::after {
+            content: '';
+            width: 0%;
+            height: 2px;
+            background: rgb(255, 255, 255);
+            display: block;
+            margin: auto;
+            transition: 0.5s;
+        }
+
+        .menu-links ul li:hover[b-xthen5nby8]::after {
+            width: 100%;
+        }

@@ -1,0 +1,8 @@
+# Configuration file for primary server for .reverse
+.reverse DB src/info/data-base-files/Sky.bd
+.reverse SS 10.0.12.10
+.reverse SS 10.0.21.10
+.reverse DD 10.0.5.10
+.reverse LG src/logs/reverse.log
+all LG src/logs/all.log
+root ST src/info/root-files/ST.db

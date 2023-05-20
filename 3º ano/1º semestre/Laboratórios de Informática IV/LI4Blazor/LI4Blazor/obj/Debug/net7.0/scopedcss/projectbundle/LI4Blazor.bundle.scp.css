@@ -1,0 +1,197 @@
+/* _content/LI4Blazor/Shared/Header.razor.rz.scp.css */
+*[b-xthen5nby8] {
+    /padding e margin aplicável a todos/ margin: 0;
+    padding: 0;
+}
+
+.header[b-xthen5nby8] {
+    height: 100px;
+    width: 100%;
+    background-image: linear-gradient(rgba(170, 239, 198), rgba(170, 239, 198)), url(images/banner.jpg);
+    background-position: center;
+    background-size: cover; 
+    position: relative;
+}
+
+menu[b-xthen5nby8] {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    menu img[b-xthen5nby8] {
+        width: 150px;
+    }
+
+.menu-links[b-xthen5nby8] {
+    flex: 1;
+    text-align: right;
+}
+
+    .menu-links ul li[b-xthen5nby8] {
+        list-style: none;
+        display: inline-block; /* para ficar na horizontal */
+        padding: 8px 12px;
+        position: relative;
+    }
+
+        .menu-links ul li a[b-xthen5nby8] {
+            color: rgb(0, 0, 0);
+            text-decoration: solid;
+            font-size: 1;
+        }
+
+        .menu-links ul li[b-xthen5nby8]::after {
+            content: '';
+            width: 0%;
+            height: 2px;
+            background: rgb(255, 255, 255);
+            display: block;
+            margin: auto;
+            transition: 0.5s;
+        }
+
+        .menu-links ul li:hover[b-xthen5nby8]::after {
+            width: 100%;
+        }
+/* _content/LI4Blazor/Shared/MainLayout.razor.rz.scp.css */
+.page[b-n136b97c6z] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-n136b97c6z] {
+    flex: 1;
+}
+
+.sidebar[b-n136b97c6z] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+.top-row[b-n136b97c6z] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-n136b97c6z]  a, .top-row .btn-link[b-n136b97c6z] {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+    }
+
+    .top-row a:first-child[b-n136b97c6z] {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-n136b97c6z] {
+        display: none;
+    }
+
+    .top-row.auth[b-n136b97c6z] {
+        justify-content: space-between;
+    }
+
+    .top-row a[b-n136b97c6z], .top-row .btn-link[b-n136b97c6z] {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-n136b97c6z] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-n136b97c6z] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-n136b97c6z] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row[b-n136b97c6z], article[b-n136b97c6z] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+/* _content/LI4Blazor/Shared/NavMenu.razor.rz.scp.css */
+.navbar-toggler[b-kx8xx2wknh] {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.top-row[b-kx8xx2wknh] {
+    height: 3.5rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand[b-kx8xx2wknh] {
+    font-size: 1.1rem;
+}
+
+.oi[b-kx8xx2wknh] {
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
+
+.nav-item[b-kx8xx2wknh] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type[b-kx8xx2wknh] {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type[b-kx8xx2wknh] {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item[b-kx8xx2wknh]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+.nav-item[b-kx8xx2wknh]  a.active {
+    background-color: rgba(255,255,255,0.25);
+    color: white;
+}
+
+.nav-item[b-kx8xx2wknh]  a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-kx8xx2wknh] {
+        display: none;
+    }
+
+    .collapse[b-kx8xx2wknh] {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+    
+    .nav-scrollable[b-kx8xx2wknh] {
+        /* Allow sidebar to scroll for tall menus */
+        height: calc(100vh - 3.5rem);
+        overflow-y: auto;
+    }
+}

@@ -1,0 +1,8 @@
+# Configuration file for primary server for .trix
+.trix DB src/info/data-base-files/Darcy.bd
+.trix SS 10.0.13.10
+.trix SS 10.0.20.10
+.trix DD 10.0.2.11
+.trix LG src/logs/trix.log
+all LG src/logs/all.log
+root ST src/info/root-files/ST.db

@@ -1,8 +1,0 @@
-# Configuration file for primary server for trix.
-trix. DB /var/dns/trix.db
-trix. SS 10.0.2.12
-trix. SS 10.0.2.13
-trix. DD 10.0.2.11
-trix. LG /var/dns/trix.log
-all LG /var/dns/all.log
-root ST /var/dns/rootservers.db

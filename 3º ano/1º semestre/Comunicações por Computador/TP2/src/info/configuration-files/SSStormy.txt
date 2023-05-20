@@ -1,0 +1,7 @@
+# Configuration file for secondary server for .trix
+.trix SP 10.0.2.11
+.trix SS 10.0.13.10
+.trix DD 10.0.2.11
+.trix LG src/logs/trix.log
+all LG src/logs/all.log
+root ST src/info/root-files/ST.db

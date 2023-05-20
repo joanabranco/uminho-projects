@@ -1,0 +1,31 @@
+# DNS database file for domain .winx
+# It also includes a pointer to the primary server
+# of the elemw.winx subdomain
+
+@ DEFAULT .winx.
+TTL DEFAULT 86400
+
+@ SOASP ns1.winx. TTL
+@ SOAADMIN dns\.admin.winx. TTL
+@ SOASERIAL 0117102022 TTL
+@ SOAREFRESH 14400 TTL
+@ SOARETRY 3600 TTL
+@ SOAEXPIRE 604800 TTL
+
+@ NS ns1.winx. TTL
+@ NS ns2.winx. TTL
+@ NS ns3.winx. TTL
+
+elemw.@ NS sp.elemw.winx.
+
+ns1 A 10.0.0.10 TTL
+ns2 A 10.0.0.11 TTL
+ns3 A 10.0.0.12 TTL
+sp.elemw A 10.0.3.10  TTL
+
+
+spBloom CNAME ns1 TTL
+ssStella CNAME ns2 TTL
+ssFlora CNAME ns3 TTL
+
+

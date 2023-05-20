@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="weight">
+            <config key="40-_0">
+                <entry key="bin_name" type="xstring" value="40-"/>
+                <entry key="left_open" type="xboolean" value="true"/>
+                <entry key="left_value" type="xdouble" value="-Infinity"/>
+                <entry key="right_open" type="xboolean" value="false"/>
+                <entry key="right_value" type="xdouble" value="40.0"/>
+            </config>
+            <config key="40-60_1">
+                <entry key="bin_name" type="xstring" value="40-60"/>
+                <entry key="left_open" type="xboolean" value="true"/>
+                <entry key="left_value" type="xdouble" value="40.0"/>
+                <entry key="right_open" type="xboolean" value="true"/>
+                <entry key="right_value" type="xdouble" value="60.0"/>
+            </config>
+            <config key="60-80_2">
+                <entry key="bin_name" type="xstring" value="60-80"/>
+                <entry key="left_open" type="xboolean" value="false"/>
+                <entry key="left_value" type="xdouble" value="60.0"/>
+                <entry key="right_open" type="xboolean" value="true"/>
+                <entry key="right_value" type="xdouble" value="80.0"/>
+            </config>
+            <config key="80-100_3">
+                <entry key="bin_name" type="xstring" value="80-100"/>
+                <entry key="left_open" type="xboolean" value="false"/>
+                <entry key="left_value" type="xdouble" value="80.0"/>
+                <entry key="right_open" type="xboolean" value="false"/>
+                <entry key="right_value" type="xdouble" value="100.0"/>
+            </config>
+            <config key="100+_4">
+                <entry key="bin_name" type="xstring" value="100+"/>
+                <entry key="left_open" type="xboolean" value="true"/>
+                <entry key="left_value" type="xdouble" value="100.0"/>
+                <entry key="right_open" type="xboolean" value="true"/>
+                <entry key="right_value" type="xdouble" value="Infinity"/>
+            </config>
+        </config>
+        <entry key="weight_is_appended" type="xstring" value="weight_binned"/>
+        <config key="age">
+            <config key="30-_0">
+                <entry key="bin_name" type="xstring" value="30-"/>
+                <entry key="left_open" type="xboolean" value="true"/>
+                <entry key="left_value" type="xdouble" value="-Infinity"/>
+                <entry key="right_open" type="xboolean" value="true"/>
+                <entry key="right_value" type="xdouble" value="30.0"/>
+            </config>
+            <config key="30-40_1">
+                <entry key="bin_name" type="xstring" value="30-40"/>
+                <entry key="left_open" type="xboolean" value="false"/>
+                <entry key="left_value" type="xdouble" value="30.0"/>
+                <entry key="right_open" type="xboolean" value="false"/>
+                <entry key="right_value" type="xdouble" value="40.0"/>
+            </config>
+            <config key="40-50_2">
+                <entry key="bin_name" type="xstring" value="40-50"/>
+                <entry key="left_open" type="xboolean" value="true"/>
+                <entry key="left_value" type="xdouble" value="40.0"/>
+                <entry key="right_open" type="xboolean" value="true"/>
+                <entry key="right_value" type="xdouble" value="50.0"/>
+            </config>
+            <config key="50-60_3">
+                <entry key="bin_name" type="xstring" value="50-60"/>
+                <entry key="left_open" type="xboolean" value="false"/>
+                <entry key="left_value" type="xdouble" value="50.0"/>
+                <entry key="right_open" type="xboolean" value="false"/>
+                <entry key="right_value" type="xdouble" value="60.0"/>
+            </config>
+            <config key="60+_4">
+                <entry key="bin_name" type="xstring" value="60+"/>
+                <entry key="left_open" type="xboolean" value="true"/>
+                <entry key="left_value" type="xdouble" value="60.0"/>
+                <entry key="right_open" type="xboolean" value="true"/>
+                <entry key="right_value" type="xdouble" value="Infinity"/>
+            </config>
+        </config>
+        <entry key="age_is_appended" type="xstring" value="age_binned"/>
+        <config key="height">
+            <config key="140-_0">
+                <entry key="bin_name" type="xstring" value="140-"/>
+                <entry key="left_open" type="xboolean" value="true"/>
+                <entry key="left_value" type="xdouble" value="-Infinity"/>
+                <entry key="right_open" type="xboolean" value="true"/>
+                <entry key="right_value" type="xdouble" value="140.0"/>
+            </config>
+            <config key="140-150_1">
+                <entry key="bin_name" type="xstring" value="140-150"/>
+                <entry key="left_open" type="xboolean" value="false"/>
+                <entry key="left_value" type="xdouble" value="140.0"/>
+                <entry key="right_open" type="xboolean" value="true"/>
+                <entry key="right_value" type="xdouble" value="150.0"/>
+            </config>
+            <config key="150-160_2">
+                <entry key="bin_name" type="xstring" value="150-160"/>
+                <entry key="left_open" type="xboolean" value="false"/>
+                <entry key="left_value" type="xdouble" value="150.0"/>
+                <entry key="right_open" type="xboolean" value="true"/>
+                <entry key="right_value" type="xdouble" value="170.0"/>
+            </config>
+            <config key="170-180_3">
+                <entry key="bin_name" type="xstring" value="170-180"/>
+                <entry key="left_open" type="xboolean" value="false"/>
+                <entry key="left_value" type="xdouble" value="170.0"/>
+                <entry key="right_open" type="xboolean" value="false"/>
+                <entry key="right_value" type="xdouble" value="180.0"/>
+            </config>
+            <config key="180+_4">
+                <entry key="bin_name" type="xstring" value="180+"/>
+                <entry key="left_open" type="xboolean" value="true"/>
+                <entry key="left_value" type="xdouble" value="180.0"/>
+                <entry key="right_open" type="xboolean" value="true"/>
+                <entry key="right_value" type="xdouble" value="Infinity"/>
+            </config>
+        </config>
+        <entry key="height_is_appended" type="xstring" value="height_binned"/>
+        <config key="binned_columns">
+            <entry key="array-size" type="xint" value="3"/>
+            <entry key="0" type="xstring" value="weight"/>
+            <entry key="1" type="xstring" value="age"/>
+            <entry key="2" type="xstring" value="height"/>
+        </config>
+    </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="Agrupa idade, peso e altura%%00013%%00010em diferentes intervalos"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="165"/>
+        <entry key="y-coordinate" type="xint" value="360"/>
+        <entry key="width" type="xint" value="151"/>
+        <entry key="height" type="xint" value="30"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="16777215"/>
+        <entry key="defFontSize" type="xint" value="9"/>
+        <entry key="annotation-version" type="xint" value="20151123"/>
+        <config key="styles">
+            <config key="style_0">
+                <entry key="start" type="xint" value="0"/>
+                <entry key="length" type="xint" value="53"/>
+                <entry key="fontname" type="xstring" value="Arial"/>
+                <entry key="fontstyle" type="xint" value="0"/>
+                <entry key="fontsize" type="xint" value="9"/>
+                <entry key="fgcolor" type="xint" value="0"/>
+            </config>
+        </config>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.preproc.binner.BinnerNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Numeric Binner"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="4.7.0.v202301251625"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.7.1.v202301311311"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Numeric Binner"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 62505, Cols: 14"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="d8213927-8f2c-4db4-8e41-d345b9831aa3"/>
+    </config>
+</config>

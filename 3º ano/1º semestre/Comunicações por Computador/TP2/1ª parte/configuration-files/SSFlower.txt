@@ -1,8 +1,0 @@
-# Configuration file for secondary server for elemw.
-elemw. DB /var/dns/elemw.db
-elemw. SP 10.0.3.10
-elemw. SS 10.0.3.12
-elemw. DD 10.0.3.10
-elemw. LG /var/dns/elemw.log
-all LG /var/dns/all.log
-root ST /var/dns/rootservers.db

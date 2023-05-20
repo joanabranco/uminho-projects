@@ -1,0 +1,394 @@
+{
+  "Version": 1,
+<<<<<<< HEAD
+  "Hash": "Y9y0MqsMyusG4h1h4cpk5LFOknzPalYyRku9wOhrTCA=",
+=======
+  "Hash": "2KJGKsdUjNkA0P3IBiYXPg1Xubmxfu5gnxx7bxB+8gM=",
+>>>>>>> c5bf565323fd7bcd7ac732b18322629d2229bb4a
+  "Source": "LI4Blazor",
+  "BasePath": "_content/LI4Blazor",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "LI4Blazor/wwwroot",
+      "Source": "LI4Blazor",
+<<<<<<< HEAD
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\git repo\\LI4\\LI4Blazor\\LI4Blazor\\wwwroot\\",
+=======
+      "ContentRoot": "/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/wwwroot/",
+>>>>>>> c5bf565323fd7bcd7ac732b18322629d2229bb4a
+      "BasePath": "_content/LI4Blazor",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Admin\\Desktop\\git repo\\LI4\\LI4Blazor\\LI4Blazor\\obj\\Debug\\net7.0\\scopedcss\\bundle\\LI4Blazor.styles.css",
+      "SourceId": "LI4Blazor",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\git repo\\LI4\\LI4Blazor\\LI4Blazor\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+=======
+      "Identity": "/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/obj/Debug/net7.0/scopedcss/bundle/LI4Blazor.styles.css",
+      "SourceId": "LI4Blazor",
+      "SourceType": "Computed",
+      "ContentRoot": "/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/obj/Debug/net7.0/scopedcss/bundle/",
+>>>>>>> c5bf565323fd7bcd7ac732b18322629d2229bb4a
+      "BasePath": "_content/LI4Blazor",
+      "RelativePath": "LI4Blazor.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
+      "OriginalItemSpec": "C:\\Users\\Admin\\Desktop\\git repo\\LI4\\LI4Blazor\\LI4Blazor\\obj\\Debug\\net7.0\\scopedcss\\bundle\\LI4Blazor.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\git repo\\LI4\\LI4Blazor\\LI4Blazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\LI4Blazor.bundle.scp.css",
+      "SourceId": "LI4Blazor",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\git repo\\LI4\\LI4Blazor\\LI4Blazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+=======
+      "OriginalItemSpec": "/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/obj/Debug/net7.0/scopedcss/bundle/LI4Blazor.styles.css"
+    },
+    {
+      "Identity": "/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/obj/Debug/net7.0/scopedcss/projectbundle/LI4Blazor.bundle.scp.css",
+      "SourceId": "LI4Blazor",
+      "SourceType": "Computed",
+      "ContentRoot": "/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/obj/Debug/net7.0/scopedcss/projectbundle/",
+>>>>>>> c5bf565323fd7bcd7ac732b18322629d2229bb4a
+      "BasePath": "_content/LI4Blazor",
+      "RelativePath": "LI4Blazor.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
+      "OriginalItemSpec": "C:\\Users\\Admin\\Desktop\\git repo\\LI4\\LI4Blazor\\LI4Blazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\LI4Blazor.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\git repo\\LI4\\LI4Blazor\\LI4Blazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "SourceId": "LI4Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\git repo\\LI4\\LI4Blazor\\LI4Blazor\\wwwroot\\",
+=======
+      "OriginalItemSpec": "/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/obj/Debug/net7.0/scopedcss/projectbundle/LI4Blazor.bundle.scp.css"
+    },
+    {
+      "Identity": "/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/wwwroot/css/bootstrap/bootstrap.min.css",
+      "SourceId": "LI4Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/wwwroot/",
+>>>>>>> c5bf565323fd7bcd7ac732b18322629d2229bb4a
+      "BasePath": "_content/LI4Blazor",
+      "RelativePath": "css/bootstrap/bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/bootstrap/bootstrap.min.css"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Admin\\Desktop\\git repo\\LI4\\LI4Blazor\\LI4Blazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "SourceId": "LI4Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\git repo\\LI4\\LI4Blazor\\LI4Blazor\\wwwroot\\",
+=======
+      "Identity": "/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "SourceId": "LI4Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/wwwroot/",
+>>>>>>> c5bf565323fd7bcd7ac732b18322629d2229bb4a
+      "BasePath": "_content/LI4Blazor",
+      "RelativePath": "css/bootstrap/bootstrap.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/bootstrap/bootstrap.min.css.map"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Admin\\Desktop\\git repo\\LI4\\LI4Blazor\\LI4Blazor\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "SourceId": "LI4Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\git repo\\LI4\\LI4Blazor\\LI4Blazor\\wwwroot\\",
+=======
+      "Identity": "/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/wwwroot/css/open-iconic/FONT-LICENSE",
+      "SourceId": "LI4Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/wwwroot/",
+>>>>>>> c5bf565323fd7bcd7ac732b18322629d2229bb4a
+      "BasePath": "_content/LI4Blazor",
+      "RelativePath": "css/open-iconic/FONT-LICENSE",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/open-iconic/FONT-LICENSE"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Admin\\Desktop\\git repo\\LI4\\LI4Blazor\\LI4Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "SourceId": "LI4Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\git repo\\LI4\\LI4Blazor\\LI4Blazor\\wwwroot\\",
+=======
+      "Identity": "/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+      "SourceId": "LI4Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/wwwroot/",
+>>>>>>> c5bf565323fd7bcd7ac732b18322629d2229bb4a
+      "BasePath": "_content/LI4Blazor",
+      "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Admin\\Desktop\\git repo\\LI4\\LI4Blazor\\LI4Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "SourceId": "LI4Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\git repo\\LI4\\LI4Blazor\\LI4Blazor\\wwwroot\\",
+=======
+      "Identity": "/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
+      "SourceId": "LI4Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/wwwroot/",
+>>>>>>> c5bf565323fd7bcd7ac732b18322629d2229bb4a
+      "BasePath": "_content/LI4Blazor",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.eot"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Admin\\Desktop\\git repo\\LI4\\LI4Blazor\\LI4Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "SourceId": "LI4Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\git repo\\LI4\\LI4Blazor\\LI4Blazor\\wwwroot\\",
+=======
+      "Identity": "/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
+      "SourceId": "LI4Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/wwwroot/",
+>>>>>>> c5bf565323fd7bcd7ac732b18322629d2229bb4a
+      "BasePath": "_content/LI4Blazor",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.otf"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Admin\\Desktop\\git repo\\LI4\\LI4Blazor\\LI4Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "SourceId": "LI4Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\git repo\\LI4\\LI4Blazor\\LI4Blazor\\wwwroot\\",
+=======
+      "Identity": "/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
+      "SourceId": "LI4Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/wwwroot/",
+>>>>>>> c5bf565323fd7bcd7ac732b18322629d2229bb4a
+      "BasePath": "_content/LI4Blazor",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.svg"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Admin\\Desktop\\git repo\\LI4\\LI4Blazor\\LI4Blazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "SourceId": "LI4Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\git repo\\LI4\\LI4Blazor\\LI4Blazor\\wwwroot\\",
+=======
+      "Identity": "/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
+      "SourceId": "LI4Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/wwwroot/",
+>>>>>>> c5bf565323fd7bcd7ac732b18322629d2229bb4a
+      "BasePath": "_content/LI4Blazor",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.ttf"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Admin\\Desktop\\git repo\\LI4\\LI4Blazor\\LI4Blazor\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "SourceId": "LI4Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\git repo\\LI4\\LI4Blazor\\LI4Blazor\\wwwroot\\",
+=======
+      "Identity": "/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
+      "SourceId": "LI4Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/wwwroot/",
+>>>>>>> c5bf565323fd7bcd7ac732b18322629d2229bb4a
+      "BasePath": "_content/LI4Blazor",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.woff"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Admin\\Desktop\\git repo\\LI4\\LI4Blazor\\LI4Blazor\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "SourceId": "LI4Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\git repo\\LI4\\LI4Blazor\\LI4Blazor\\wwwroot\\",
+=======
+      "Identity": "/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/wwwroot/css/open-iconic/ICON-LICENSE",
+      "SourceId": "LI4Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/wwwroot/",
+>>>>>>> c5bf565323fd7bcd7ac732b18322629d2229bb4a
+      "BasePath": "_content/LI4Blazor",
+      "RelativePath": "css/open-iconic/ICON-LICENSE",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/open-iconic/ICON-LICENSE"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Admin\\Desktop\\git repo\\LI4\\LI4Blazor\\LI4Blazor\\wwwroot\\css\\open-iconic\\README.md",
+      "SourceId": "LI4Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\git repo\\LI4\\LI4Blazor\\LI4Blazor\\wwwroot\\",
+=======
+      "Identity": "/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/wwwroot/css/open-iconic/README.md",
+      "SourceId": "LI4Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/wwwroot/",
+>>>>>>> c5bf565323fd7bcd7ac732b18322629d2229bb4a
+      "BasePath": "_content/LI4Blazor",
+      "RelativePath": "css/open-iconic/README.md",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/open-iconic/README.md"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Admin\\Desktop\\git repo\\LI4\\LI4Blazor\\LI4Blazor\\wwwroot\\css\\site.css",
+      "SourceId": "LI4Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\git repo\\LI4\\LI4Blazor\\LI4Blazor\\wwwroot\\",
+=======
+      "Identity": "/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/wwwroot/css/site.css",
+      "SourceId": "LI4Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/wwwroot/",
+>>>>>>> c5bf565323fd7bcd7ac732b18322629d2229bb4a
+      "BasePath": "_content/LI4Blazor",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/site.css"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Admin\\Desktop\\git repo\\LI4\\LI4Blazor\\LI4Blazor\\wwwroot\\favicon.png",
+      "SourceId": "LI4Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\git repo\\LI4\\LI4Blazor\\LI4Blazor\\wwwroot\\",
+=======
+      "Identity": "/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/wwwroot/favicon.png",
+      "SourceId": "LI4Blazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/wwwroot/",
+>>>>>>> c5bf565323fd7bcd7ac732b18322629d2229bb4a
+      "BasePath": "_content/LI4Blazor",
+      "RelativePath": "favicon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/favicon.png"
+    }
+  ]
+}

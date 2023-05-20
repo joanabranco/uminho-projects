@@ -1,0 +1,131 @@
+<<<<<<< HEAD
+D:\git repo\LI4Blazor\LI4Blazor\LI4Blazor\bin\Debug\net7.0\appsettings.Development.json
+D:\git repo\LI4Blazor\LI4Blazor\LI4Blazor\bin\Debug\net7.0\appsettings.json
+D:\git repo\LI4Blazor\LI4Blazor\LI4Blazor\bin\Debug\net7.0\LI4Blazor.staticwebassets.runtime.json
+D:\git repo\LI4Blazor\LI4Blazor\LI4Blazor\bin\Debug\net7.0\LI4Blazor.exe
+D:\git repo\LI4Blazor\LI4Blazor\LI4Blazor\bin\Debug\net7.0\LI4Blazor.deps.json
+D:\git repo\LI4Blazor\LI4Blazor\LI4Blazor\bin\Debug\net7.0\LI4Blazor.runtimeconfig.json
+D:\git repo\LI4Blazor\LI4Blazor\LI4Blazor\bin\Debug\net7.0\LI4Blazor.dll
+D:\git repo\LI4Blazor\LI4Blazor\LI4Blazor\bin\Debug\net7.0\LI4Blazor.pdb
+D:\git repo\LI4Blazor\LI4Blazor\LI4Blazor\obj\Debug\net7.0\LI4Blazor.csproj.AssemblyReference.cache
+D:\git repo\LI4Blazor\LI4Blazor\LI4Blazor\obj\Debug\net7.0\LI4Blazor.GeneratedMSBuildEditorConfig.editorconfig
+D:\git repo\LI4Blazor\LI4Blazor\LI4Blazor\obj\Debug\net7.0\LI4Blazor.AssemblyInfoInputs.cache
+D:\git repo\LI4Blazor\LI4Blazor\LI4Blazor\obj\Debug\net7.0\LI4Blazor.AssemblyInfo.cs
+D:\git repo\LI4Blazor\LI4Blazor\LI4Blazor\obj\Debug\net7.0\LI4Blazor.csproj.CoreCompileInputs.cache
+D:\git repo\LI4Blazor\LI4Blazor\LI4Blazor\obj\Debug\net7.0\LI4Blazor.MvcApplicationPartsAssemblyInfo.cache
+D:\git repo\LI4Blazor\LI4Blazor\LI4Blazor\obj\Debug\net7.0\LI4Blazor.RazorAssemblyInfo.cache
+D:\git repo\LI4Blazor\LI4Blazor\LI4Blazor\obj\Debug\net7.0\LI4Blazor.RazorAssemblyInfo.cs
+D:\git repo\LI4Blazor\LI4Blazor\LI4Blazor\obj\Debug\net7.0\staticwebassets\msbuild.LI4Blazor.Microsoft.AspNetCore.StaticWebAssets.props
+D:\git repo\LI4Blazor\LI4Blazor\LI4Blazor\obj\Debug\net7.0\staticwebassets\msbuild.build.LI4Blazor.props
+D:\git repo\LI4Blazor\LI4Blazor\LI4Blazor\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.LI4Blazor.props
+D:\git repo\LI4Blazor\LI4Blazor\LI4Blazor\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.LI4Blazor.props
+D:\git repo\LI4Blazor\LI4Blazor\LI4Blazor\obj\Debug\net7.0\staticwebassets.pack.json
+D:\git repo\LI4Blazor\LI4Blazor\LI4Blazor\obj\Debug\net7.0\staticwebassets.build.json
+D:\git repo\LI4Blazor\LI4Blazor\LI4Blazor\obj\Debug\net7.0\staticwebassets.development.json
+D:\git repo\LI4Blazor\LI4Blazor\LI4Blazor\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+D:\git repo\LI4Blazor\LI4Blazor\LI4Blazor\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+D:\git repo\LI4Blazor\LI4Blazor\LI4Blazor\obj\Debug\net7.0\scopedcss\bundle\LI4Blazor.styles.css
+D:\git repo\LI4Blazor\LI4Blazor\LI4Blazor\obj\Debug\net7.0\scopedcss\projectbundle\LI4Blazor.bundle.scp.css
+D:\git repo\LI4Blazor\LI4Blazor\LI4Blazor\obj\Debug\net7.0\LI4Blazor.dll
+D:\git repo\LI4Blazor\LI4Blazor\LI4Blazor\obj\Debug\net7.0\refint\LI4Blazor.dll
+D:\git repo\LI4Blazor\LI4Blazor\LI4Blazor\obj\Debug\net7.0\LI4Blazor.pdb
+D:\git repo\LI4Blazor\LI4Blazor\LI4Blazor\obj\Debug\net7.0\LI4Blazor.genruntimeconfig.cache
+D:\git repo\LI4Blazor\LI4Blazor\LI4Blazor\obj\Debug\net7.0\ref\LI4Blazor.dll
+C:\Users\Admin\Desktop\git repo\LI4\LI4Blazor\LI4Blazor\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Admin\Desktop\git repo\LI4\LI4Blazor\LI4Blazor\bin\Debug\net7.0\appsettings.json
+C:\Users\Admin\Desktop\git repo\LI4\LI4Blazor\LI4Blazor\bin\Debug\net7.0\LI4Blazor.staticwebassets.runtime.json
+C:\Users\Admin\Desktop\git repo\LI4\LI4Blazor\LI4Blazor\bin\Debug\net7.0\LI4Blazor.exe
+C:\Users\Admin\Desktop\git repo\LI4\LI4Blazor\LI4Blazor\bin\Debug\net7.0\LI4Blazor.deps.json
+C:\Users\Admin\Desktop\git repo\LI4\LI4Blazor\LI4Blazor\bin\Debug\net7.0\LI4Blazor.runtimeconfig.json
+C:\Users\Admin\Desktop\git repo\LI4\LI4Blazor\LI4Blazor\bin\Debug\net7.0\LI4Blazor.dll
+C:\Users\Admin\Desktop\git repo\LI4\LI4Blazor\LI4Blazor\bin\Debug\net7.0\LI4Blazor.pdb
+C:\Users\Admin\Desktop\git repo\LI4\LI4Blazor\LI4Blazor\obj\Debug\net7.0\LI4Blazor.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\git repo\LI4\LI4Blazor\LI4Blazor\obj\Debug\net7.0\LI4Blazor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\git repo\LI4\LI4Blazor\LI4Blazor\obj\Debug\net7.0\LI4Blazor.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\git repo\LI4\LI4Blazor\LI4Blazor\obj\Debug\net7.0\LI4Blazor.AssemblyInfo.cs
+C:\Users\Admin\Desktop\git repo\LI4\LI4Blazor\LI4Blazor\obj\Debug\net7.0\LI4Blazor.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\git repo\LI4\LI4Blazor\LI4Blazor\obj\Debug\net7.0\LI4Blazor.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admin\Desktop\git repo\LI4\LI4Blazor\LI4Blazor\obj\Debug\net7.0\LI4Blazor.RazorAssemblyInfo.cache
+C:\Users\Admin\Desktop\git repo\LI4\LI4Blazor\LI4Blazor\obj\Debug\net7.0\LI4Blazor.RazorAssemblyInfo.cs
+C:\Users\Admin\Desktop\git repo\LI4\LI4Blazor\LI4Blazor\obj\Debug\net7.0\staticwebassets\msbuild.LI4Blazor.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Admin\Desktop\git repo\LI4\LI4Blazor\LI4Blazor\obj\Debug\net7.0\staticwebassets\msbuild.build.LI4Blazor.props
+C:\Users\Admin\Desktop\git repo\LI4\LI4Blazor\LI4Blazor\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.LI4Blazor.props
+C:\Users\Admin\Desktop\git repo\LI4\LI4Blazor\LI4Blazor\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.LI4Blazor.props
+C:\Users\Admin\Desktop\git repo\LI4\LI4Blazor\LI4Blazor\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Admin\Desktop\git repo\LI4\LI4Blazor\LI4Blazor\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Admin\Desktop\git repo\LI4\LI4Blazor\LI4Blazor\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Admin\Desktop\git repo\LI4\LI4Blazor\LI4Blazor\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Admin\Desktop\git repo\LI4\LI4Blazor\LI4Blazor\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\Admin\Desktop\git repo\LI4\LI4Blazor\LI4Blazor\obj\Debug\net7.0\scopedcss\bundle\LI4Blazor.styles.css
+C:\Users\Admin\Desktop\git repo\LI4\LI4Blazor\LI4Blazor\obj\Debug\net7.0\scopedcss\projectbundle\LI4Blazor.bundle.scp.css
+C:\Users\Admin\Desktop\git repo\LI4\LI4Blazor\LI4Blazor\obj\Debug\net7.0\LI4Blazor.dll
+C:\Users\Admin\Desktop\git repo\LI4\LI4Blazor\LI4Blazor\obj\Debug\net7.0\refint\LI4Blazor.dll
+C:\Users\Admin\Desktop\git repo\LI4\LI4Blazor\LI4Blazor\obj\Debug\net7.0\LI4Blazor.pdb
+C:\Users\Admin\Desktop\git repo\LI4\LI4Blazor\LI4Blazor\obj\Debug\net7.0\LI4Blazor.genruntimeconfig.cache
+C:\Users\Admin\Desktop\git repo\LI4\LI4Blazor\LI4Blazor\obj\Debug\net7.0\ref\LI4Blazor.dll
+=======
+D:/git repo/LI4Blazor/LI4Blazor/LI4Blazor/bin/Debug/net7.0/appsettings.Development.json
+D:/git repo/LI4Blazor/LI4Blazor/LI4Blazor/bin/Debug/net7.0/appsettings.json
+D:/git repo/LI4Blazor/LI4Blazor/LI4Blazor/bin/Debug/net7.0/LI4Blazor.staticwebassets.runtime.json
+D:/git repo/LI4Blazor/LI4Blazor/LI4Blazor/bin/Debug/net7.0/LI4Blazor.exe
+D:/git repo/LI4Blazor/LI4Blazor/LI4Blazor/bin/Debug/net7.0/LI4Blazor.deps.json
+D:/git repo/LI4Blazor/LI4Blazor/LI4Blazor/bin/Debug/net7.0/LI4Blazor.runtimeconfig.json
+D:/git repo/LI4Blazor/LI4Blazor/LI4Blazor/bin/Debug/net7.0/LI4Blazor.dll
+D:/git repo/LI4Blazor/LI4Blazor/LI4Blazor/bin/Debug/net7.0/LI4Blazor.pdb
+D:/git repo/LI4Blazor/LI4Blazor/LI4Blazor/obj/Debug/net7.0/LI4Blazor.csproj.AssemblyReference.cache
+D:/git repo/LI4Blazor/LI4Blazor/LI4Blazor/obj/Debug/net7.0/LI4Blazor.GeneratedMSBuildEditorConfig.editorconfig
+D:/git repo/LI4Blazor/LI4Blazor/LI4Blazor/obj/Debug/net7.0/LI4Blazor.AssemblyInfoInputs.cache
+D:/git repo/LI4Blazor/LI4Blazor/LI4Blazor/obj/Debug/net7.0/LI4Blazor.AssemblyInfo.cs
+D:/git repo/LI4Blazor/LI4Blazor/LI4Blazor/obj/Debug/net7.0/LI4Blazor.csproj.CoreCompileInputs.cache
+D:/git repo/LI4Blazor/LI4Blazor/LI4Blazor/obj/Debug/net7.0/LI4Blazor.MvcApplicationPartsAssemblyInfo.cache
+D:/git repo/LI4Blazor/LI4Blazor/LI4Blazor/obj/Debug/net7.0/LI4Blazor.RazorAssemblyInfo.cache
+D:/git repo/LI4Blazor/LI4Blazor/LI4Blazor/obj/Debug/net7.0/LI4Blazor.RazorAssemblyInfo.cs
+D:/git repo/LI4Blazor/LI4Blazor/LI4Blazor/obj/Debug/net7.0/staticwebassets/msbuild.LI4Blazor.Microsoft.AspNetCore.StaticWebAssets.props
+D:/git repo/LI4Blazor/LI4Blazor/LI4Blazor/obj/Debug/net7.0/staticwebassets/msbuild.build.LI4Blazor.props
+D:/git repo/LI4Blazor/LI4Blazor/LI4Blazor/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.LI4Blazor.props
+D:/git repo/LI4Blazor/LI4Blazor/LI4Blazor/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.LI4Blazor.props
+D:/git repo/LI4Blazor/LI4Blazor/LI4Blazor/obj/Debug/net7.0/staticwebassets.pack.json
+D:/git repo/LI4Blazor/LI4Blazor/LI4Blazor/obj/Debug/net7.0/staticwebassets.build.json
+D:/git repo/LI4Blazor/LI4Blazor/LI4Blazor/obj/Debug/net7.0/staticwebassets.development.json
+D:/git repo/LI4Blazor/LI4Blazor/LI4Blazor/obj/Debug/net7.0/scopedcss/Shared/MainLayout.razor.rz.scp.css
+D:/git repo/LI4Blazor/LI4Blazor/LI4Blazor/obj/Debug/net7.0/scopedcss/Shared/NavMenu.razor.rz.scp.css
+D:/git repo/LI4Blazor/LI4Blazor/LI4Blazor/obj/Debug/net7.0/scopedcss/bundle/LI4Blazor.styles.css
+D:/git repo/LI4Blazor/LI4Blazor/LI4Blazor/obj/Debug/net7.0/scopedcss/projectbundle/LI4Blazor.bundle.scp.css
+D:/git repo/LI4Blazor/LI4Blazor/LI4Blazor/obj/Debug/net7.0/LI4Blazor.dll
+D:/git repo/LI4Blazor/LI4Blazor/LI4Blazor/obj/Debug/net7.0/refint/LI4Blazor.dll
+D:/git repo/LI4Blazor/LI4Blazor/LI4Blazor/obj/Debug/net7.0/LI4Blazor.pdb
+D:/git repo/LI4Blazor/LI4Blazor/LI4Blazor/obj/Debug/net7.0/LI4Blazor.genruntimeconfig.cache
+D:/git repo/LI4Blazor/LI4Blazor/LI4Blazor/obj/Debug/net7.0/ref/LI4Blazor.dll
+/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/bin/Debug/net7.0/appsettings.Development.json
+/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/bin/Debug/net7.0/appsettings.json
+/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/bin/Debug/net7.0/LI4Blazor.staticwebassets.runtime.json
+/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/bin/Debug/net7.0/LI4Blazor
+/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/bin/Debug/net7.0/LI4Blazor.deps.json
+/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/bin/Debug/net7.0/LI4Blazor.runtimeconfig.json
+/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/bin/Debug/net7.0/LI4Blazor.dll
+/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/bin/Debug/net7.0/LI4Blazor.pdb
+/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/obj/Debug/net7.0/LI4Blazor.csproj.AssemblyReference.cache
+/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/obj/Debug/net7.0/LI4Blazor.GeneratedMSBuildEditorConfig.editorconfig
+/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/obj/Debug/net7.0/LI4Blazor.AssemblyInfoInputs.cache
+/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/obj/Debug/net7.0/LI4Blazor.AssemblyInfo.cs
+/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/obj/Debug/net7.0/LI4Blazor.csproj.CoreCompileInputs.cache
+/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/obj/Debug/net7.0/LI4Blazor.MvcApplicationPartsAssemblyInfo.cache
+/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/obj/Debug/net7.0/LI4Blazor.RazorAssemblyInfo.cache
+/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/obj/Debug/net7.0/LI4Blazor.RazorAssemblyInfo.cs
+/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/obj/Debug/net7.0/staticwebassets/msbuild.LI4Blazor.Microsoft.AspNetCore.StaticWebAssets.props
+/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/obj/Debug/net7.0/staticwebassets/msbuild.build.LI4Blazor.props
+/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.LI4Blazor.props
+/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.LI4Blazor.props
+/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/obj/Debug/net7.0/staticwebassets.pack.json
+/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/obj/Debug/net7.0/staticwebassets.build.json
+/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/obj/Debug/net7.0/staticwebassets.development.json
+/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/obj/Debug/net7.0/scopedcss/Shared/MainLayout.razor.rz.scp.css
+/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/obj/Debug/net7.0/scopedcss/Shared/NavMenu.razor.rz.scp.css
+/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/obj/Debug/net7.0/scopedcss/bundle/LI4Blazor.styles.css
+/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/obj/Debug/net7.0/scopedcss/projectbundle/LI4Blazor.bundle.scp.css
+/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/obj/Debug/net7.0/LI4Blazor.dll
+/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/obj/Debug/net7.0/refint/LI4Blazor.dll
+/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/obj/Debug/net7.0/LI4Blazor.pdb
+/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/obj/Debug/net7.0/LI4Blazor.genruntimeconfig.cache
+/home/ines/3ano1sem/li4/LI4/LI4Blazor/LI4Blazor/obj/Debug/net7.0/ref/LI4Blazor.dll
+>>>>>>> c5bf565323fd7bcd7ac732b18322629d2229bb4a

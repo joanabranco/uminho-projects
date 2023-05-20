@@ -1,0 +1,30 @@
+# DNS database file for domain .trix
+# It also includes a pointer to the primary server
+# of the elemt.trix subdomain
+
+@ DEFAULT .trix.
+TTL DEFAULT 86400
+
+@ SOASP ns1.trix. TTL
+@ SOAADMIN dns\.admin.trix. TTL
+@ SOASERIAL 0117102022 TTL
+@ SOAREFRESH 14400 TTL
+@ SOARETRY 3600 TTL
+@ SOAEXPIRE 604800 TTL
+
+@ NS ns1.trix. TTL
+@ NS ns2.trix. TTL
+@ NS ns3.trix. TTL
+
+elemt.@ NS sp.elemt.trix.
+
+ns1 A 10.0.2.11 TTL
+ns2 A 10.0.2.12 TTL
+ns3 A 10.0.2.13 TTL
+sp.elemt A 10.0.4.10 TTL
+
+
+spDarcy CNAME ns1 TTL
+ssIcy CNAME ns2 TTL
+ssStormy CNAME ns3 TTL
+

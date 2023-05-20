@@ -1,0 +1,7 @@
+# Configuration file for secondary server for .in-addr
+.in-addr SP 10.0.1.10
+.in-addr SS 10.0.22.10
+.in-addr DD 10.0.1.10
+.in-addr LG src/logs/in-addr.log
+all LG src/logs/all.log
+root ST src/info/root-files/ST.db

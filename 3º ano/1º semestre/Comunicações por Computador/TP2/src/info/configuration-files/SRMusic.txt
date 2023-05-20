@@ -1,0 +1,8 @@
+# Configuration file for resolver server for .elemw
+.elemw SP 10.0.3.10
+.elemw SS 10.0.16.10
+.elemw SS 10.0.18.10
+.elemw DD 10.0.3.10
+.elemw LG src/logs/elemw.log
+all LG src/logs/all.log
+root ST src/info/root-files/ST.db

@@ -1,8 +1,0 @@
-# Configuration file for resolver server for spec.
-spec. DB /var/dns/spec.db
-spec. SP 10.0.1.10
-spec. SS 10.0.1.11
-spec. DD 10.0.1.10
-spec. LG /var/dns/spec.log
-all LG /var/dns/all.log
-root ST /var/dns/rootservers.db
