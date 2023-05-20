@@ -2,11 +2,10 @@
 
 Trabalho realizado por:
 
-  Bernard Georges
 
-  Inês Castro
+- [Bernard Georges] (https://github.com/BernardGeorges)
+- Inês Castro
+- [Joana Branco](https://github.com/joanabranco)
+- [Joana Pereira](https://github.com/JoanaP02)
 
-  Joana Branco
-  
-  Joana Pereira
 

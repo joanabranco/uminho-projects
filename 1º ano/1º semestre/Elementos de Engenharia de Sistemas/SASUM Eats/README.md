@@ -2,10 +2,12 @@
 
 Trabalho realizado por:
 
-  Guilherme Marques
+- Guilherme Marques
+- [Joana Branco](https://github.com/joanabranco)
+- Milena Carreira
+- [Rafael Ferreira] (https://github.com/rafa2002)
 
-  Joana Branco
+
+
   
-  José Rafael Ferreira
 
-  Milena Carreira

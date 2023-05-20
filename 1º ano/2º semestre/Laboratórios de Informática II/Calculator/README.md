@@ -2,11 +2,10 @@
 
 Trabalho realizado por:
 
-  Afonso Magalhães
-
-  Diogo Rodrigues
-
-  Joana Branco
+  
+- [Afonso Magalhães] (https://github.com/Afonso0613)
+- [Diogo Rodrigues] (https://github.com/Bemdito)
+- [Joana Branco](https://github.com/joanabranco)
  
 
 

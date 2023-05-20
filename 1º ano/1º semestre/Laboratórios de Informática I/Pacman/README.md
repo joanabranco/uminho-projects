@@ -2,6 +2,6 @@
 
 Trabalho realizado por:
 
-  Joana Branco
-  
-  José Rafael Ferreira
+
+- [Joana Branco](https://github.com/joanabranco)
+- [Rafael Ferreira] (https://github.com/rafa2002)
