@@ -4,4 +4,4 @@ Trabalho realizado por:
 
 
 - [Joana Branco](https://github.com/joanabranco)
-- [Rafael Ferreira] (https://github.com/rafa2002)
+- [Rafael Ferreira](https://github.com/rafa2002)
