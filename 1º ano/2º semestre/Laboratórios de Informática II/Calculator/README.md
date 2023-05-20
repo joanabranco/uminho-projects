@@ -3,8 +3,8 @@
 Trabalho realizado por:
 
   
-- [Afonso Magalhães] (https://github.com/Afonso0613)
-- [Diogo Rodrigues] (https://github.com/Bemdito)
+- [Afonso Magalhães](https://github.com/Afonso0613)
+- [Diogo Rodrigues](https://github.com/Bemdito)
 - [Joana Branco](https://github.com/joanabranco)
  
 
