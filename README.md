@@ -39,5 +39,5 @@
 | --- | :---: |
 | Análise e Teste de Software | [Project](https://github.com/joanabranco/University-Projects/tree/main/3%C2%BA%20ano/2%C2%BA%20semestre/An%C3%A1lise%20e%20Teste%20de%20Software) |
 | Aprendizagem e Decisão Inteligente | [Project](https://github.com/joanabranco/University-Projects/tree/main/3%C2%BA%20ano/2%C2%BA%20semestre/Aprendizagem%20e%20Decis%C3%A3o%20Inteligente) |
-| Processamento de Linguagens | [Project](https://github.com/joanabranco/University-Projects/tree/main/3%C2%BA%20ano/2%C2%BA%20semestre/Computa%C3%A7%C3%A3o%20Gr%C3%A1fica) |
-| Computação Gráfica | [Project](https://github.com/joanabranco/University-Projects/tree/main/3%C2%BA%20ano/2%C2%BA%20semestre/Processamento%20de%20Linguagens) |
+| Processamento de Linguagens | [Project](https://github.com/joanabranco/University-Projects/tree/main/3%C2%BA%20ano/2%C2%BA%20semestre/Processamento%20de%20Linguagens) |
+| Computação Gráfica | [Project](https://github.com/joanabranco/University-Projects/tree/main/3%C2%BA%20ano/2%C2%BA%20semestre/Computa%C3%A7%C3%A3o%20Gr%C3%A1fica) |
