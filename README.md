@@ -35,4 +35,9 @@
 | Sistemas Distribuídos | [Project](https://github.com/joanabranco/Projetos-Universidade/tree/main/3%C2%BA%20ano/1%C2%BA%20semestre/Sistemas%20Distribu%C3%ADdos) |
 
 
-
+| 3<sup>nd</sup> year - 2<sup>st</sup> semester | |
+| --- | :---: |
+| Análise e Teste de Software | [Project]( ) |
+| Aprendizagem e Decisão Inteligente | [Project]( ) |
+| Processamento de Linguagens | [Project]( ) |
+| Computação Gráfica | [Project]( ) |
