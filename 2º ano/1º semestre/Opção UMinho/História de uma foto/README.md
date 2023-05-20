@@ -3,7 +3,7 @@
 Trabalho realizado por:
 
 
-- [Bernard Georges] (https://github.com/BernardGeorges)
+- [Bernard Georges](https://github.com/BernardGeorges)
 - Inês Castro
 - [Joana Branco](https://github.com/joanabranco)
 - [Joana Pereira](https://github.com/JoanaP02)
