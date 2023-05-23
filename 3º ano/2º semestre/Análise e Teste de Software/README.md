@@ -72,7 +72,9 @@ e é nessa mesma diretoria que é gerado o ficheiro **log.txt**.
 ### Hypothesis
 Usando o ficheiro **hyp.py** em **Hypothesis/hyp.py**, deve executar pelo terminal:
 
-```> python3 hyp.py```
+```
+> python3 hyp.py
+```
 
 e é nessa mesma diretoria que é gerado o ficheiro **sh_logs.txt**.
 
