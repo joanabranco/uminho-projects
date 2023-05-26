@@ -1,6 +1,7 @@
-# University Projects
-## Informatics Engineer Degree at Minho University
+# University Projects 
+In this repo you can find all the projects done during the course of Software Engineer at Minho University.
 
+## 
 | 1<sup>st</sup> year - 1<sup>st</sup> semester | |
 | --- | :---: |
 | Elementos de Engenharia de Sistemas | [Project](https://github.com/joanabranco/Projetos-Universidade/tree/main/1%C2%BA%20ano/1%C2%BA%20semestre/Elementos%20de%20Engenharia%20de%20Sistemas/SASUM%20Eats) |
