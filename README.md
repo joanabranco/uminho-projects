@@ -1,5 +1,5 @@
 # University Projects 
-In this repo you can find all the projects done during the course of Software Engineering at Minho University.
+In this repo you can find all the projects done during the course of Software Engineering at [Minho University](https://www.uminho.pt/EN/).
 
 ## 1<sup>st</sup> year
 ### 1<sup>st</sup> semester
