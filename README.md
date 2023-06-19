@@ -31,7 +31,7 @@ In this repo you can find all the projects done during the course of Software En
 - [Program Design by Calculation](https://github.com/joanabranco/Projetos-Universidade/tree/main/3%C2%BA%20ano/1%C2%BA%20semestre/C%C3%A1lculo%20de%20Programas) 
 
 ### 2<sup>nd</sup> semester 
-- [Project Analysis](https://github.com/joanabranco/University-Projects/tree/main/3%C2%BA%20ano/2%C2%BA%20semestre/An%C3%A1lise%20e%20Teste%20de%20Software) 
+- [Software Analysis and Testing](https://github.com/joanabranco/University-Projects/tree/main/3%C2%BA%20ano/2%C2%BA%20semestre/An%C3%A1lise%20e%20Teste%20de%20Software) 
 - [Intelligent Learning and Decision Making](https://github.com/joanabranco/University-Projects/tree/main/3%C2%BA%20ano/2%C2%BA%20semestre/Aprendizagem%20e%20Decis%C3%A3o%20Inteligente) 
 - [Language Processing](https://github.com/joanabranco/University-Projects/tree/main/3%C2%BA%20ano/2%C2%BA%20semestre/Processamento%20de%20Linguagens) 
 - [Computer Graphics](https://github.com/joanabranco/University-Projects/tree/main/3%C2%BA%20ano/2%C2%BA%20semestre/Computa%C3%A7%C3%A3o%20Gr%C3%A1fica) 
